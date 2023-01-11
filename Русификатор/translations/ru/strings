@@ -213,6 +213,20 @@ faced a rebellion\nin Merva?
 столкнулись с бунтом\nв Мерве?
 hired a spy?
 наняли шпиона?
+triggered an earthquake?
+вызвали землетрясение?
+# New achievements for 1.3.x:
+# 'kissed your fiancé' only translates properly in >=1.3.20.
+kissed your fiancé?
+поцеловали своего суженого?
+poisoned a chicken?
+отравили курицу?
+made Charlotte a Lumen?
+сделали Шарлотту Люменом?
+imprisoned your uncle?
+заточили вашего дядю в тюрьму?
+willingly recruited an advisor?
+по собственной воле наняли советника?
 Achievements
 Достижения
 Deaths
@@ -294,8 +308,14 @@ Engaged to Adair
 Помолвлена с Адэром
 Engaged to Thaddeus
 Помолвлена с Фаддеем
+# < 1.3.25
 Single
 Незамужняя
+# >= 1.3.25
+{tag=male}Single
+Не женат
+{tag=female}Single
+Не замужем
 # <= 1.2.25 - old dossier strings
 {b}Father{/b}: Joslyn, King-Dowager of Nova
 {b}Отец{/b}: Джослин, Вдовствующий король Новы
@@ -347,6 +367,18 @@ Lumen Minister
 Министр Люмена
 Elodie's aunt.
 Тётя Элоди.
+# 1.3.x variants for if you've done something to Laurent
+{b}Husband{/b}: Laurent
+{b}Супруг{/b}: Лоран
+{b}Daughter{/b}: Charlotte, Young Lady of Merva, age 13
+{b}Дочь{/b}: Шарлотта, Юная Леди Мервы, 13 лет
+Her husband Laurent was imprisoned for treason.
+Её супруг Лоран был осужден за государственную измену.
+Her husband Laurent was executed for treason.
+Её супруг Лоран был казнён за государственную измену.
+Duchess-Regent of Merva, Countess of Nix
+Герцогиня-регент Мервы, Графиня Никса
+# End variants.
 Laurent
 Лоран
 Duke of Merva
@@ -364,7 +396,7 @@ Heir to the Duchy of Merva
 Age 13
 13 лет
 {b}Mother{/b}: Lucille, Countess of Nix
-{b}Мать{/b}: Люсилль, Герцогиня Никса
+{b}Мать{/b}: Люсилль, Графиня Никса
 {b}Father{/b}: Laurent, Duke of Merva
 {b}Отец{/b}: Лоран, Герцог Мервы
 {b}Sister{/b}: Zahra
@@ -373,6 +405,27 @@ Age 13
 {b}Брат{/b}: Эмри
 Elodie's cousin, and third-in-line to the throne of Nova.
 Кузина Элоди и претендент третей линии на престол Новы.
+# Variant Charlotte titles and dossier entries for an assortment of options
+# where you've disempowered or killed Lucille and/or Laurent.
+Charlotte, Young Lady of Merva
+Шарлотта, Юная Леди Мервы
+Young Lady of Merva
+Юная Леди Мервы
+{b}Father{/b}: Laurent
+{b}Отец{/b}: Лоран
+{b}Mother{/b}: Lucille, Countess of Nix (deceased)
+{b}Мать{/b}: Люсилль, Графиня Никса (умерла)
+Elodie's cousin, and second-in-line to the throne of Nova.
+Кузина Элоди и претендент второй линии на престол Новы.
+Her father Laurent was imprisoned for treason.
+Её отец Лоран был осужден за государственную измену.
+Her father Laurent was executed for treason.
+Её отец Лоран был казнён за государственную измену.
+{b}Father{/b}: Laurent, Duke of Merva (deceased)
+{b}Отец{/b}: Лоран, Герцог Мервы (умер)
+{b}Mother{/b}: Lucille, Duchess-Regent of Merva, Countess of Nix
+{b}Мать{/b}: Люсилль, Герцогиня-регент Мервы, Графиня Никса
+# Julianna of Ursul's dossier
 Julianna
 Джулианна
 Duchess of Ursul
@@ -448,11 +501,11 @@ Duchess of Hellas
 Former Duchess of Hellas
 Бывшая Герцогиня Эллады
 {b}Brother{/b}: Banion, Duke of Maree (deceased)
-{b}Брат{/b}: Банион, Герцог Марии (умер)
+{b}Брат{/b}: Банион, Герцог Мари (умер)
 {b}Brother{/b}: Banion, Duke of Maree
-{b}Брат{/b}: Банион, Герцог Марии
+{b}Брат{/b}: Банион, Герцог Мари
 {b}Brother{/b}: Bennett, Duke of Maree
-{b}Брат{/b}: Беннет, Герцог Марии
+{b}Брат{/b}: Беннет, Герцог Мари
 Engaged to Ixionite Noble
 Помолвлена с Иксионским дворянином
 Elodie forced her to accept marriage to an Ixionite
@@ -472,7 +525,7 @@ Unsuccessfully romanced Elodie
 Kevan
 Киван
 Earl of Io
-Граф ИО
+Граф Ио
 {b}Mother{/b}: Arisse, Duchess of Lillah
 {b}Мать{/b}: Арисса, Герцогиня Лиллаха
 {b}Mother{/b}: Arisse, Duchess of Lillah (deceased)
@@ -561,6 +614,9 @@ Lieke
 Лике
 Duchess-Regent of Sudbury, Countess of Dis
 Герцогиня-регент Садбери, Графиня Диса
+# >= 1.3.x, if you appointed Anciet heir to Maree
+Duchess-Regent of Maree, Countess of Dis
+Герцогиня-регент Мари, Графиня Диса
 Countess of Dis
 Графиня Диса
 Age 35
@@ -579,11 +635,25 @@ Age 35
 {b}Son{/b}: Anciet, age 8
 {b}Сын{/b}: Энчит, 8 лет
 Divorced her first husband as soon as she gave\nbirth to his heir Gwenelle, then married Bennett.
-Развелась с первым мужем как только дала\nжизнь его наследнику Гвенэл, затем вышла замуж за Беннета.
+Развелась с первым мужем как только дала\nжизнь его наследнице Гвенэл, затем вышла замуж за Беннета.
 Bennett
 Беннетт
+# < 1.3.x
 {b}Wife{/b}: Lieke, Duchess-Regent of Sudbury, Countess of Dis
 {b}Супруга{/b}: Лике, Герцогиня-регент Садбери, Графиня Диса
+# >= 1.3.x
+{b}Wife{/b}: Lieke, Duchess-Regent of Sudbury,\n       Countess of Dis
+{b}Супруга{/b}: Лике, Герцогиня-регент Садбери,\n       Графиня Диса
+{b}Wife{/b}: Lieke, Countess of Dis
+{b}Супруга{/b}: Лике, Графиня Диса
+{b}Son{/b}: Anciet, Young Lord of Maree, age 8
+{b}Сын{/b}: Энчит, юный лорд Мари, 8 лет
+{b}Wife{/b}: Lieke, Duchess-Regent of Maree, Countess of Dis
+{b}Супруга{/b}: Лике, Герцогиня-регент Мари, Графиня Диса
+{b}Brother{/b}: Banion (deceased)
+{b}Брат{/b}: Банион (умер)
+{b}Brother{/b}: Banion
+{b}Брат{/b}: Банион
 {b}Wife{/b}: Lieke, Countess of Dis
 {b}Супруга{/b}: Лике, Графиня Диса
 # The 'age 15' is the end of the previous sentence.
@@ -5081,7 +5151,7 @@ Beyond that, you can train more soldiers into personal bodyguards to watch over 
 Кроме того, ты можешь обучить больше солдат для своей лично охраны, которые будут присматривать за тобой.
 #Speaker: joslyn
 Or you can institute harsh penalties for treason and make people too frightened to cross you.
-Или можешь ужесточить наказания за государственные измену, заставив людей бояться переходить тебе дорогу.
+Или можешь ужесточить наказание за государственную измену, заставив людей бояться переходить тебе дорогу.
 #choice:
 More training
 Больше тренироваться
@@ -8896,7 +8966,7 @@ Offer marriage alliance
 Предложить брачный союз
 #Speaker: elodie_afraid
 What if I marry you instead?  Then everything I have is yours as well!
-Что если вместо этого я выйду замуж за тебе? Тогда все, чем я обладаю, будет твоим!
+Что если вместо этого я выйду замуж за тебя? Тогда все, чем я обладаю, будет твоим!
 #Speaker: togami
 Silly little girl. I already told you. Your land isn't what matters to me.
 Глупая маленькая девочка. Я уже говорил. Твоя страна меня не интересует.
