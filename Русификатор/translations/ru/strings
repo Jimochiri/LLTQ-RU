@@ -560,17 +560,17 @@ Age 60
 60 лет
 # <= 1.2.25 dossier strings
 {b}Former Wife{/b}: Cayleigh, Duchess of Elath
-{b}Бывшая супруга{/b}: Кайлеф, Герцогиня Элафа
+{b}Бывшая супруга{/b}: Кейли, Герцогиня Элафа
 # >= 1.2.26 dossier strings.
 {b}Former Wife{/b}: Cayleigh, Duchess of Elath\n       (deceased)
-{b}Бывшая супруга{/b}: Кайлеф, Герцогиня Элафа\n       (умерла)
+{b}Бывшая супруга{/b}: Кейли, Герцогиня Элафа\n       (умерла)
 # end
 {b}Wife{/b}: Arisse, Duchess of Lillah
 {b}Супруга{/b}: Арисса, Герцогиня Лиллаха
 {b}Son{/b}: Adair, Heir of Elath, Age 12
 {b}Сын{/b}: Адэр, наследник Элафа, 12 лет
 Father of four adult children (ages 30-24) with his\nfirst wife.  His second wife, Cayleigh, died giving\nbirth to her son Adair.
-Отец четырех совершеннолетних детей (30-24 лет) от его\nпервой жены.  Его вторая жена, Кайлеф, умерла дав\nжизнь её сыну Адэру.
+Отец четырех совершеннолетних детей (30-24 лет) от его\nпервой жены.  Его вторая жена, Кейли, умерла дав\nжизнь её сыну Адэру.
 Armand
 Арманд
 Duke of Mazomba
@@ -647,7 +647,7 @@ Bennett
 {b}Wife{/b}: Lieke, Countess of Dis
 {b}Супруга{/b}: Лике, Графиня Диса
 {b}Son{/b}: Anciet, Young Lord of Maree, age 8
-{b}Сын{/b}: Энчит, юный лорд Мари, 8 лет
+{b}Сын{/b}: Энчит, Юный лорд Мари, 8 лет
 {b}Wife{/b}: Lieke, Duchess-Regent of Maree, Countess of Dis
 {b}Супруга{/b}: Лике, Герцогиня-регент Мари, Графиня Диса
 {b}Brother{/b}: Banion (deceased)
@@ -733,12 +733,15 @@ Duchess of Sudbury
 Герцогиня Садбари
 {b}Mother{/b}: Lieke, Countess of Dis
 {b}Мать{/b}: Лике, Графиня Диса
+# >= 1.3.x
+{b}Mother{/b}: Lieke, Duchess-Regent of Maree, Countess of Dis
+{b}Мать{/b}: Лике, Герцогиня-регент Мари, Графиня Диса
 {b}Father{/b}: Yannik, Duke of Sudbury (deceased)
 {b}Отец{/b}: Янник, Герцог Садбери (умер)
 {b}Stepfather{/b}: Bennett, %s
 {b}Отчим{/b}: Беннетт, %s
 {b}Half-Brother{/b}: Anciet
-{b}Родной брат{/b}: Энчит
+{b}Сводный брат{/b}: Энчит
 Briony
 Бриони
 Heir to the Duchy of Mead
@@ -756,12 +759,12 @@ Age 16
 {b}Бабушка{/b}: Арисса, Герцогиня Лилаха
 {b}Maternal Uncle{/b}: Kevan, Earl of Io
 {b}Дядя по линии матери{/b}: Киван, Граф Ио
-{b}Maternal Aunt{/b}: Charmion, Duchess-Consort
+{b}Maternal Aunt{/b}: Charmion, Duchess-Consort\nof Kigal
 {b}Тётя по линии матери{/b}: Чармион, Герцогиня-консорт\nКигала
 #{b}Maternal Aunt{/b}: Charmion, Duchess-Consort
-#{b}Maternal Aunt{/b}: Charmion, Duchess-Consort
+#{b}Тётя по линии матери{/b}: Чармион, Герцогиня-консорт
 #of Kigal
-#of Kigal
+#Кигала
 {b}Paternal Aunt{/b}: Julianna (deceased)
 {b}Тётя по линии отца{/b}: Джулианна (умерла)
 {b}Paternal Aunt{/b}: Julianna
@@ -784,18 +787,54 @@ Family owns a bakery in town. Has two brothers.
 Семья владеет пекарней в городе. Есть два брата.
 {b}Brother{/b}: Evrard
 {b}Брат{/b}: Эврар
+# Adair's dossier
+Heir to the Duchy of Elath
+Наследник Герцогства Элаф
+Age 12
+12 лет
+Mother: Cayleigh, Duchess of Elath (deceased)
+Мать: Кейли, Герцогиня Элафа (умерла)
+Stepmother: Arisse, Duchess of Lillah
+Мачеха: Арисса, Герцогиня Лиллаха
+Stepmother: Arisse, Duchess of Lillah (deceased)
+Мачеха: Арисса, Герцогиня Лиллаха (умерла)
+Father: Fabian, Earl of Titan
+Отец: Фабиан, Граф Титана
+Father: Fabian, Earl of Titan (deceased)
+Отец: Фабиан, Граф Титана (умер)
+# Sabine's dossier
+Sabine
+Сабина
+Minstrel
+Менестрель
+Age 21
+21 год
+A common musician, singing for her supper.
+Простой музыкант, поющий за награду.
+# Error message.
 The relationship screen for %(current_relationship)s has not been written yet.
 The relationship screen for %(current_relationship)s has not been written yet.
+# Epilogue text.
 After the coronation, in a private ceremony with the High Priestess, Elodie was officially offered her mother's Lumen crystal. She refused to accept it. For the first time in centuries, magic would have no hold on the throne of Nova.
 После коронации, во время тайной церемонии с Верховной Жрицей, Элоди официально был предложен кристалл ее матери. Она отказалась принять его. Впервые за многие столетия, магия не будет влиять на новийский трон.
 After the coronation, in a private ceremony with the High Priestess, Elodie was officially offered her mother's Lumen crystal. That light and power would become a part of her, a tradition that had been passed down for hundreds of years.
-После коронации, во время тайной церемонии с Верховной Жрицей, Элоди официально был предложен кристалл ее матери. Этот свет, эта сила станет ее частью, традиция, которая передается в течении сотен лет.
+После коронации, во время тайной церемонии с Верховной Жрицей, Элоди официально был предложен кристалл ее матери. Этот свет, эта сила станет ее частью, традиция, которая передается в течение сотен лет.
+Elodie's coronation day was marred by the arrival of a contingent of peasants from Caloris, angry over the continuing disruption that had followed the earthquake. Soldiers were able to keep them out of range of the new Queen, but the protest was considered to be a poor omen for her reign.
+День коронации Элоди был омрачен прибытием толпы крестьян из Калориса, разгневанных продолжающимися беспорядками, последовавшими за землетрясением. Солдатам удалось не подпустить их к новой королеве, но протест был расценен как плохое предзнаменование для ее правления.
+Joslyn was forced to return immediately to his duties as Duke of Caloris, leaving his daughter to fend for herself.
+Джослин был вынужден немедленно вернуться к своим обязанностям герцога Калориса, оставив дочь на произвол судьбы.
+The magical conjunction which ended the Shanjian threat also shook up the established boundaries of the Old Forest. Monster sightings throughout Caloris were on the increase, and entire villages were rumored to have been wiped out.
+Магическое объединение, положившее конец сшанжитской угрозе, также пошатнуло устоявшиеся границы Старого леса. По всему Калорису участились случаи появления монстров, а целые деревни, по слухам, были стерты с лица земли.
+Both the Queen and the Duchess of Ursul offered their aid, but were rebuffed. Caloris would not share its secrets.
+Королева и герцогиня Урсула предложили свою помощь, но получили отказ. Калорис не станет раскрывать своих секретов.
 Elodie's coronation day was scarred by tragedy. Rumor spread among the commoners that there was not enough food at the festivities for everyone, and a stampede broke out as each fought to be among the lucky few who would be fed. There were not enough soldiers on hand to maintain order, and a number of people were trampled to death in the chaos.
 День коронации Элоди был омрачен трагедией. Среди простолюдинов прошел слух, что для всех на фестивале не хватит еды, началась давка за то, чтобы быть в числе немногих счастливчиков, которые смогут поесть. Для наведения порядка не хватало солдат, и в этом хаосе многие люди были просто растоптаны.
 While the loss of life was small, the bad feelings would linger for some time.
 Несмотря на то, что погибших было немного, неприятные ощущения остались на некоторое время.
 The following year, Elodie and Talarist were married in a ceremony that threatened to rival her coronation for pomp and splendour.
 Спустя год, Элоди и Таларист поженились. Свадебная церемония могла посоперничать в пышности с коронацией Элоди.
+Talarist brought with him a gift of fine white horses, and encouraged his young wife to amuse herself while he enjoyed his new place in Novan politics. He was clearly in no hurry to provide an heir to the throne.
+Таларист привез с собой в подарок прекрасных белых лошадей и предложил своей молодой супруге забавляться, пока он наслаждается своей новой ролью в нованской политике. Он явно не спешил обзавестись наследником.
 The following year, Elodie and Banion were married in a ceremony she had designed carefully to leave no doubt that she was in charge. {b}She{/b} wore an elaborate gown with diamonds and streamers like clouded wings. {b}He{/b} wore a simple and tight-fitting garment that would have looked at home in the ballet corps.
 Спустя год, Элоди и Банион поженились. Свадебная церемония была тщательно проработана, чтобы не оставить никаких сомнений, что она взаимна. {b}Она{/b} была одета в платье с бриллиантами и лентами, похожими на невесомые крылья. {b}Он{/b} был одет в простые облегающие одежды, которые были бы к месту в балетном корпусе.
 Of course, Banion won a bit of payback when he revealed the parentage of the adorable flower boy in the wedding procession.
@@ -804,8 +843,12 @@ The following year, Elodie and Banion were married. Attendees said that the cere
 Спустя год, Элоди и Банион поженились. Участники говорили, что церемония была но невеста и жених с ненавистью смотрели друг на друга, пока давали обет.
 The following year, Elodie and Thaddeus were married in a quiet ceremony attended by only the noble elite. Elodie was surprised to discover that for all his rebellious ways, her husband had no romantic experience at all. Their wedding night ended in a cautious truce, with plans for slow progress in the future.
 Спустя год, Элоди и Фаддей поженились. Свадебная церемония была скромной. На нее пригласили только элиту. Элоди была удивлена, узнав, что не смотря на свою дорогу мятежника, ее супруг не имел никакого романтического опыта. Их брачная ночь закончилась в опасливом затишье, с планами на неторопливый прогресс в будущем.
+# Typo'd version found in LLtQ <= 1.3.25
 Depite objections and misgivings, the Duchess of Lillah insisted that Elodie and Thaddeus must be married within the year. The resulting disagreements led eventually to Elodie's Aunt Lucille leaving the castle in a huff and threatening to cut off all contact between Elodie and her cousin Charlotte.
-Несмотря на все возражения и опасения, герцогиня Лилиаха настаивала, что Элоди и Фаддей должны пожениться в течение года. В результате, разногласия привели к тому, что тетя Элоди, Люсиль, в гневе покинула замок, угрожаю разорвать все контакты между Элоди и ее кузиной Шарлоттой.
+Несмотря на все возражения и опасения, герцогиня Лилиаха настаивала, что Элоди и Фаддей должны пожениться в течение года. В результате, разногласия привели к тому, что тетя Элоди, Люсиль, в гневе покинула замок, пригрозив разорвать все контакты между Элоди и ее кузиной Шарлоттой.
+# Corrected in >= 1.3.25.1
+Despite objections and misgivings, the Duchess of Lillah insisted that Elodie and Thaddeus must be married within the year. The resulting disagreements led eventually to Elodie's Aunt Lucille leaving the castle in a huff and threatening to cut off all contact between Elodie and her cousin Charlotte.
+Несмотря на все возражения и опасения, герцогиня Лилиаха настаивала, что Элоди и Фаддей должны пожениться в течение года. В результате, разногласия привели к тому, что тетя Элоди, Люсиль, в гневе покинула замок, пригрозив разорвать все контакты между Элоди и ее кузиной Шарлоттой.
 The wedding, when it took place, was a quiet affair, neither bride nor groom seeming entirely comfortable with their roles. Elodie was surprised to discover that for all his rebellious ways, her husband had no romantic experience at all. Their wedding night ended in a cautious truce, with plans for slow progress in the future.
 Когда состоялась свадьба, то она была тихим мероприятием, ни нивесте, ни жениху не было комфортно на их ролях. Элоди была удивлена, узнав, что не смотря на свой путь мятежника, ее супруг не имел никакого романтического опыта. Их брачная ночь закончилась в опасливом затишье, с планами на неторопливый прогресс в будущем.
 Joslyn never properly recovered from his encounter with the King of Shanjia. He did awaken a week after the coronation, but his mind and his memory were badly damaged. He was no longer fit to govern his duchy without aid, much less explain the mysterious events of the duel. Still, he recognised his daughter and was pleased to see her wearing the crown.
@@ -1502,7 +1545,7 @@ Hunt Coat - Boosts Animal Handling
 Priestess Robe - Boosts Faith
 Роба жрицы - Улучшает навык Вера
 Magical Girl - Boosts Lumen
-Девушка-волжебница - Улучшает навык Люмен
+Девушка-волшебница - Улучшает навык Люмен
 (Put on the %(current_outfit)s outfit.)
 (Put on the %(current_outfit)s outfit.)
 Week %s.
