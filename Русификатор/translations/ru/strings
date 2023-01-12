@@ -898,7 +898,7 @@ A young tanner in Caloris did claim to be Joslyn's natural son, the result of a 
 As Lumen Minister, Lucille requisitioned the mauve crystal that Elodie had taken from the Shanjian king and offered it to her daughter. Somewhat to Elodie's surprise, Charlotte was able to activate the crystal's power and bond with it, becoming Nova's youngest Lumen.
 Как министр по делам люменов, Люсиль реквизировала сиреневый кристалл, который Элоди забрала у короля Сшанжита, и предложила его своей дочери. К удивлению Элоди, Шарлотта смогла активировать силу кристалла и соединиться с ним, став самым молодым люменом Новы.
 The young Queen wondered if something in the careful ritual of Togami's duel had affected the crystal's resonance. Surely her favorite cousin could not have the same personality as that madman?
-Молодая королева задалась вопросом, не повлияло ли что-то в тщательном ритуале дуэли с Тогами на резонанс кристалла. Ведь не мог же ее любимый кузен обладать таким же характером, как и этот безумец?
+Молодая королева задалась вопросом, не повлияло ли что-то в тщательном ритуале дуэли с Тогами на резонанс кристалла. Ведь не могла же ее любимая кузина обладать таким же характером, как и этот безумец?
 The implications of sweet Charlotte sharing a personal connection with someone as wicked and unbalanced as Togami were distressing.
 То, что милая Шарлотта имела отношение к такому злобному и неуравновешенному человеку, как Тогами, было очень неприятно.
 As Lumen Minister, Lucille requisitioned the orange crystal that Elodie had taken from the dead criminal and offered it to her daughter. However, Charlotte was not able to activate the crystal's powers. The young Queen pointed out that a crazed murderer would obviously have a very different resonance than her favorite cousin. Charlotte would have to wait to inherit her mother's magic.
@@ -5598,10 +5598,10 @@ You receive a report on the search for Julianna, former Duchess of Ursul.
 Вы получили отчет о ходе поисков Джулианы, бывшей герцогини Урсула.
 #Narration
 The soldiers you sent on patrol have so far been unable to find any trace of her.  No one will admit to having seen her.
-Солдаты, которых вы отправили в патрули, до сих пор не удалось найти каких-нибудь ее следов. Никто не признается, что видел ее. 
+Солдатам, которых вы отправили на поиски, до сих пор не удалось обнаружить ее следов.  Никто не признается, что видел ее.
 #Narration
 Wherever she's hidden herself, she must not be easy to find.  Or else, perhaps a monster got her.  That would be a fitting end for a Lumen.
-Где бы она пряталась, найти ее будет непросто. Или еще, возможно, ее поймали монстр. Вполне подходящий конец для люмена.
+Где бы она ни пряталась, найти ее будет непросто. А может, ее схватил монстр. Вполне подходящий конец для люмена.
 #Narration
 #Narration
 There have been a number of incidents in neighboring duchies where angry mobs, eager to collect a reward, have formed up to assault any woman who vaguely matches the description.
@@ -7973,7 +7973,7 @@ My family's blood is on your hands!
 (О чем это он?)
 #Narration
 He casts the metal glove to the ground with a clatter and raises his sword, pointing it at you.
-Он бросает железную перчатку на землю и поднимает свой меч, указывая на вас. 
+Он с грохотом бросает металлическую перчатку на землю и поднимает меч, направляя его на вас.
 #Speaker: kevan
 I challenge you, Elodie! A life for a life!
 Я вызываю тебя, Элоди! Око за око!
@@ -7982,8 +7982,10 @@ He's challenging you to a duel?
 Он вызывает вас на дуэль?
 #Narration
 Doesn't he know you could burn him to a crisp just by waving your hand?
-Он что не понимает, что вы можете превратить его в пепел одним мановением руки?
+Разве он не понимает, что вы можете сжечь его дотла одним взмахом руки?
 #choices:
+Accept
+Согласиться
 Kill him with magic
 Убить его магией
 #Speaker: elodie_angry
