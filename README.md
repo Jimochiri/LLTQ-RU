@@ -6,7 +6,7 @@
 
 За основу взят [существующий русификатор](https://forum.zoneofgames.ru/topic/30271-long-live-the-queen) для версии 1.2.24 от ув. MetallAlximist.
 
-На данный момент актуализировано `3680` из `15651` строк.
+На данный момент актуализировано `4330` из `15651` строк.
 
 ### Установка
 
@@ -21,5 +21,9 @@
 Сравнить имеющийся перевод с шаблоном можно в Beyond Compare 4:
 
 ![Compare Guide](https://i.imgur.com/wTY5Qzp.png)
+
+Для понимания контекста игровые скрипты можно открыть в [Game Resources Viewer](https://gameresourcesviewer.ru) и воспользоваться поиском (Ctrl + F):
+
+![Decompile Guide](https://i.imgur.com/URbJcFh.png)
 
 Long Live The Queen is the original and copyrighted creation of Hanako Games and Spiky Caterpillar.

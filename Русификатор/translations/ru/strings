@@ -1024,7 +1024,7 @@ Still, Nova was not a weak domain. The morale of Elodie's soldiers had been bols
 Eventually, Nova would manage to extend its borders southward to include the province across the river which the Duchess of Hellas had tried and failed to annex years before.
 В конце концов, Нова смогла расширить свои границы на юг, включив провинцию к югу от реки, герцогство Эллада, которое до этого было передано и утрачено несколькими годами ранее.
 Weakened by the Shanjian invasion, Nova lacked the strength to resist their combined assault. Elodie was eventually forced to cede large portions of both Maree and Elath, and hope that her future successors would be able to reclaim them.
-Ослабленная вторжением Сшанжита, Нове не хватало сил обороняться от такого двойного штурма. Элоди, в конце концов, принудили уступить большую часть Элафа и Мари, и надеятся что ее приемники смогут вернуть их обратно.
+Ослабленной сшанжитским вторжением, Нове не хватило сил сопротивляться их совместному нападению. В конечном счёте Элоди была вынуждена уступить значительную часть Мари и Элафа и надеяться, что её наследники в будущем смогут вернуть эти земли.
 The matter of the rulership of Elath had to be dealt with eventually. After so many recent troubles, the last thing Elodie wanted was armed conflict between Nova and Talasse. Still, while Talarist, the Duke of Sedna, was the nearest blood heir, he was a foreigner, and the rulership of Elath had been tenuous for too long already.
 Вопрос с правителем Элафа, в конце концов, пришлось решать. После всех недавних проблем, последнюю вещь, которую хотела Элоди - это вооруженный конфликт с Талассом. Еще, помимо того, что Таларист, герцог Седны, был ближайшим наследником по крови, он был иностранцем, и его власть в Элафа была бы шаткой.
 To solve the problem, Elodie found a compromise. A promising native administrator would be raised to the rank of Duchess of Elath, and then married to the Duke of Sedna. Their wedding would strengthen ties across the border without weakening either position.
@@ -1124,7 +1124,7 @@ To ensure a stable succession, Elodie officially named her cousin Charlotte as h
 Nova would go on.
 Нова будет жить дальше.
 Elodie proposed marriage to Banion, the Duke of Maree, and was quickly accepted. All who attended spoke of the wedding as a lavish and romantic affair, and applauded the wisdom of the match. 
-Элоди предложила заключить брак Баниону, герцогу Мари, на что вскоре получила согласие. Все присутствующие говорили о свадьбе как о пышном и романтическом событии и аплодировали разумности этого союза. 
+Элоди предложила заключить брак Баниону, герцогу Мари, на что вскоре получила согласие. Все присутствующие говорили о свадьбе как о пышном и романтичном событии и аплодировали разумности этого союза. 
 Soon afterwards, the Queen announced that she was expecting a child, and the people of Nova rejoiced.
 Вскоре королева объявила, что ждет ребенка, и народ Новы ликовал.
 In private, matters were not so rosy. Elodie was plagued with constant headaches and fatigue, and her husband urged her to stay in bed 'for the good of the child'. Soon, she was little more than a prisoner in her own tower, while the new king pursued his political agenda.
@@ -3677,7 +3677,65 @@ The first dance is for us.
 Первый танец - для нас.
 #Narration
 He guides you gently around the dance floor, never rushing you.  It's fun to dance with your father, but the look in his eyes is so sad.
-Он неторопливо проводит вас вокруг танцевальной площадки. Это весело, танцевать со своим отцом, но смотреть в его глаза - это тяжело.
+Он неторопливо ведёт вас по танцевальной площадке. Танцевать с отцом - это весело, но в его глазах такая тоска.
+# Talarist at the ball, >= 1.3.x
+I believe the next turn is mine.
+Я считаю, что следующий ход за мной.
+# Narration
+He bows gracefully and offers you his hand, then leans close to whisper a quick question.
+Он изящно кланяется и протягивает вам руку, затем наклоняется ближе, чтобы прошептать краткий вопрос.
+# talarist
+Do you know how to dance? Nod or shake your head.
+Умеете ли вы танцевать? Кивните или покачайте головой.
+# choice:
+Nod yes
+Кивнуть
+You dip your head in acknowledgement.
+Вы склоняете голову в знак подтверждения.
+Shake your head
+Покачать головой
+You shake your head slightly, your hair swaying.
+Вы слегка покачиваете головой, ваши волосы колышутся.
+# talarist
+Watch me. I'll go slowly.
+Следите за мной. Я не буду спешить.
+# Narration
+Dancing with a real partner feels quite different from dancing with your father. Especially when the man in front of you is the one you have agreed to marry.
+Танец с настоящим партнером совсем не похож на танец с отцом. Особенно когда перед вами мужчина, за которого вы согласились выйти замуж.
+His touch is gentle, his every move carefully signaled to be sure that you don't miss the beat. Is this what your marriage will be like?
+Его прикосновения нежны, каждое его движение тщательно выверено, чтобы вы не сбились с ритма. Таким ли будет ваш брак?
+# choice:
+Step on his foot
+Наступить ему на ногу
+# elodie_angry
+(He thinks I'm a stupid child!)
+(Он считает меня глупым ребёнком!)
+Quite deliberately, you place your toe over his and bear down.
+Совершенно осознанно вы ставите свой носок на его и надавливаете.
+This might be more effective if you weren't wearing such soft dancing slippers. He either doesn't notice your action, or smoothly pretends not to.
+Это было бы куда эффективнее, если бы на вас не было столь мягких бальных туфель. Он либо не замечает ваших действий, либо искусно делает вид, что не замечает.
+# Accepting Banion's dance invite w/Talarist present.
+# Narration
+You take a breath, but someone else speaks first.
+Вы делаете вдох, но кто-то другой говорит первым.
+# talarist
+If I may be of some assistance? I can provide a recommendation for the best oculists in Sedna, Your Grace.
+Могу ли я быть полезен? Я могу рекомендовать лучших окулистов Седны, Ваше благородие.
+# banion
+Oculists?
+Окулистов?
+# talarist, >= 1.3.18 version.
+To correct your vision. You have apparently mistaken my fiancée for a woman of your acquaintance.
+Чтобы поправить ваше зрение. Вы, по всей видимости, спутали мою невесту с вашей подругой.
+# <= 1.3.17 - had trailing space.
+To correct your vision. You have apparently mistaken my fiancée for a woman of your acquaintance. 
+Чтобы поправить ваше зрение. Вы, по всей видимости, спутали мою невесту с вашей подругой. 
+# Banion
+Of course. My... apologies.
+Разумеется. Приношу свои... извинения.
+# Narration
+He walks away, smirking.
+Он уходит, ухмыляясь.
 #Speaker: joslyn
 After this, you must choose your own partner. There are a number of men who hope to catch your eye.
 После этого, тебе следует выбрать собственного партнера. Есть несколько человек, надеющихся привлечь ваше внимание.
@@ -3733,9 +3791,12 @@ He bows to you with great courtesy and you begin to dance.
 #choice:
 Adair, Young Lord of Elath
 Адэр, юный лорд Элафа
+#Adair:
+Um, h-hi, Elodie?
+Эмм, з-здравствуйте, Элоди?
 #Narration
 He looks absolutely terrified at the prospect of having to dance with a {i}girl{/i}, but the little lord is too well-bred to refuse you. Still, you'll have to be careful not to step on him.
-Он выглядит в ужасе от того, что ему прийдется танцевать с {i}девочкой{/i}, но юный лорд слишком хорошо воспитан, чтобы отказать. И еще вы стараетесь быть осторожны, чтобы не наступить на него.
+Он выглядит совершенно напуганным от мысли, что ему придется танцевать с {i}девочкой{/i}, но маленький лорд слишком хорошо воспитан, чтобы отказать вам. И всё же вам нужно быть осторожной, чтобы не наступить на него.
 #choice:
 Banion, Duke of Maree
 Банион, герцог Мари
@@ -3881,13 +3942,16 @@ The room holds its breath as you stand before her, waiting for her reaction.  Th
 Все задерживают дыхание, когда вы подходите к ней, ожидая ее реакции. И она, с достоинством, протягивает вам свою руку.
 #Narration
 Dancing with a real partner feels quite different from dancing with your father.  You knew him, knew his steps like a part of you.  Now every move is a mystery.
-Танец с настоящим партнерам несколько отличается от танца с вашим отцом. Вы знаете его, как он двигается. А теперь каждое движение партнера - загадка.
+Танец с настоящим партнером совсем не похож на танец с отцом.  Вы знали его, знали его шаги, как часть себя.  А теперь каждое движение - загадка.
 #Narration
 Of course, you are an excellent dancer and you relish the chance to show off your hard-earned skills.
 Конечо, вы великолепный танцор, и теперь у вас появился шанс показать с таким трудом заработанное мастерство.
 #Narration
 Unfortunately, your partner can't possibly keep up with your talent, and you end up tripping over each other.
-К сожаление, ваш партнер не может сравнится с вами в мастерсве, и вы, в конечном итоге, спотыкаетесь друг о друга.
+К сожалению, ваш партнер не может сравнится с вами в мастерстве, и вы, в конечном итоге, спотыкаетесь друг о друга.
+#Adair:
+Sorry!
+Извините!
 #Narration
 A ballroom dance isn't nearly as much of a showcase as a stage performance, but you can easily impress the guests with your technique and style.
 Бальный танец - это, конечно, не так показательно, как театральная сцена, но вы без проблем можете впечатлить гостей своим стилем и техникой.
@@ -3989,6 +4053,15 @@ He pats your hand.
 Good little girl, you are, for thinking of me. What will come will come.
 Хорошая маленькая девочка, спасибо, что поволновались обо мне. Что будет, то будет. 
 #Narration
+Adair comes running up to his father.
+Адэр подбегает к отцу.
+#Speaker: adair
+Dad! I got punch on my shoes.
+Папа! Я испачкал туфли.
+#Narration
+You leave them to deal with that problem.
+Вы оставляете их разбираться с этим наедине.
+#Narration
 You don't want to spoil the gathering with talk of death and despair; anyway, the omen might not even be about him.
 Вы не хотели портить праздник разговорами о смерти и безысходности; к тому же, знаки могли относиться и не к нему.
 #Narration
@@ -4029,12 +4102,14 @@ You can almost hear the chorus of eyebrows being raised.
 May I have this dance, fair lady?
 Могу я получить этот танец, прекрасная леди?
 #choice:
-Accept
+{tag=dance with banion}Accept
 Согласиться
-#choice:
-#choice:
+#choice: <= 1.3.14.15.9
 Mention betrothal to Sedna
-Упомянуть помолвку с герцогом Седны
+Упомянуть о помолвке с герцогом Седны
+# choice: >= 1.3.14.159
+Mention betrothal to Talarist
+Упомянуть о помолвке с Таларистом
 #Speaker: elodie_neutral
 #Narration
 He pulls you close, his hand possessive on your waist, as the orchestra swings back into motion.
@@ -4183,7 +4258,10 @@ I don't think it would be appropriate.
 Не думаю, что это была подходящая фраза.
 #Speaker: elodie_cheerful
 After all, your fiancee might be overwhelmed with jealousy!
-В конце концов, ваша невеста будет дико ревновать!
+В конце концов, ваша невеста будет вне себя от ревности!
+# >= 1.3.x
+After all, your fiancée might be overwhelmed with jealousy!
+В конце концов, ваша невеста будет вне себя от ревности!
 #Speaker: banion
 My...
 Моя...
@@ -4241,6 +4319,15 @@ You insult my honor.
 #Speaker: joslyn
 Elodie, no!
 Элоди, нет!
+#If you invited Talarist: Narration
+A hand claps onto your arm.
+Чья-то рука хлопает вас по плечу.
+#Speaker: talarist <= 1.3.17
+Don't. He's not worth dying for. 
+Не нужно. Он не стоит того, чтобы умирать за него. 
+# >= 1.3.18 (trailing space pulled.)
+Don't. He's not worth dying for.
+Не нужно. Он не стоит того, чтобы умирать за него. 
 #Narration
 You pull off one of your long white gloves and hurl it to the ground at Banion's feet.
 Вы снимаете одну длинную белую перчатку и бросаете и ее к ногами Баниона.
