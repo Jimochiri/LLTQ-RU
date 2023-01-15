@@ -1474,6 +1474,8 @@ Cancel
 The game will now attempt to save the log and open it in a web browser.
 The game will now attempt to save the log and open it in a web browser.
 # End log strings.
+# Tooltips for the weekend map screen.  Some of these have two different
+# variants because the text is slightly different if you click 'show tooltips'.
 +1 Depressed\n+1 Pressured
 +1 Уныние\n+1 Давление
 +1 Cheerful\n+1 Pressured
@@ -1496,6 +1498,8 @@ No Effect
 Нет эффекта
 -1 Cheerful
 -1 Радость
+-%d Cheerful
+-%d Радость
 -1 Depressed
 -1 Уныние
 -1 Angry
@@ -1512,8 +1516,12 @@ No Effect
 -1 Покорность\n+1 Давление
 Talk to Your Father
 Поговорить с отцом
+Talk to\nFather
+Поговорить\nс отцом
 Play with Toys
 Играть с игрушками
+Play with Toys\n\n
+Играть с игрушками\n\n
 +1 Yielding\n+1 Lonely\n+1 Cheerful
 +1 Покорность\n+1 Одинокость\n+1 Радость
 +2 Willful\n+1 Lonely
@@ -1550,12 +1558,32 @@ Explore Castle
 +1 Одинокость\n+1 Страх
 Visit Julianna, Duchess Ursul
 Посетить Джулианну, Герцогиню Урсула
+Visit\nJulianna\nof Ursul
+Посетить\nДжулианну\nГерцогиню Урсула
 Visit Selene
 Посетить Селену
 Visit Charlotte, Lady Merva
 Посетить Шарлотту, Леди Мервы
+Talk to Adair
+Поговорить с Адэром
 Tour Barracks
 Объезд казарм
+# Touch-friendly tooltip control
+Show Tooltips
+Показать подсказки
+Hide Tooltips
+Скрыть подсказки
+# These variants come up if you click 'Show Tooltips' on the map screen.
+Visit Charlotte,\nLady Merva
+Посетить Шарлотту,\nЛеди Мервы
+Talk to Father
+Поговорить с отцом
+Attend\nCourt
+Посетить\nкоролевский двор
+Service
+Служба
+Attend Court
+Посетить королевский двор
 Mood
 Настрой
 Current mood: %s
@@ -1564,8 +1592,6 @@ Injured
 Травмированна
 Neutral
 Нейтральное
-Angry
-Злость
 Afraid
 Страх
 Cheerful
@@ -1697,6 +1723,11 @@ Are you sure you want to return to the main menu?\nThis will lose unsaved progre
 Вы уверены, что хотите вернуться к главному меню?\nВесь несохраненный прогресс будет потерян.
 Empty Slot.
 Пустой слот.
+# 1.3.x Newest-save indicators, note leading spaces.
+ {b}(LATEST){/b}
+ {b}(LATEST){/b}
+ {b}(NEW){/b}
+ {b}(NEW){/b}
 #Speaker: joslyn
 We're almost home. Your room is just the way you left it.
 Мы почти дома. Твоя комната именно такая, какой ты её покинула.
@@ -2337,7 +2368,7 @@ Use battle-magic
 They'll find we have some surprises up our sleeves!
 Что ж, у нас есть козырь в рукаве!
 #choice:
-Don't
+{tag=battle magic}Don't
 Не использовать магию
 #Speaker: elodie_yielding
 (Better keep that for when it really matters.)
@@ -2488,7 +2519,7 @@ I believe we could settle the matter for eight thousand golden lassi.
 (Это просто невероятно много денег...)
 #choice:
 Agree
-Согласится
+Согласиться
 #Speaker: elodie_neutral
 {tag=neutral, to diplomat}Very well.
 Хорошо.
@@ -2821,15 +2852,15 @@ I regret the misunderstanding.
 I am aware of your youth, my princess. That is the only reason that our domains are not already at war.
 Я знаю о вашей молодости, моя принцесса. Это единственная причина, почему мы еще не в состоянии войны.
 #Speaker: elodie_afraid
-What?
+{tag=elodie, to talarist}What?
 Что?
 #Speaker: talarist
 You told the representative from Ixion that my domain was allied to yours. My king was quite suprised to hear of it.
-Вы сказали поланнику из Иксиона, что моя страна в союзе с вашей. Мой король был несколько удивлен, услышав это.
+Вы сказали посланнику из Иксиона, что моя страна в союзе с вашей. Мой король был несколько удивлен, услышав это.
 #Speaker: elodie_lonely
 #Speaker: talarist
 You are unprepared for the realities of politics. Marry me, and I will be your guide, your protector and your advisor.
-Вы явно не готовы к политическим реалиям. Выйдите за мне, и я стану вашим проводником, вашим защитником и вашим советником.
+Вы явно не готовы к политическим реалиям. Выйдите за меня, и я стану вашим проводником, вашим защитником и вашим советником.
 #choice:
 #choice:
 #Speaker: elodie_yielding
@@ -3072,7 +3103,7 @@ You're a thief! You stole my apples!
 Ты вор, который украл мои яблоки!
 #Speaker: evrard_boy
 Who, me? 
-Кто? я?? 
+Кто, я? 
 #Speaker: elodie_angry
 I saw you sneaking out of the garden.
 Я видела, как ты сбегал из сада.
@@ -3162,6 +3193,9 @@ Remember that the Festival of the Good Lady is approaching.
 #Speaker: joslyn
 There will be public celebrations for the commoners, followed by a grand gala for the nobility.
 В начале, будет народное празднование для простолюдинов, за которым последует большой праздник для знати.
+#Speaker: elodie_neutral
+(A grand ball... There will be dancing.)
+(Грандиозный бал... Там будут танцы.)
 #Speaker: joslyn
 As Queen, you would be expected to lead the procession and take part in the ceremonial planting, possibly give a speech.
 Как Королева, ты должна будешь возглавить праздничную процессию, принять участие в праздничной церемонии, и, при желании, сказать речь.
@@ -3174,6 +3208,38 @@ What do you mean, not safe?
 #Speaker: joslyn
 Outside of the castle, you are less well protected. If anyone means you harm... Think on it now, decide later.
 Вне замка ты менее защищена от угроз. Если кто-то захочет тебе навредить... Подумай об этом, а решение примешь позже.
+#If Talarist is your fiancé, >= 1.3.x
+# elodie_neutral
+Will the Duke of Sedna attend the gala?
+Посетит ли герцог Седны праздник?
+# Joslyn
+It is a traditional Novan event. Inviting your fiancé might be seen as a statement.
+Это традиционное нованское празднование. Приглашение жениха может быть расценено как подтверждение ваших намерений.
+# Conversation success
+You suspect your father does not wish to watch you dancing with Talarist.
+Вы чувствуете, что ваш отец не хочет смотреть, как вы танцуете с Таларистом.
+#menu choice:
+Invite Talarist
+Пригласить Талариста
+# elodie_neutral
+If I'm going to marry him, it's a statement I ought to send.
+Если я собираюсь выйти за него, я обязана подтвердить свои намерения.
+# joslyn
+As you wish.
+Как пожелаете.
+#menu choice, >= 1.3.18
+{tag=invite talarist}Don't
+Не приглашать Талариста
+# [If you were forced into the engagement because of your
+# bluff with the necklace]
+# elodie_neutral
+There's no need to bring him here.
+Незачем приглашать его.
+# else
+# elodie_yielding
+Maybe some other time.
+Может, в другой раз.
+# End Talarist-fiancé block
 #Speaker: joslyn
 Word has come from the factory for books that you funded. They have assembled enough equipment to begin printing test pamphlets.
 Пришло сообщение с типографии, которую ты профинансировала.  У них есть все необходимое оборудование, чтобы начать печать первых пробных брошур.
@@ -3207,6 +3273,28 @@ So they should write about how grand it is to be in my service.
 #Speaker: joslyn
 A practical approach.
 Практичный подход.
+#choice:
+Pro-Lumen propaganda
+Пропаганда Люмена
+#Speaker: elodie_angry
+I think the people of Nova don't have enough respect for magic-users. I want to print pamphlets about Lumens.
+Я считаю, что народ Новы недостаточно уважает тех, кто владеет магией. Я хочу напечатать брошюры о Люменах.
+#Speaker: elodie_neutral Lore success
+Being afraid of magic can blind people to more ordinary dangers. We should respect magic, but not fear it.
+Страх перед магией может заставить людей не замечать обычных угроз. Мы должны уважать магию, но не бояться ее.
+#Speaker: joslyn
+Your mother thought something similar.
+Ваша мать считала так же.
+#Narration
+He sighs.
+Он вздыхает.
+#Speaker: joslyn:  As you wish.
+#Speaker: elodie_neutral, Lore failure
+I want to show everyone how magic can do {i}good{/i} things.
+Я хочу показать всем, что магия может творить {i}добрые{/i} дела.
+#Speaker: joslyn
+... As you wish.
+... Как пожелаете.
 #choice:
 Religious doctrine
 Религиозная догма
@@ -3417,6 +3505,8 @@ Kill him
 With a growl, you bring your weapon crashing down.  He won't be harming anyone else ever again.
 С рычанием, вы обрушиваете на него сокрушающий удар. Он больше не будет представлять угрозу ни для кого.
 #choice:
+Don't
+Не убивать его
 #Speaker: elodie_angry
 Guards!  Take this man into custody!  I want answers.
 Стража! Взять его под стражу. Мне нужны ответы.
