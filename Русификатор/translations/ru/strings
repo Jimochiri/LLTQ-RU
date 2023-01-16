@@ -3796,7 +3796,7 @@ Um, h-hi, Elodie?
 Эмм, з-здравствуйте, Элоди?
 #Narration
 He looks absolutely terrified at the prospect of having to dance with a {i}girl{/i}, but the little lord is too well-bred to refuse you. Still, you'll have to be careful not to step on him.
-Он выглядит совершенно напуганным от мысли, что ему придется танцевать с {i}девочкой{/i}, но маленький лорд слишком хорошо воспитан, чтобы отказать вам. И всё же вам нужно быть осторожной, чтобы не наступить на него.
+Он выглядит совершенно напуганным от мысли, что ему придется танцевать с {i}девочкой{/i}, но юный лорд слишком хорошо воспитан, чтобы отказать вам. И всё же вам нужно быть осторожной, чтобы не наступить на него.
 #choice:
 Banion, Duke of Maree
 Банион, герцог Мари
@@ -4329,11 +4329,102 @@ Don't. He's not worth dying for.
 Don't. He's not worth dying for.
 Не нужно. Он не стоит того, чтобы умирать за него. 
 #Narration
+From the look on your father's face, he is torn between wanting to agree and wanting to order this man to let go of you.
+Судя по выражению лица вашего отца, он разрывается между желанием согласиться и желанием приказать этому мужчине отпустить вас.
+#Speaker: banion
+Let Her Royal Highness speak for herself. Or are you declaring to her to be incompetent?
+Пусть Её Королевское Высочество говорит сама за себя. Или же вы признаёте её некомпетентность?
+#Speaker: talarist
+I am not yet her subject. When she is crowned and I give my oath, I will obey. Until that time, I will protect her.
+Я пока ещё не её подданный. Но когда её коронуют, и я присягну на верность, я буду ей подчиняться. А до тех пор я буду защищать её.
+#Speaker: talarist
+You should be ashamed that you Novans show less loyalty to your future Queen than I, a foreign visitor.
+Вам должно быть стыдно, что вы, народ Новы, проявляете меньшую преданность своей будущей королеве, чем я, иностранный гость.
+#Narration
+There is an unpleasant stir among the crowd at his words.
+Его слова вызвали неприятное волнение в толпе.
+#Speaker: elodie_depressed
+(The last time a noble from Sedna married into a Novan family, their child was murdered by Novans... Talarist may feel he has a right to judge them.)
+(В последний раз, когда дворянин из Седны женился на женщине из нованской семьи, их ребенок был убит нованцами... Таларист может считать, что у него есть право осуждать их.)
+#Speaker: elodie_angry
+(There are rumors that Sedna has sent assassins after Novan nobles in the past. Is he threatening my court?)
+(Ходят слухи, что в прошлом Седна посылала убийц за нованской знатью. Не угрожает ли он моему двору?)
+#Speaker: elodie_afraid
+(Aren't Nova and Talasse supposed to be friends?)
+(Разве Нова и Таласс не должны быть друзьями?)
+#menu:
+#choice:
+Speak Up
+Высказаться
+#choice:
+Stay Quiet
+Промолчать
+#Speak Up, Internal Affairs variant
+#Speaker: elodie_angry
+Banion is no representative. He is not the first in his family to prove himself unfit.
+Банион некомпетентен. Он не первый в своей семье, кто показал свою непригодность.
+#Speaker: elodie_angry
+However, I have complete confidence in the rest of my court. They do not deserve your scorn.
+Однако я полностью уверена в представителях моего двора. Они не заслуживают вашего осуждения.
+#Speaker: elodie_willful
+After all, you will soon be among them.
+В конце концов, вскоре вы окажетесь среди них.
+#Speaker: talarist
+{tag=talarist, to elodie}Of course.
+Разумеется.
+#Narration
+You take a deep breath and let it out slowly as the crisis passes.
+Вы делаете глубокий вдох и медленно выдыхаете по мере того, как обстановка становится менее напряжённой.
+#Speak Up, Foreign Intelligence variant
+#Speaker: elodie_angry
+The loyalty of Novans does not deserve your scorn.
+Преданность народа Новы не заслуживает вашего осуждения.
+#Speaker: elodie_willful
+After all, you are not a foreigner. I have already conquered you.
+В конце концов, вы не иностранец. Ведь я уже покорила вас.
+#Narration
+No one quite seems to know what to say to that.
+Похоже, никто не знает, что на это ответить.
+# Speak Up, otherwise
+#Speaker: elodie_neutral
+We shouldn't be arguing. We are all allies here, right?
+Нам не стоит ссориться. Мы все здесь союзники, верно?
+# Flattery success
+#Speaker: elodie_neutral
+The Duke of Maree and I do not agree on certain matters of state. I respect his courage and integrity for being willing to hold this position openly.
+Мы с герцогом Мари не сходимся во мнениях по некоторым государственным вопросам. Я уважаю его за смелость и честность, за то, что он готов открыто придерживаться этой точки зрения.
+#Speaker: elodie_angry
+Knowing that I would be within my rights to demand satisfaction for his words.
+Зная, что я буду в праве требовать сатисфакции за его слова.
+#Speaker: elodie_neutral
+He remains a valuable and respected member of my court, as I hope that you will become.
+Он остаётся важным и достойным представителем моего двора, каким, я надеюсь, станете и вы.
+#Speaker: elodie_neutral
+I am sure you have many skills to offer in my service.
+Уверена, вы обладаете множеством умений, которые сможете использовать на службе мне.
+#Speaker: talarist
+I - of course, Your Highness.
+Разумеется, Ваше Величество.
+#Narration
+#You take a deep breath and let it out slowly as the crisis passes.
+#Narration
+From the smirk on Banion's face, you suspect you've said something foolish. However, the immediate crisis is averted.
+Судя по ухмылке на лице Баниона, вы догадываетесь, что сказали глупость. Однако конфликт удалось предотвратить.
+#Stay quiet, Narration
+Your cheeks burn, but you can't think of anything to say to make the situation better.
+Ваши щёки горят, но вы не можете подобрать слов, чтобы исправить положение.
+#Speaker: talarist
+But it is not stability, not when your first action would be an insult to the domain of Talasse.
+Но разве это стабильность, если первым вашим поступком будет оскорбление Таласса.
+#Speaker: banion
+Do you see? Already, this outsider attempts to control us!
+Видите? Этот чужак уже пытается нас контролировать!
+#Narration
 You pull off one of your long white gloves and hurl it to the ground at Banion's feet.
-Вы снимаете одну длинную белую перчатку и бросаете и ее к ногами Баниона.
+Вы снимаете одну из своих длинных белых перчаток и бросаете её к ногам Баниона.
 #Speaker: elodie_angry
 I demand satisfaction.
-Я требую дуэль.
+Я требую сатисфакции.
 #Speaker: banion
 Witness that it was never my intent to endanger the royal succession.
 Свидетели подтвердят, я сам никогда не собирался угрожать королевскому наследнику.
@@ -4810,7 +4901,9 @@ May the gods have mercy on all our souls.
 #Narration
 #Narration
 It's probably best not to make a scene at the moment.  You'll just have to keep an eye on him, and watch your back.
-Это, вероятно, не лучший момент. Нужно будет внимательно за ним следить и не подставлять спину.
+Наверное, сейчас лучше не устраивать скандалов. Вам следует присматривать за ним и быть начеку.
+# 1.3.x, if you become suspicious of Laurent through passing an Internal Affairs
+# check.
 #Narration
 There's something itching at your senses, something familiar.
 У вас возникло странное зудящее чувство, что-то знакомое.
@@ -4866,18 +4959,30 @@ Why keep it hidden?  It's not illegal to be a Lumen.
 #Speaker: lucille
 Magic is dangerous, everyone knows that. People might think I was an evil witch. They wouldn't trust me.
 Магия опасна, это все знают. Люди могут подумать, что я ведьма, и перестать мне доверять.
+#Speaker: elodie_angry
+(Trust... Should I trust her? What other secrets has she been keeping? Does she know anything about the assassins?)
+(Доверять... Стоит ли доверять ей? Какие ещё секреты она хранит? Знает ли она что-нибудь об убийцах?)
 #Speaker: lucille
 Look at how much trouble the Duchess of Ursul has. Please, Your Highness, don't tell anyone.
 Посмотри, сколько проблем с этим у герцогини Урсула. Ваше Величество, прошу, не рассказывайте никому.
-#choice:
+#choice: ( < 1.3.x )
 Accuse her
-Обвинить ее
+Обвинить её
+#choice ( >= 1.3.x )
+Accuse her husband of sending assassins
+Обвинить её супруга в подсылке убийц
+# Sense Magic full success ( >= 1.3.x )
+Accuse her of hiding something
+Обвинить её в сокрытии чего-то
 #choice:
 Offer her a court position
 Предложить ей место при дворе
-#choice:
+#choice: ( < 1.3.x )
 Keep her secret
-Сохранить ее секрет
+Сохранить её секрет
+#choice: >= 1.3.x
+Promise not to tell
+Пообещать не рассказывать
 #Speaker: elodie_angry
 I don't think you're weak at all.  I think there's something else you're hiding.
 Я не думаю, что вы такая слабая. И ведь это не единственная вещь, которую вы скрываете.
