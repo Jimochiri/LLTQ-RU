@@ -3450,10 +3450,10 @@ Thanks to your quick reflexes, you are able to leap out of the way of the assass
 Благодаря вашим быстрым рефлексам, вы смогли увернуться от удара убийцы.
 #Narration
 Desperately, you contort your body, just barely managing to twist out of the way of the assassin's blade.
-В отчаянии, вы изогибаете свое тело, едва успев уйти из-под удара.
+В отчаянии, вы изгибаете свое тело, едва успев уйти из-под удара.
 #Narration
 You try to dodge, but you are only partially successful - the blade drives into your arm rather than your chest.
-Вы пытаетесь увернться, но это удается лишь частично - клинок прошел по вашей руке, не достав до груди.
+Вы пытаетесь увернуться, но это удается лишь частично - клинок прошел по вашей руке, не достав до груди.
 #Narration
 Almost by instinct, you put pressure on the wound to slow the bleeding.  You're still alive, but your opponent is free to strike again.
 Чисто инстиктивно, вы надавливаете на рану, чтобы замедлить кровотечение. Вы все еще живы, но ваш противник может снова атаковать.
@@ -4840,7 +4840,7 @@ Would you care to explain why you sent an {i}assassin{/i} to greet me at the par
 Что?
 #Speaker: elodie_angry
 Are you so eager to claim my inheritance?  I have proof!
-Вам так хочется самому стать наследником? У меня есть доказательства!
+Вам так не терпится заполучить права на престол? У меня есть доказательства!
 #Speaker: laurent
 Elodie... you are my sister's child. I swear by all the gods, I have never meant you harm.
 Элоди... Ты дочь моей сестры. Я клянусь перед всеми богами, я и не думал навредить тебе. 
@@ -4905,6 +4905,110 @@ It's probably best not to make a scene at the moment.  You'll just have to keep 
 # 1.3.x, if you become suspicious of Laurent through passing an Internal Affairs
 # check.
 #Narration
+Uncle Laurent...  As your mother's brother, he's next in line to the throne.  If anything happens to you, he would be crowned King.
+Дядя Лоран... Как брат вашей матери, он следующий в очереди на престол.  Если с вами что-нибудь случится, он станет королём.
+#Speaker: elodie_afraid
+(He was visiting here when that snake attacked me in the gardens!  Julianna said then that someone might have been trying to kill me...)
+(Он гостил здесь, когда та змея напала на меня в саду!  Джулианна тогда сказала, что кто-то, возможно, пытался убить меня...)
+#Narration
+Could he have been behind the assassin at the parade?  Your own uncle?
+Мог ли он стоять за покушением на параде?  Ваш родной дядя?
+#Narration
+You have no proof, no evidence, only suspicions.
+У вас нет ни доказательств, ни улик, лишь предположения.
+#menu:
+#choice:
+Talk to him
+Поговорить с ним
+#choice:
+Say nothing
+Промолчать
+#Talked to him
+#Speaker: elodie_angry
+(I need to know.)
+(Я должна знать.)
+#Speaker: elodie_neutral
+Your Grace, I hope you are enjoying your visit to the capital.
+Ваше Благородие, надеюсь, вы наслаждаетесь пребыванием в столице.
+#Speaker: laurent
+Ah, Elodie... It is no fault of your skills as a hostess. With every shadow that crosses my eye, I think I see my sister's form.
+Ах, Элоди... Ты ни в чём не виновата. В каждой тени, промелькнувшей перед глазами, мне мерещится облик сестры.
+#Speaker: lucille
+You are very brave, my dear. Both of you. You're holding up well.
+Вы очень смелые, мои дорогие. Вы оба. Вы прекрасно держитесь.
+#Speaker: elodie_neutral
+Why didn't you bring Charlotte and Emry and Zahra?
+Почему вы не взяли с собой Шарлотту, Эмри и Захру?
+#Speaker: lucille
+Too much travel is not good for children's health.
+Частые поездки не идут на пользу здоровью детей.
+#If Charlotte was bitten.
+#Speaker: lucille
+Charlotte has been particularly fragile since that unfortunate incident with the snake.
+Шарлотта стала особенно слаба после того злополучного случая со змеёй.
+#Poison success.
+#Speaker: elodie_angry
+(Most people who are bitten by milk vipers die.  There's no antidote for that venom.  You can make someone immune to it, but that protection doesn't last forever.)
+Большинство укушенных молочными гадюками умирают.  От этого яда нет противоядия.  Можно сделать человека невосприимчивым к нему, но эта защита не может длиться вечно.
+#Speaker: elodie_angry
+(If Uncle Laurent intentionally fed Charlotte snake venom before her visit here, that would prove he was plotting to murder me!)
+(Если дядя Лоран намеренно дал Шарлотте змеиный яд перед её приездом сюда, то это доказывает, что он замышлял убить меня!)
+#Speaker: elodie_neutral
+It can be dangerous here.  Did you hear that someone tried to kill me at the Festival of the Good Lady?
+Тут может быть опасно.  Вы слышали, что кто-то пытался убить меня на Празднике Доброй Леди?
+#Speaker: lucille
+How dreadful!
+Какой ужас!
+#Speaker: laurent
+Yes... You must be careful, niece. Listen to your father, and stay in the castle where you will be safe.
+Да... Тебе следует проявлять осторожность, племянница. Слушайся отца и оставайся в замке, там ты будешь в безопасности.
+#Speaker: elodie_depressed
+(He seems sincere...)
+(Он кажется искренним...)
+#if poison>=40:
+#Speaker: elodie_angry
+(But that could all be an act.  He's not going to tell me to my face that he's plotting against me!)
+Но всё это может быть притворством.  Не станет же он говорить мне в лицо, что замышляет что-то против меня!
+#menu:
+#choice:
+Accuse Him
+Обвинить его
+#choice:
+Trust Him
+Поверить ему
+#Speaker: elodie_angry
+How kind of you to warn me, while you are trying to have me killed!
+Как мило с вашей стороны предупредить меня, пытаясь при этом убить!
+#Narration
+Coversation around the ballroom suddenly falls quiet.
+Разговоры в бальном зале внезапно затихают.
+#Speaker: laurent
+What?
+Что?
+#Speaker: elodie_angry
+The snake, uncle! Those snakes don't live on this island. Someone planted it in the garden. It was a trap.
+Змея, Дядя! Эти змеи не живут на нашем острове. Кто-то подбросил её в сад. Это была ловушка.
+#Speaker: elodie_angry
+You knew I would be there. Perhaps you even made sure Charlotte would invite me to play!
+Вы знали, что я буду там. Возможно, вы даже позаботились о том, чтобы Шарлотта позвала меня поиграть!
+#Speaker: elodie_angry
+You put your own daughter at risk - except that you didn't, because you carefully prepared her to be sure that she wouldn't die, didn't you?
+Вы подвергли риску собственную дочь, хотя нет, ведь вы тщательно подготовили её, чтобы быть уверенным в том, что она не умрёт, не так ли?
+#Speaker: elodie_angry
+And then the attack at the parade!  Are you so eager to claim my inheritance?
+А затем покушение на параде! Вам так не терпится заполучить права на престол?
+#Speaker: laurent
+Elodie... you are my sister's child. I swear by all the gods, I have never meant you harm.
+Элоди... ты дитя моей сестры. Клянусь всеми богами, я никогда не желал тебе зла.
+#Speaker: joslyn
+Elodie, are you sure?
+Элоди, ты уверена?
+#Speaker: elodie_angry
+The evidence fits.
+Улики сходятся.
+#Speaker: lucille
+I - I'm shocked! Laurent, how could you do such a thing to our family?
+Я-я шокирована! Лоран, как ты мог так поступить с нашей семьёй?
 There's something itching at your senses, something familiar.
 У вас возникло странное зудящее чувство, что-то знакомое.
 #Narration
