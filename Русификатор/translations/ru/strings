@@ -3620,7 +3620,7 @@ No one would dare attempt to harm you under this roof, but I don't doubt that yo
 Никто не посмеет тебе навредить под этой крышей, но я не сомневаюсь, что твои враги тоже здесь, близко, и они наблюдают.
 #Narration
 He hands you a bit of paper containing a sequence of dots and squiggles.
-Он дает вам в руки клочек бумаги, на котором написана последлвательность точек и знаков.
+Он дает вам в руки клочек бумаги, на котором написана последовательность точек и знаков.
 #Speaker: joslyn
 This is the only clue we have so far about who might have sent that attacker, but clues can be misleading.
 Это только предположение, кто мог послать убийцу, и оно может быть неверным.
@@ -4395,7 +4395,7 @@ The Duke of Maree and I do not agree on certain matters of state. I respect his 
 Мы с герцогом Мари не сходимся во мнениях по некоторым государственным вопросам. Я уважаю его за смелость и честность, за то, что он готов открыто придерживаться этой точки зрения.
 #Speaker: elodie_angry
 Knowing that I would be within my rights to demand satisfaction for his words.
-Зная, что я буду в праве требовать сатисфакции за его слова.
+Зная, что я буду вправе требовать сатисфакции за его слова.
 #Speaker: elodie_neutral
 He remains a valuable and respected member of my court, as I hope that you will become.
 Он остаётся важным и достойным представителем моего двора, каким, я надеюсь, станете и вы.
@@ -4815,7 +4815,7 @@ Merva...  That's where the assassin came from!
 Мерва... Убийца ведь прибыл оттуда!
 #Narration
 Your uncle Laurent is next in line to the throne.  If you die, he'll be king.  But he's your {b}uncle.{/b} Would he really have tried to kill you?
-Ваш дядя, Лоран, следующий в линии наследования. Если вы умрете, он станет королем, Но он же ваш {b}дядя.{/b} Неужели он вас действительно пытался убить вас?
+Ваш дядя, Лоран, следующий в очереди на престол. Если вы умрёте, он станет королём, Но он же ваш {b}дядя.{/b} Неужели он и правда пытался убить вас?
 #Narration
 Accusing him in public would damage his honor.  It would make the two of you enemies - if you aren't already.
 Прилюдное обвинение заденет его честь. Это сделает вас врагами - если вы еще не враги.
@@ -4831,7 +4831,7 @@ Your Grace!
 Ваше благородие!
 #Narration
 Conversation dies at the tone of your voice.
-Разговор умер уже от одного вашего тона.
+Разговор замирает при звуке вашего голоса.
 #Speaker: elodie_angry
 Would you care to explain why you sent an {i}assassin{/i} to greet me at the parade?
 Не могли ли вы мне объяснить, почему вы послали {i}убийцу{/i} поприветствовать меня на параде?
@@ -4840,13 +4840,13 @@ Would you care to explain why you sent an {i}assassin{/i} to greet me at the par
 Что?
 #Speaker: elodie_angry
 Are you so eager to claim my inheritance?  I have proof!
-Вам так не терпится заполучить права на престол? У меня есть доказательства!
+Вам так не терпится заполучить права на престол?  У меня есть доказательства!
 #Speaker: laurent
 Elodie... you are my sister's child. I swear by all the gods, I have never meant you harm.
-Элоди... Ты дочь моей сестры. Я клянусь перед всеми богами, я и не думал навредить тебе. 
+Элоди... ты дитя моей сестры. Клянусь всеми богами, я никогда не желал тебе зла.
 #Speaker: laurent
 There must be some mistake.
-Здесь должно быть ошибка.
+Должно быть, это какая-то ошибка.
 #Narration
 Even if you believe him, you cannot back down now without a massive loss of face.  Accusations of treason are not made lightly.  And, after all, you {i}do{/i} have proof.
 Даже если вы верите ему, вы не можете повернуть назад без ущерба для репутации. Обвинения в измене - это очень серьезно. И, в конце концов, у вас {i}имеются{/i} доказательства.
@@ -4860,29 +4860,29 @@ Agree that you made a mistake
 #choice:
 #Speaker: elodie_yielding
 Perhaps you're right.  Perhaps there is some other explanation.  My apologies.
-Возможно, вы правы. Возможно, есть другие объяснения. Примите мои извинения.
+Возможно, вы правы. Возможно, есть какое-то другое объяснение. Примите мои извинения.
 #Narration
 He is your uncle, after all.  Charlotte's father.  He's family.
 Он ваш дядя, в конце концов. Отец Шарлотты. Ваша семья.
 #Narration
 That doesn't stop the whispers, though, and after that, the gathering soon breaks up.
-Это не остановило слухи, и после этого, праздник вскоре закончился.
+Тем не менее, перешёптывания не прекращаются, и вскоре праздник подходит к концу.
 #Speaker: elodie_depressed
 I wish there were.  I don't want to do this.
 Я надеюсь, так и было. Не хочу этого делать.
 #Speaker: elodie_angry
 But for the safety of my domain, I have no choice.  You will be imprisoned until further notice.
-Но ради безопасности королевства, у меня нет выбора. Вы будете в заключении до дальнейших приказов.
+Но ради безопасности моей страны, у меня нет выбора. Вы будете заключены в тюрьму до дальнейших распоряжений.
 #Speaker: elodie_lonely
 Guards... take him away.
-Стража... Увести его.
+Стража... уведите его.
 #Narration
 #Speaker: elodie_angry
 The mistake, uncle, was yours.
 Ошибку, дядя, совершили вы.
 #Speaker: elodie_angry
 You are a traitor to the realm and must be executed.
-Вы - предатель, и должны быть казнены.
+Вы - предатель королевства, и должны быть казнены.
 #Speaker: joslyn
 Elodie... are you sure?
 Элоди... Ты уверена?
@@ -4894,10 +4894,10 @@ If I leave him alive, he'll just plot against me.  He has to die.
 Если я оставлю его в живых, он восстанет против меня. Он должен умереть.
 #Speaker: laurent
 Such times our world has come to. First Fidelia, and now this.
-Такие уж времена наступили. Сначала Фиделия, а теперь я.
+До чего же дошёл наш мир. Сначала Фиделия, а теперь я.
 #Speaker: laurent
 May the gods have mercy on all our souls.
-Пусть боги помилую наши души.
+Пусть боги помилуют наши души.
 #Narration
 #Narration
 It's probably best not to make a scene at the moment.  You'll just have to keep an eye on him, and watch your back.
@@ -4945,11 +4945,11 @@ Too much travel is not good for children's health.
 #If Charlotte was bitten.
 #Speaker: lucille
 Charlotte has been particularly fragile since that unfortunate incident with the snake.
-Шарлотта стала особенно слаба после того злополучного случая со змеёй.
+Шарлотта стала особенно слаба после того несчастного случая со змеёй.
 #Poison success.
 #Speaker: elodie_angry
 (Most people who are bitten by milk vipers die.  There's no antidote for that venom.  You can make someone immune to it, but that protection doesn't last forever.)
-Большинство укушенных молочными гадюками умирают.  От этого яда нет противоядия.  Можно сделать человека невосприимчивым к нему, но эта защита не может длиться вечно.
+(Большинство укушенных молочными гадюками умирают.  От этого яда нет противоядия.  Можно сделать человека невосприимчивым к нему, но эта защита не может длиться вечно.)
 #Speaker: elodie_angry
 (If Uncle Laurent intentionally fed Charlotte snake venom before her visit here, that would prove he was plotting to murder me!)
 (Если дядя Лоран намеренно дал Шарлотте змеиный яд перед её приездом сюда, то это доказывает, что он замышлял убить меня!)
@@ -4968,7 +4968,7 @@ Yes... You must be careful, niece. Listen to your father, and stay in the castle
 #if poison>=40:
 #Speaker: elodie_angry
 (But that could all be an act.  He's not going to tell me to my face that he's plotting against me!)
-Но всё это может быть притворством.  Не станет же он говорить мне в лицо, что замышляет что-то против меня!
+(Но всё это может быть притворством.  Не станет же он говорить мне в лицо, что замышляет что-то против меня!)
 #menu:
 #choice:
 Accuse Him
@@ -4996,7 +4996,7 @@ You put your own daughter at risk - except that you didn't, because you carefull
 Вы подвергли риску собственную дочь, хотя нет, ведь вы тщательно подготовили её, чтобы быть уверенным в том, что она не умрёт, не так ли?
 #Speaker: elodie_angry
 And then the attack at the parade!  Are you so eager to claim my inheritance?
-А затем покушение на параде! Вам так не терпится заполучить права на престол?
+А затем покушение на параде!  Вам так не терпится заполучить права на престол?
 #Speaker: laurent
 Elodie... you are my sister's child. I swear by all the gods, I have never meant you harm.
 Элоди... ты дитя моей сестры. Клянусь всеми богами, я никогда не желал тебе зла.
@@ -5009,6 +5009,62 @@ The evidence fits.
 #Speaker: lucille
 I - I'm shocked! Laurent, how could you do such a thing to our family?
 Я-я шокирована! Лоран, как ты мог так поступить с нашей семьёй?
+#Speaker: elodie_willful
+Even your wife doesn't believe that you're innocent.
+Даже ваша супруга не верит вам.
+#Speaker: lucille
+Oh, Elodie! You must believe that Charlotte knew nothing of this. Please, don't punish her!
+Ох, Элоди! Поверь, Шарлотта ничего не знала об этом. Пожалуйста, не наказывай её!
+#Speaker: elodie_neutral
+Of course not.  She tried to save me.
+Разумеется.  Она пыталась спасти меня.
+#Speaker: laurent
+You are making a terrible mistake.
+Ты совершаешь ужасную ошибку.
+#menu:
+#choice:
+Imprison Him
+Арестовать его
+#python:
+#Speaker: elodie_depressed
+I wish I could believe that this was only a mistake.
+Хотела бы я верить, что это ошибка.
+#Speaker: elodie_angry
+But for the safety of my domain, I have no choice.  You will be stripped of your title and imprisoned until further notice.
+Но ради безопасности моей страны, у меня нет выбора.  Вы будете лишены титула и заключены в тюрьму до дальнейших распоряжений.
+#Speaker: elodie_lonely
+Guards... take him away.
+Стража... уведите его.
+#Narration
+That doesn't stop the whispers, though, and after that, the gathering soon breaks up.
+Тем не менее, перешёптывания не прекращаются, и вскоре праздник подходит к концу.
+#choice
+Execute Him
+Казнить его
+#Speaker: elodie_angry
+The mistake, uncle, was yours.
+Ошибку, дядя, совершили вы.
+#Speaker: elodie_angry
+You are a traitor to the realm and must be executed.  I can't risk leaving you alive to plot against me.
+Вы - предатель королевства, и должны быть казнены.  Я не могу рисковать, оставляя вас в живых, ведь вы можете устроить заговор против меня.
+#Speaker: merva
+Such times our world has come to. First Fidelia, and now this.
+До чего же дошёл наш мир. Сначала Фиделия, а теперь я.
+#Speaker: merva
+May the gods have mercy on all our souls.
+Пусть боги помилуют наши души.
+#Narration
+After that, it seems that your remaining guests have little stomach for light entertainment.
+Похоже, что после этого у оставшихся гостей не осталось желания продолжать развлечения.
+# End accusation branch
+#Speaker: elodie_depressed
+Well, thank you for coming.
+Что же, спасибо, что пришли.
+#Narration
+Better not to risk making a scene.  You'll just have to keep an eye on him, and watch your back.
+Лучше не рисковать и не устраивать скандалов.  Вам следует присматривать за ним и быть начеку.
+# End suspicion-of-Laurent chunk.
+#Narration
 There's something itching at your senses, something familiar.
 У вас возникло странное зудящее чувство, что-то знакомое.
 #Narration
@@ -5137,19 +5193,19 @@ It's all right.  She's gone now.
 Все в порядке. С ней покончено.
 #Narration
 You feel drained of all energy and can barely keep your eyes open.  Leaving your father to clean up the mess, you crawl off to bed.
-Вы чувствуете, как энергия покидает вас, и не можете больше держать глаза открытыми. Оставив отца наводить порядок, вы отправляетесь спать.
+Вы чувствуете, как энергия покидает вас, и не можете больше держать глаза открытыми.  Оставив отца наводить порядок, вы отправляетесь спать.
 #Narration
 You want to tell her that she's wrong, that you will never give up fighting, that you will defeat her in the end...
-Вы хотите сказать ей, что она не права, что вы никогда не сражались, что вы, в конце концов, ей проиграете...
+Вы хотите сказать ей, что она не права, что вы будете бороться, что в конце концов победите её...
 #Narration
 But her magic is too strong.  There's nothing you can do.
-Но ее магия была слишком сильна. Вы ничего не можете сделать.
+Но её магия слишком сильна.  Вы ничего не можете сделать.
 #Narration
 All you can do is nothing.  Forever.
-Все что вы теперь можете делать - бездействовать. Вечно.
+Вы больше ничего не сможете сделать.  Никогда.
 #Speaker: elodie_willful
 What I think I should tell everyone is that you are my new Lumen Minister.
-Я думаю вот что - я должна всем сказать, что вы мой новый министр по делам люменов.
+Думаю, я должна сообщить всем, что вы - мой новый министр по делам люменов.
 #Speaker: lucille
 {tag=lucille}What?
 Что?
@@ -5168,9 +5224,12 @@ I accept.
 #Speaker: elodie_cheerful
 Good!
 Хорошо!
-#Speaker: elodie_neutral
+#Speaker: elodie_neutral < 1.3.x
 I understand.  Don't worry about it.
 Я понимаю. Не беспокойтесь об этом.
+# >= 1.3.x elodie_normal
+I understand. Don't worry. I promise I will protect your secret.
+Я понимаю. Не беспокойтесь. Обещаю, я сохраню вашу тайну.
 #Speaker: lucille
 Thank you, dear.
 Спасибо, дорогая.
@@ -5182,7 +5241,7 @@ It's about Charlotte and her healing powers.
 ... Какой исцеляющей силе?
 #Speaker: elodie_neutral
 I know all about them. She saved me from a poisonous snake.
-Я все об этом знаю. Она спасла меня от отравленной змеи.
+Я всё об этом знаю. Она спасла меня от ядовитой змеи.
 #Speaker: elodie_neutral
 I'm just curious, because I found out that I have powers too. Powers that aren't Lumen powers.
 Мне просто любопытно, потому что я обнаружила, что тоже обладаю подобной силой. Силой, не свойственной люменам.
@@ -5207,19 +5266,58 @@ Maybe, but... {i}Are{/i} you a Lumen?
 #Narration
 She hesitates.
 Она запнулась.
+# Accusing Laurent of sending assassins
+#Speaker: elodie_depressed
+I'd like to believe you. But...
+Хотелось бы поверить вам. Но...
+#Speaker: elodie_angry
+Someone tried to kill me, at the parade. And I found out he was sent from Merva.
+Кто-то пытался убить меня на параде. И я выяснила, что его подослали из Мервы.
+#Speaker: elodie_angry
+Is Uncle Laurent trying to have me killed?
+Дядя Лоран пытается убить меня?
 #Speaker: lucille
+Elodie! My dear. Laurent loves you. He is your most loyal subject.
+Элоди! Дорогая моя. Лоран любит тебя. Он твой самый верный подданный.
 #Speaker: lucille
-#Speaker: elodie_neutral
-#Speaker: lucille
-#Speaker: lucille
+You and Charlotte have always been so close. It would crush her to hear that you suspected our family of such dreadful plots!
+Вы с Шарлоттой всегда были так близки. Она была бы потрясена, узнав, что ты подозреваешь нашу семью в таком ужасном заговоре!
+#Narration
+You notice that she hasn't said anything about her {i}own{/i} loyalty.
+Вы заметили, что она ничего не сказала о {i}своей{/i} преданности.
+#menu:
 #choice:
+{tag=questioning lucille}Keep pushing
+Продолжить давление
 #choice:
+{tag=to lucille}Apologise
+Извиниться
+#Speaker: elodie_angry
+That's not good enough. Family or no, I need some proof of your loyalty.
+Этого недостаточно. Семья или нет, мне нужны доказательства вашей преданности.
+#Lucille:
+Proof? What would be proof?
+Доказательства? Что может послужить доказательством?
+#You open your mouth to answer her, and -
+# - find yourself unable to speak or move.
+#Lucille:
+Foolish child. Suspecting Laurent! As if he'd have the backbone.
+Глупое дитя. Подозревать Лорана! Будто у него хватило бы смелости.
+#[apologise]
+#Elodie: (depressed)
+Of course, I'm sorry.
+Конечно. Простите.
+#Lucille:
+Darling child. Please. Let us never speak of this again.
+Милое дитя. Пожалуйста. Давай больше никогда не будем об этом говорить.
+Feeling vaguely guilty, you watch her walk away.
+Испытывая некоторое чувство вины, вы смотрите, как она уходит.
 #Narration
 Best not to raise the issue now with so many people around.  Perhaps some other time.
-Лучше не поднимать этот вопрос на людях. Возможно, позже.
+Лучше не поднимать этот вопрос, когда вокруг так много людей.  Возможно, в другой раз.
 #Narration
 It's nice to be able to enjoy time with friends and family, isn't it?
-Это хорошо, весело проводить время с друзьями и семьей, не так ли?
+Приятно проводить время с друзьями и семьёй, не так ли?
 #Speaker: alice_smile
 My lady, a bouquet has arrived for you.
 Миледи, для вас букет.
