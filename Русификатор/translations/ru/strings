@@ -5318,6 +5318,49 @@ Best not to raise the issue now with so many people around.  Perhaps some other 
 #Narration
 It's nice to be able to enjoy time with friends and family, isn't it?
 Приятно проводить время с друзьями и семьёй, не так ли?
+#If you invited Talarist:
+As the evening grows late, your personal guest draws you aside for a private conversation.
+Ближе к вечеру ваш гость отводит вас в сторону для разговора наедине.
+#Talarist:
+You have my most fulsome thanks for the invitation to this event.
+Примите мою самую искреннюю благодарность за приглашение на это мероприятие.
+#Court Manners success
+#Talarist:
+Even your handwriting was beautiful and elegant.
+Даже ваш почерк был красив и изящен.
+#[else]
+However, you might wish to spend more time with the scribes before corresponding in writing with other nobles.
+Однако, возможно, вам стоит посвятить больше времени занятиям с писарями, прежде чем писать другим дворянам.
+#Talarist
+Some may not appreciate your unique sense of phrasing.
+Некоторые могут не оценить ваш особый стиль речи.
+#Princess: (yielding)
+(Wonderful. I sounded like an idiot.)
+(Замечательно. Я выглядела дурой.)
+#[If we told him we had conquered him]
+#Talarist
+I was very interested to hear your views on the subject of 'conquest'.
+Я бы очень хотел прояснить, что вы имели в виду, сказав 'покорила'.
+#Talarist:
+Enthusiasm is to be expected from a young ruler, but men are not horses to break to your will. The rein and spurs can turn allies into enemies.
+Юный правитель склонен проявлять рвение, но люди - не лошади, чтобы подчиняться вашей воле. Поводья и шпоры могут превратить союзников во врагов.
+#[If Horses 30]
+#Princess: (angry)
+(What does he know about horses? If you tried to 'break' a horse with spurs, you'd probably end up with a broken neck.)
+(Да что он знает о лошадях? Попытка 'подчинить' лошадь шпорами, скорее всего, окончится переломом шеи.)
+#Talarist:
+It is always the greatest of pleasures for me to be in your presence.
+Находиться в вашем присутствии - величайшее наслаждение для меня.
+#[If low noble approval]
+#Talarist:
+That may not be the case for all of those whom you have invited. Please, do not overlook the dangers that may face you from within.
+Но нельзя сказать того же обо всех остальных гостях. Пожалуйста, не забывайте об опасностях, которые могут подстерегать вас изнутри.
+#Talarist:
+A Queen, or even a Duke, must always be aware of the possibility of intrigue. Especially when those who wish to protect you may not always be present.
+Королева, да и герцог, всегда должны помнить о возможности развязывания интриг. Особенно когда рядом нет тех, кто хочет защитить вас.
+#Talarist:
+I look forward to the day when we will no longer have to part.
+Я с нетерпением жду того дня, когда нам больше не придётся расставаться.
 #Speaker: alice_smile
 My lady, a bouquet has arrived for you.
 Миледи, для вас букет.
