@@ -5432,7 +5432,7 @@ Put it away
 Убрать
 #Narration
 You place the dancer back into its box and hand it to your maid.
-Вы ложите фигурку обратно в коробку и отдаете обратно своей горничной.
+Вы кладете фигурку обратно в коробку и отдаёте её горничной.
 #Speaker: elodie_yielding
 Put it away somewhere safe.
 Убери в надежное место.
@@ -5651,7 +5651,7 @@ Nothing can ever replace your mother.
 Никто не заменит твою мать.
 #Speaker: joslyn
 But we all have to do things that we don't want to do.
-Но мы все должны иногда делать веще, которые не хотим.
+Но всем нам приходится делать то, чего мы не хотим.
 #Speaker: elodie_depressed
 #Speaker: joslyn
 Don't give me that look, young lady. She's a nice woman, nothing more.
@@ -5668,15 +5668,27 @@ You should be careful how you deal with people like Sirin. You need the goodwill
 #Speaker: joslyn
 Have you had any luck in finding out who was behind the attempt on your life?
 Есть какие-нибудь успехи в поисках того, кто стоит за покушением?
-#Speaker: elodie_depressed
+#Speaker: elodie_depressed ( <= 1.3.5 )
 No...
 Нет...
+# >= 1.3.x elodie_depressed
+No... and by now the trail has gone cold.
+Нет... его уже и след простыл.
+#Speaker: joslyn
+Then we must be prepared, in case there are further attempts.
+Тогда нам стоит быть наготове, если будут новые покушения.
 #Speaker: elodie_depressed
 I think the assassin passed through Maree, but there's no proof of who hired him.
 Я думаю, убийца прибыл из Мари, но нет никаких доказательств о том, кто послал его.
 #Speaker: elodie_depressed
 I think the assassin passed through Merva, but there's no proof of who hired him.
 Я думаю, убийца прибыл из Мервы, но нет никаких доказательств о том, кто послал его.
+#Speaker: elodie_depressed
+Nothing in the note gives any more clue to their identity. It's a dead end, unless they strike again.
+В записке нет больше никаких указаний на личность убийцы. Это тупик, если только он не ударит снова.
+#Speaker: joslyn
+Then we must be prepared for future attempts.
+Тогда нам стоит подготовиться к новым покушениям.
 #Speaker: joslyn
 The enemies you have uncovered may not be the only ones.
 Врагов, которых ты не обнаружила, может быть куда больше.
@@ -5793,10 +5805,10 @@ I can deal with any problems that come up as long as I'm here to deal with them.
 Я смогу справится с любыми проблемами, которые возникнут. Я больше беспокоюсь об убийцах.
 #Speaker: joslyn
 {b}You{/b} are your own best defense against assassins. Increasing your skills will help to protect you.
-{b}Ты{/b} - твоя лучшая защитой от убийц. Тренируйся и сможешь постоять за себя.
+{b}Ты{/b} сама - лучшая защита от убийц. Тренируйся, и сможешь постоять за себя.
 #Speaker: joslyn
 Beyond that, you can train more soldiers into personal bodyguards to watch over you.
-Кроме того, ты можешь обучить больше солдат для своей лично охраны, которые будут присматривать за тобой.
+Кроме того, ты можешь обучить больше солдат, чтобы они стали твоей личной охраной и присматривали за тобой.
 #Speaker: joslyn
 Or you can institute harsh penalties for treason and make people too frightened to cross you.
 Или можешь ужесточить наказание за государственную измену, заставив людей бояться переходить тебе дорогу.
@@ -5882,74 +5894,126 @@ It is the time of year to decide any necessary adjustments to the royal budget.
 #Speaker: joslyn
 The majority of the money we receive is already spoken for, but there is always some room for discretion.
 Большую часть денег мы уже получили и распределили, но всегда есть некоторые возможности для пересмотра экономической политики.
+#These are the strings for 1.2.28 and higher
+#Narration
+Based on the records and notes of current expenditures, you have already overspent your personal allotment for the year. You will need to raise taxes to cover the loss.
+Опираясь на записи и заметки о текущих расходах, вы уже перерасходовали свои личные средства на этот год. Вам придется повысить налоги, чтобы покрыть убытки.
 #Narration
 Based on the records and notes of current expenditures, if you maintain the current rate of tax, you will still have %(lassi_s)s available for special projects.
-Опираясь на записи и заметки о расходах, если вы оставите налоги на том же уровне то вы еще будете иметь %(lassi_s)s для специальных проектов.
+Опираясь на записи и заметки о текущих расходах, если вы оставите налоги на том же уровне, то будете иметь %(lassi_s)s для специальных проектов.
 #Narration
-Based on the records and notes of current expenditures, if you maintain the current rate of tax, you will owe the treasury %(lassi_s)s.
-Опираясь на записи и заметки о расходах, если вы оставите налоги на том же уровне то вы задолжаете %(lassi_s)s.
+That is not a large amount. If there are no emergencies, everything should be fine, but you cannot afford to lower the tax rates.
+Это не такая уж большая сумма. Если не возникнет каких-либо непредвиденных ситуаций, всё должно быть хорошо, но вы не можете снизить налоги.
 #Narration
-If you lower taxes, you will lose some of that money because it will go to pay your existing costs; if you raise taxes, you should have more.
-Если вы понизите налоги, вы потеряете часть этих денег, потому что вам нужно оплачивать существующие расходы, если вы повысите налоги, у вас будет больше денег.
-#Speaker: elodie_depressed
-(I really don't understand all of these numbers.)
-(Я ничего не понимаю в этих цифрах.)
+You can't imagine any reason that you would need to spend so much. You could afford to lower taxes.
+Вы не можете представить себе ни единой причины, по которой вам нужно было бы тратить так много. Вы можете снизить налоги.
+#Narration
+Four thousand lassi should be enough to cover any military surprises for the rest of the year.
+Четырех тысяч ласси должно хватить, чтобы покрыть любые внезапные военные расходы до конца года.
+#Narration
+Any little trade disruption shouldn't need more than a few hundred lassi to sort out, at least temporarily.
+Для устранения любого небольшого перебоя в торговле потребуется не более нескольких сотен ласси, по крайней мере, временно.
+#Speaker: elodie_depressed >= 1.2.28
+(I really don't understand all of these numbers. Maybe I should leave them alone.)
+(Я ничего не понимаю в этих цифрах. Наверное, мне стоит оставить всё как есть.)
+# Begin 1.3.x section
+#Speaker: elodie_scared
+(I don't know anything about budgets!)
+(Я ничего не знаю о финансах!)
 #choice:
 Raise taxes
 Поднять налоги
 #Speaker: elodie_willful
-We need more money.  Raise the taxes.
-Нам нужно больше денег. Поднять налоги.
+We need more money. Raise the taxes a bit.
+Нам нужно больше денег. Слегка поднимем налоги.
 #Speaker: elodie_willful
 If we adjust this and this here, most people won't even notice the difference.
 Если мы подкорректируем здесь и здесь, большинство людей не почувствуют разницы.
 #Speaker: elodie_willful
 Only the ones who can afford it will pay more.
-Только те, кто могут это позволить, будут платить больше.
+Только те, кто может себе это позволить, будут платить больше.
 #choice:
 Keep them the same
 Оставить как есть
-#Speaker: elodie_neutral
+#Speaker: elodie_normal
 I think they're fine as they are.
-Я думаю, с этим все впорядке.
+Я думаю, с этим всё впорядке.
+#Narration
+Your father consults with a minister.
+Ваш отец советуется с министром.
+#Speaker: joslyn
+Apparently your earlier efforts have totally exhausted the available funds. It will be necessary to raise more funds.
+По всей видимости, твои предыдущие действия полностью исчерпали имеющиеся средства. Необходимо будет собрать дополнительные средства.
+#Speaker: elodie_angry
+(Why didn't he say so to begin with?)
+(Почему он не сказал об этом в самом начале?)
+#Speaker: elodie_pressured
+Fine! Raise taxes, then!
+Ладно! Тогда поднимем налоги!
 #choice:
 Lower taxes
 Понизить налоги
 #Speaker: elodie_yielding
 I think we have enough money...  Let's lower the taxes a little.
 Я думаю, у нас достаточно денег... Давайте немного снизим налоги.
-#Narration
-Your father consults with a minister.
-Ваш отец советуется с министром.
+#Narration: Your father consults with a minister.
 #Speaker: joslyn
 Apparently your earlier efforts have exhausted the available funds. There is not enough surplus to give back.
-Видимо, ваши предыдущие действие исчерпали возможности казны. У нас недостаточно высокий профицит бюджета для этого.
+По всей видимости, твои предыдущие действия исчерпали имеющиеся средства. У нас недостаточно высокий профицит бюджета для этого.
 #Speaker: elodie_crowded
 (That's not fair!  I wanted to lower taxes!)
-(Это не честно! Я хочу снизить налоги!)
+(Это несправедливо! Я хотела снизить налоги!)
+# End 1.3.x section
+#These are the strings for 1.2.27 and lower
+#Narration
+#Based on the records and notes of current expenditures, if you maintain the current rate of tax, you will still have %(lassi_s)s available for special projects.
+#Narration
+Based on the records and notes of current expenditures, if you maintain the current rate of tax, you will owe the treasury %(lassi_s)s.
+Опираясь на записи и заметки о текущих расходах, если вы оставите налоги на том же уровне, то задолжаете казне %(lassi_s)s.
+#Narration
+If you lower taxes, you will lose some of that money because it will go to pay your existing costs; if you raise taxes, you should have more.
+Если вы снизите налоги, то потеряете часть этих денег, поскольку они пойдут на оплату существующих расходов; если вы повысите налоги, то получите больше.
+#Speaker: elodie_depressed
+(I really don't understand all of these numbers.)
+(Я ничего не понимаю в этих цифрах.)
+#choice: Raise taxes
+#Speaker: elodie_willful
+We need more money.  Raise the taxes.
+Нам нужно больше денег.  Поднимем налоги.
+#choice: Lower taxes
+#Speaker: elodie_yielding
+I think we have enough money...  Let's lower the taxes a little.
+Я думаю, у нас достаточно денег...  Давайте немного снизим налоги.
+#Narration
+#Your father consults with a minister.
 #Speaker: joslyn
+#Apparently your earlier efforts have exhausted the available funds. There is not enough surplus to give back.
+#Speaker: elodie_crowded
+(That's not fair!  I wanted to lower taxes!)
+(Это несправедливо! Я хотела снизить налоги!)
+# End 1.2.27 section.
 #Speaker: joslyn
 Also, we have received a message from the King of Talasse.
 Также, мы получили сообщение от короля Таласса.
 #Speaker: joslyn
 It suggests that the Duke of Sedna is extremely displeased at how publicly you broke your betrothal to him.
-Здесь говорится, что герцог Седны очень недоволен тем, что вы публично разорвали помолвку с ним. 
+В нём говорится, что герцог Седны крайне недоволен тем, что вы публично разорвали помолвку с ним. 
 #Speaker: elodie_depressed
 Oh.
 Oх.
 #Speaker: joslyn
 He suggests that a large tribute - perhaps 2,000 lassi - would go a long way to smoothing over ruffled feathers.
-Он намекает, что большой выкуп - около 2000 ласси - сгладит это недоразумение.
+Он намекает, что крупная сумма - около 2000 ласси - в значительной степени сгладит это недоразумение.
 #choice:
 Pay him
 Заплатить ему
 #Speaker: elodie_yielding
 Fine, send the money.
-Ладно, вышлете деньги.
+Ладно, вышлите деньги.
 #choice:
 #Speaker: elodie_angry
 I am not paying him.  He'll just have to deal with it.
-Я не буду платить. И ему придётся с этим согласится.
+Я не буду платить.  Ему придётся смириться с этим.
 #Narration
 A maid taps at the door for attention.
 Горничная постучала в дверь, привлекая внимание.
@@ -6030,7 +6094,7 @@ I need the priestesses to bless me and make me clean again!
 (Демоны? Этот мужчина {i}люмен!{/i}. Где он достал кристалл?)
 #Speaker: elodie_afraid
 (I {i}do{/i} feel some kind of magic around him.  Is it possible that he's telling the truth?)
-(Я {i}чувствую{/i} какую-то магию вокруг него. Может ли такое быть, что он говорит правду?) 
+(Я {i}чувствую{/i} какую-то магию вокруг него. Может ли быть, что он говорит правду?) 
 #Speaker: elodie_afraid
 (Demons that make you attack people?  Is that even possible?)
 (Демоны, которые заставляют атаковать людей? Это вообще возможно?)
