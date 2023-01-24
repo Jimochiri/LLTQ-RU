@@ -3226,7 +3226,7 @@ If I'm going to marry him, it's a statement I ought to send.
 Если я собираюсь выйти за него, я обязана подтвердить свои намерения.
 # joslyn
 As you wish.
-Как пожелаете.
+Как пожелаешь.
 #menu choice, >= 1.3.18
 {tag=invite talarist}Don't
 Не приглашать Талариста
@@ -3294,7 +3294,7 @@ I want to show everyone how magic can do {i}good{/i} things.
 Я хочу показать всем, что магия может творить {i}добрые{/i} дела.
 #Speaker: joslyn
 ... As you wish.
-... Как пожелаете.
+... Как пожелаешь.
 #choice:
 Religious doctrine
 Религиозная догма
@@ -5432,10 +5432,10 @@ Put it away
 Убрать
 #Narration
 You place the dancer back into its box and hand it to your maid.
-Вы кладете фигурку обратно в коробку и отдаёте её горничной.
+Вы кладёте фигурку обратно в коробку и отдаёте её горничной.
 #Speaker: elodie_yielding
 Put it away somewhere safe.
-Убери в надежное место.
+Убери в надёжное место.
 #choice:
 Display it
 Выставить на обозрение
@@ -5567,7 +5567,7 @@ Good day to you, Countess.
 Добрый день, графиня.
 #Speaker: sirin
 Your Highness! Good day to you as well.
-Your Highness! Good day to you as well.
+Ваше Величество! Доброго дня и вам.
 #Speaker: sirin
 I was just speaking with your father about - well, it wasn't important.
 Я только что разговаривала с вашим отцом о - хотя, это не столь важно.
@@ -6095,6 +6095,12 @@ I need the priestesses to bless me and make me clean again!
 #Speaker: elodie_afraid
 (I {i}do{/i} feel some kind of magic around him.  Is it possible that he's telling the truth?)
 (Я {i}чувствую{/i} какую-то магию вокруг него. Может ли быть, что он говорит правду?) 
+#Speaker: elodie_neutral
+(Selene is a priestess and a Lumen. If I send him to her, she might be able to sort this out.)
+(Селена - жрица и люмен. Если я отправлю его к ней, возможно, ей удастся во всём разобраться.)
+#Speaker: elodie_angry
+(Julianna might be able to tell even if I can't. Her Lumen power is stronger than mine.)
+(Джулианна могла бы сказать наверняка. Её сила люмена больше моей.)
 #Speaker: elodie_afraid
 (Demons that make you attack people?  Is that even possible?)
 (Демоны, которые заставляют атаковать людей? Это вообще возможно?)
@@ -6105,43 +6111,44 @@ Question him about crystal
 Pardon him
 Помиловать его
 #choice:
-#choice:
+Send him to Selene
+Отправить его к Селене
 #Speaker: elodie_angry
 It was a demon's magic that killed your wife?  Not your own magic?
 Это демоническая магия убила твою жену? Или твоя собственная?
 #Speaker: condemned_man
 ...  So you know what I am.
-... Так вы знаете, кто я.
+...  Так вы знаете, кто я.
 #Narration
 He throws out his hands, and his fingertips elongate into floating strings of gold.
-Он взметнул свою руку, и с его пальцев сорвались потоки золотого света.
+Он протягивает руки, и его пальцы удлиняются, превращаясь в парящие золотые нити.
 #Speaker: condemned_man
 DIE!
 УМРИ!
 #Narration
 Golden chains slash at you like whips.
-Золотые цепи обвиввают вас, подобно хлыстам.
+Золотые цепи хлещут вас, подобно плетям.
 #Narration
 With so much warning, of course, it is easy for you to resist.  His attack bounces harmlessly off your shields, the chains flying back in the direction from which they came... where they find an easier target.
-Зная, что подобное может произойти, для вас не составиляет труда защититься. Его удары отскакивают от ваших внешних щитов, цепи летят туда, откуда пришли... Где находят цель по-легче.
+Зная, что подобное могло произойти, вам не составляет труда защититься.  Его атака без вреда отскакивает от ваших щитов, цепи летят туда, откуда появились... где находят цель полегче.
 #Narration
 Before your eyes, the renegade Lumen is choked to death by his own powers.
-Прежде чем вы успеваете среагировать, люмен-предатель умирает от своей же силы.
+На ваших глазах люмен-предатель задушен собственной силой.
 #Narration
 You twist and dodge frantically, just managing to avoid being struck while his attack slashes the carpet around you.
-Вы отчаянно крутитесь и уворачиваетесь от его атак.
+Вы отчаянно крутитесь и уклоняетесь, умудряясь избегать ударов, в то время как его атака рассекает ковёр под вашими ногами.
 #Narration
 Luckily your guards spring into action and cut him down while he's still trying to catch you.
-По счастью, ваша стража быстро вмешивается и убивает его, пока он все пытается схватить вас.
+По счастью, ваша стража быстро вмешивается и убивает его, пока он всё ещё пытается схватить вас.
 #Narration
 You leap out of the way, bouncing so far back that you actually jump over a bit of furniture and half-fall into the hallway.
-Вы отпрыгиваете, и продолжаете уклоняться, перепрыгивая мебель и, в конце концов, выбегаете в коридор.  
+Вы отпрыгиваете, отскочив так сильно, что перепрыгиваете мебель, и вылетаете в коридор.
 #Narration
 Luckily your guards spring into action and cut him down before he can reorient his attacks.
 По счастью, ваша стража быстро вмешивается и убивает его прежде, чем он успевает перенаправить свои атаки.
 #Narration
 The chains wrap around your ribs and your neck and begin to tighten.  You can see your guards panicking and starting to rush towards the renegade Lumen, but before they reach him, your vision goes black...
-Цепи обвивается вокруг ваших ребер и шеи и начинает затягиваться. Вы можете видеть, как ваши стража запаниковала и начала прорываться к люмену-предателю, но прежде чем они останавливают его, на вас опускается тьма...
+Цепи обвивают ваши ребра и шею, начиная затягиваться.  Вы видите, как стража в панике бросается к люмену-предателю, но у вас темнеет в глазах прежде, чем им удаётся добраться до него...
 #Narration
 After a moment, an orange crystal materialises next to his body.
 Через некоторое время, оранжевый кристалл материализовывается возле его тела.
@@ -6165,7 +6172,7 @@ I won't forgive you for that.  You will be imprisoned for the rest of your life.
 Я не могу простить тебя за это. Ты будешь заточен до конца своих дней.
 #Narration
 He opens his mouth to argue with you further, but then his shoulders slump.
-Он открылвает рот, чтобы оспорить ваше решение, но тут же его плечи опадают.
+Он открывает рот, чтобы оспорить ваше решение, но тут же его плечи опадают.
 #Speaker: condemned_man
 Yes,  Your Majesty.
 Да, Ваше Величество.
@@ -6175,10 +6182,77 @@ I don't care whether there were demons or not, you're still a murderer and your 
 #Speaker: elodie_willful
 You will be hanged in public as a deterrent to future criminals.
 Ты будешь публично казнен, в назидание будущим преступникам.
-#Narration
 #Speaker: condemned_man
 Yes, Your Majesty.
 Да, Ваше Величество.
+# Sending him to Selene
+#Speaker: elodie_angry
+You are clearly a very troubled man, whether there are demons or not.
+Несомненно, вы очень проблемный человек, будь то демоны или нет.
+#Speaker: elodie_neutral
+I will send you to the priestess Selene of my royal grove, to make your confession, and await her recommendation on your case.
+Я отправлю вас к Селене - жрице моей королевской рощи, - чтобы вы исповедались, и буду ждать её совета по вашему делу.
+#Speaker: condemned man: Bless you, Your Majesty!
+# Summon Julianna
+#choice:
+Summon Julianna
+Вызвать Джулианну
+#Speaker: elodie_neutral
+I wish to consult with my advisor. Please send for the Duchess of Ursul.
+Я хочу обсудить это с моим советником. Пожалуйста, пошлите за герцогиней Урсула.
+#Speaker: joslyn: ... As you wish.
+#Speaker: condemned_man
+Your Majesty, can you not see the truth for yourself? It is your mercy that I beg, not the powers of a witch!
+Ваше Величество, разве вы сами не видите правды? Я молю вас о милосердии, а не о силе ведьмы!
+#Speaker: condemned_man
+Does she control this castle, as well, with the demons that she summons?
+Неужели она управляет этим замком с помощью своих демонов?
+Several onlookers gasp.
+У некоторых присутствующих перехватывает дыхание.
+Change your mind
+Изменить решение
+Wait for Julianna
+Дождаться Джулианны
+#Speaker: elodie_angry
+Fine, I'll decide without her!
+Ладно, я обойдусь без неё!
+# Speaker: elodie_angry
+I rule this castle, and I expect to be obeyed.
+Я управляю этим замком, и требую повиновения.
+# condemned_man "..."
+# Speaker: julianna
+Your Highness, I stand ready to serve -
+Ваше Величество, я к вашим услугам -
+Without warning, the Duchess of Ursul draws her sword!
+Без предупреждения герцогиня Урсула обнажает меч!
+#Speaker: elodie_scared
+{tag=elodie, startled}What?
+Что?
+#Speaker: joslyn
+Elodie! Get down!
+Элоди! Пригнись!
+The man raises his hands, which begin to glow. The demon's power - or his own?
+Мужчина поднимает руки, и они начинают светиться. Сила демона - или его собственная?
+Before he can act, Julianna slashes her sword through the air. A wave of energy sweeps away from her blade, striking the man's upraised arms and shredding his skin.
+Прежде чем он успевает что-либо предпринять, Джулианна рассекает мечом воздух. Волна энергии вырывается из её клинка, ударяя в поднятые руки мужчины и разрывая его кожу.
+He howls, and his fingertips elongate, forming golden chains that float through the air.
+Он завывает, и его пальцы удлиняются, превращаясь в золотые цепи, парящие в воздухе.
+You marshal up your own powers and join Julianna in combat.
+Вы собираетесь с силами и присоединяетесь к Джулианне.
+You summon magical shields around yourself and huddle down out of the way.
+Вы призываете вокруг себя магические щиты и прикрываетесь ими.
+Snakelike, the chains lash out - not at Julianna, but at you!
+Цепи тянутся, подобно змеям, - но не к Джулианне, а к вам!
+# Dodging
+The chains wrap around your ribs and your neck and begin to tighten. You can see your guards panicking and starting to rush towards the renegade Lumen, but before they reach him, your vision goes black...
+Цепи обвивают ваши ребра и шею, начиная затягиваться. Вы видите, как стража в панике бросается к люмену-предателю, но у вас темнеет в глазах прежде, чем им удаётся добраться до него...
+Julianna seizes the advantage while your attacker is distracted.
+Джулианна пользуется преимуществом, пока нападающий отвлечён.
+The battle is messy, but brief. Soon the condemned man lies motionless on the ground before you.
+Сражение вышло сумбурным, но коротким. Вскоре осужденный неподвижно лежит перед вами.
+# Speaker: elodie_angry
+This is why magic is important! This is why the crown requires the power of a Lumen, to protect Nova from threats that cannot be ignored!
+Вот почему магия так важна! Вот почему короне требуется сила люменов, чтобы защитить Нову от угроз, которые нельзя игнорировать!
 #Narration
 Afterwards, you receive a report from your agents near the Talassian border.  There is unusual activity going on in the duchy of Sedna.  Official messengers have been coming and going between the Sedna customs stations.
 После этого, вы получили отчет от ваших агентов возле талассианской границы. В герцогстве Седна наблюдается необычная активность. Официальные посланники перемещаются между пограничными постами Седны.
