@@ -6253,6 +6253,53 @@ The battle is messy, but brief. Soon the condemned man lies motionless on the gr
 # Speaker: elodie_angry
 This is why magic is important! This is why the crown requires the power of a Lumen, to protect Nova from threats that cannot be ignored!
 Вот почему магия так важна! Вот почему короне требуется сила люменов, чтобы защитить Нову от угроз, которые нельзя игнорировать!
+# Speaker: elodie_willful
+And why the crown requires good Lumens like the Duchess of Ursul, to train and guide us, so that we will be ready to defend you!
+И почему короне нужны хорошие люмены, такие как герцогиня Урсула, чтобы обучать и направлять нас, чтобы мы были готовы защитить вас!
+You suspect that only etiquette prevents the assembled court from applauding.
+По всей видимости, только правила этикета не позволяют собравшимся аплодировать.
+# Speaker: elodie_angry, failed public speaking+presence
+There is my judgment! This is what happens to bad people!
+Вот мой приговор! Это то, что случается с плохими людьми!
+# Speaker: selene
+Your Royal Highness has need of my services?
+Ваше Королевское Величество нуждается в моих услугах?
+# Speaker: elodie_depressed
+That man I sent to you, the one who strangled his wife - what happened to him?
+Человек, которого я отправила к тебе, тот, который задушил свою жену, - что с ним случилось?
+# Speaker: selene
+The danger to Nova and yourself has been dealt with.
+Опасность для Новы и для вас самих была устранена.
+# Speaker: elodie_scared
+You killed him?
+Ты убила его?
+# Speaker: selene
+His mind has been purified, but he is not yet dead. He is in the keeping of the temple.
+Его разум был очищен, но он ещё не умер. Он находится на содержании в храме.
+# Speaker: elodie_depressed
+So... there really was a demon inside him?
+Значит... внутри него на самом деле был демон?
+# Speaker: selene
+His magics and his murders were of his own making. He is a Lumen, a rogue line previously unknown to me.
+Колдовал и убивал он по собственной воле. Он - люмен, из ранее неизвестного мне рода изгоев.
+# Speaker: selene
+I have seen to it that he will never awaken. So long as his body lives, his crystal remains safely sealed.
+Я позаботилась о том, чтобы он никогда больше не проснулся. Пока живёт его тело, его кристалл остаётся надежно запечатан.
+# Speaker: elodie_angry, faith success
+(I've heard of exorcism rituals that force people to drink salt water until they collapse. Is that what she did to him?)
+(Я слышала об обрядах экзорцизма, когда людей заставляли пить солёную воду до потери сознания. Она сделала с ним то же самое?)
+# Speaker: elodie_angry, faith fail
+(Convenient.)
+(Удобно.)
+# Speaker: selene
+Perhaps after your coronation we will have the time to investigate. For now, you must concentrate on your studies.
+Возможно, после вашей коронации у нас будет время для расследования. Пока же вам следует сосредоточиться на учёбе.
+# Speaker: selene
+If you were not able to detect his power, what other dangers might you miss?
+Если вам не удалось распознать его силу, какие ещё опасности вы могли упустить?
+# Speaker: elodie_yielding
+{tag=elodie, to selene}Right.
+Верно.
 #Narration
 Afterwards, you receive a report from your agents near the Talassian border.  There is unusual activity going on in the duchy of Sedna.  Official messengers have been coming and going between the Sedna customs stations.
 После этого, вы получили отчет от ваших агентов возле талассианской границы. В герцогстве Седна наблюдается необычная активность. Официальные посланники перемещаются между пограничными постами Седны.
@@ -6552,6 +6599,15 @@ Interesting.  I look forward to all you have to tell me.
 Reject her
 Отказать ей
 #Speaker: elodie_neutral
+# Map choice
+Talk to Sabine
+Поговорить с Сабиной
+#Speaker: musician
+Your Highness, thank you again for the opportunity.
+Ваше Величество, ещё раз благодарю вас за предоставленную возможность.
+#Speaker: elodie_yielding
+Yes, yes.  Now: what have you heard on your travels?  What are the people saying about me?
+Да, да.  Так вот: что ты слышала в своих путешествиях?  Что люди говорят обо мне?
 #Speaker: joslyn
 How is Adair settling in to life at the castle?
 Как Адэру живется в замке?
