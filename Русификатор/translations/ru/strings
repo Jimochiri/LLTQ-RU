@@ -6674,7 +6674,7 @@ Still, the longer you wait, the more dangerous she may become.
 И все же, чем дольше вы бездействуете, тем опаснее она становится.
 #choice:
 Send soldiers to arrest her
-Послать солдат арестовать ее
+Послать солдат арестовать её
 #Narration
 You give orders for a military company to travel to Lillah and take the Duchess into custody.
 Вы отдаете приказ солдатам отправится в Лиллах и взять герцогиню под стражу.
@@ -6801,12 +6801,86 @@ Time has passed, and there has been no word from the soldiers you sent to arrest
 #Narration
 You receive word that the Duchess of Lillah has passed away quietly in her sleep.
 Вы получили сообщение, что герцогиня Лиллаха тихо скончалась во сне.
+# If Adair is dead: elodie yielding
+(... officially, anyway.)
+(... официально, по крайней мере.)
+# elodie angry
+(Maybe she had reasons to be angry at me, but she was still a traitor to the realm.)
+(Может, у неё и были причины злиться на меня, но она всё равно была предателем королевства.)
+# Narration
+She left her title not to the Earl of Io, but to Kiran, one of her younger sons.  He's 19, and rather handsome as you recall.  It's a messy affair, but things could be worse.
+Она передала свой титул не графу Ио, а Кирану, одному из её младших сыновей.  Ему 19 лет, и, насколько вы помните, он довольно симпатичен.  Это было не очень честно, но всё могло быть и хуже.
 #Speaker: elodie_willful
 (At least, that's what everyone thinks!)
 (По крайней мере, все так думают!)
 #Narration
 She left her title not to the Earl of Io, but to Kiran, one of her younger sons.  He's 19, and rather handsome as you recall.  Everything has turned out for the best.
-Она передала свои титулы не графу Ио, а Кирану, одному из ее младших сыновей. Ему 19, и достаточно красив, насколько вы помните. Все налаживается.
+Она передала свой титул не графу Ио, а Кирану, одному из её младших сыновей. Ему 19 лет, и, насколько вы помните, он довольно симпатичен.  Всё сложилось как нельзя лучше.
+#Narration
+Your musician has returned from her wanderings.
+Ваш музыкант вернулся из своих странствий.
+#Speaker: sabine
+Your Highness, the Duchess of Lillah is a popular woman. More popular, in many quarters, than you yourself.
+Ваше Величество, герцогиня Лиллаха - весьма популярная женщина. Во многих кругах даже популярнее, чем вы сами.
+#sabine
+A wise mother. An experienced leader. And known to be ruthless enough to make hard choices.
+Мудрая мать. Опытный лидер. Достаточно жестокая, чтобы принимать трудные решения.
+#Speaker: elodie_angry
+(Like killing her own family?)
+(Например, убить свою семью?)
+#Speaker: elodie_angry
+(Nova's 'Eastern Queen'.)
+('Восточная королева' Новы.)
+#Speaker: sabine
+If you can't change the way your nobles see you, they may not be your nobles for long.
+Если вам не удастся изменить то, как знать воспринимает вас, вашими подданными они пробудут недолго.
+#Speaker: elodie_afraid
+(They'd really rebel against me?)
+(Они и правда могут восстать против меня?)
+#Speaker: sabine
+That's all I can tell you, Your Highness.
+Это всё, о чём я могу вам рассказать, Ваше Величество.
+#elodie_angry
+(Arisse... she's the real threat.)
+(Арисса... она - настоящая угроза.)
+#[if Strategy]
+#Speaker: elodie_willful
+(Or a real asset.)
+(Или настоящий козырь.)
+#[else if Public Speaking]
+#Speaker: elodie_willful
+(Unless I can convince her otherwise.)
+(Если только я не смогу переубедить её.)
+#choice: Send soldiers to arrest her
+#choice: Send assassins to kill her
+#choice
+Try to win her support
+Попытаться добиться её поддержки
+#[support]
+#Narration
+You prepare a letter to the Duchess of Lillah, inviting her to join you for a discussion about the future of Nova.  This may require some negotiation.
+Вы готовите письмо герцогине Лиллаха, приглашая её присоединиться к вам для обсуждения будущего Новы.  Для этого могут потребоваться определенные переговоры.
+#okay noble approval
+#Speaker: sabine
+Your Highness, the Duchess of Lillah is like a shepherdess whose favorite lamb has gone astray.
+Ваше Величество, герцогиня Лиллаха подобна пастушке, чей любимый ягнёнок сбился с пути.
+#elodie_neutral
+You mean Adair?
+Имеешь в виду Адэра?
+#[if we sent the kid to Armand]
+#Speaker: sabine
+In her eyes, you have stolen her child to make him your family's plaything.
+Она считает, что вы украли её ребенка, чтобы сделать его игрушкой вашей семьи.
+#[if we gave the kid to Ishtar]
+#Speaker: sabine
+In her eyes, you have stolen her child and placed him in unworthy hands.
+Она считает, что вы украли её ребенка и отдали его в недостойные руки.
+#Speaker: sabine
+It is a personal grudge. I do not know whether your nobles would consider that worth rebellion.
+Это личная неприязнь. Не знаю, сочтёт ли ваша знать подобное заслуживающим восстания.
+#Speaker: elodie_yielding
+(Probably not, as long as nothing happens to Adair.)
+(Скорее всего, нет, если только с Адэром ничего не случится.)
 #Speaker: joslyn
 I have unpleasant news to report.
 У меня плохие новости.
@@ -6863,12 +6937,15 @@ Connor can be Earl of Ishtar.
 #Speaker: elodie_afraid
 Talasse is moving against us, aren't they?
 Таласс действует против нас, не так ли?
-#Speaker: elodie_angry
+#Speaker: elodie_angry <= 1.3.13
 We have to protect our border. Send some soldiers west in case Talasse tries to invade.
-Мы должны защитить наши границы. Послать солдат на случай, если Таласс попытается вторгнуться к нам. 
+Мы должны защитить наши границы. Пошлите часть солдат на запад на случай, если Таласс попытается вторгнуться к нам.
+#Speaker: elodie_angry >= 1.3.14
+We have to protect our border. Send some soldiers to the southeast in case Talasse tries to invade.
+Мы должны защитить наши границы. Пошлите часть солдат на юго-восток на случай, если Таласс попытается вторгнуться к нам.
 #Speaker: joslyn
 A battalion will set out at once.
-Батальон будет отправлен немедленно.
+Батальон отправится немедленно.
 #Speaker: elodie_depressed
 No matter what we do, things keep going wrong.
 Мы ничего уже не можем сделать.
@@ -7027,13 +7104,22 @@ However, relations with Sedna may be strained in the future.
 Однако отношения с Седной будут теперь напряженными.
 #Speaker: joslyn
 Business is disrupted, and there are growing shortages of supplies.
-Торговля нарушена, и возникли нарушения поставок продовольствия.
+Торговля нарушена, растёт дефицит поставок продовольствия.
 #Speaker: elodie_angry
 (There's nothing I can do about it - I don't have enough money in the treasury!)
 (Я ничего не могу с этим поделать - у нас нет достаточных средств в казне!)
 #Speaker: elodie_angry
 (The locals will just have to suffer.)
 (Население будет страдать из-за этого.)
+#Narration
+Your discretionary funds are low. Easing the trade situation will use up most of what you have available. But is there anything more important to save that money for?
+Ваши свободные денежные средства на исходе. Улучшение торговой обстановки израсходует большую их часть. Но есть ли что-то более важное, ради чего стоило бы отложить эти деньги?
+#Narration
+You have a good amount of discretionary funds available. While this problem will cost a bit to solve, you will still have a useful buffer remaining.
+У вас имеется достаточно свободных денежных средств. Хотя решение этой проблемы обойдется недешево, у вас всё равно останется небольшой запас.
+#Narration
+You have a large amount of discretionary funds remaining in the treasury. You can easily handle this situation.
+В вашей казне сохранилось большое количество свободных средств. Вы можете легко справиться с этой ситуацией.
 #choice:
 Send emergency aid
 Послать экстренную помощь
@@ -7044,7 +7130,7 @@ Then the royal treasury will pay to keep the people fed.
 #choice:
 #Speaker: elodie_angry
 So business got harder.  Doesn't that happen all the time?
-Итак, дела стало вести труднее. Но разве так случается не все время?
+Итак, дела стало вести труднее.  Но разве так случается не все время?
 #Speaker: elodie_yielding
 It's not my fault they didn't plan ahead.
 Это не моя вина, что они не предвидели подобное.
@@ -8760,7 +8846,7 @@ Falconry
 Соколиная охота
 #Narration
 Only nobles take part in the falconry competition, of course.  The only commoner who fly such birds do so under  a noble's aegis.
-Само собой, только знать учувствует в соколиной охоте. Единственный простолюдин, который здесь присутствует - это разводчик птиц.
+Само собой, только знать участвует в соколиной охоте. Единственный простолюдин, который здесь присутствует - это разводчик птиц.
 #Narration
 One such is your own master of the mews, who catches you trying to sneak down to the competition and gives you an earful about what damage can be done by exhibiting a half-trained bird.
 Один из таких,  ваш главных конюх, который ловит вас, когда вы пытаетесь проникнуть на конкурс и делает вам выговор, потому что опасно выставлять не до конца натренированных птиц. 
