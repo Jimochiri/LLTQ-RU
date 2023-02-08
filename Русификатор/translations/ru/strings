@@ -2387,7 +2387,7 @@ Then, you have made arrangements with him?
 Тогда, у вас есть с ним некая договоренность? 
 #Speaker: elodie_neutral
 (I think he's asking if I'm engaged to the Duke!)
-(Думаю, он спрашиваю, не обручена ли я с герцогом!)
+(Думаю, он спрашивает, не обручена ли я с герцогом!)
 #choice:
 I'm considering it
 Принять это во внимание
@@ -7207,9 +7207,30 @@ My lady, there are letters for you.
 #Narration
 You remember dreaming about a road through a dark forest, surrounded by monsters like the keythong your father told you about. Of course, the Old Forest is nowhere near Sudbury.
 Вы вспомнили сон о дороге через Темный лес, полный монстров, о которых вам рассказывал отец. Ах, да, ведь Старый Лес находится возле Садбери. 
+#Speaker: elodie_afraid
+(Oh!  A letter from the Duchess of Lillah!)
+(О!  Письмо от герцогини Лиллаха!)
+#Speaker: elodie_angry, if cruel
+(She's blaming me for Adair's death?  How was I supposed to know that would happen?)
+(Она винит меня в смерти Адэра?  Откуда мне было знать, что так произойдёт?)
+#Speaker: elodie_lonely, otherwise
+(She's blaming me for Adair's death.)
+(Она винит меня в смерти Адэра.)
+#Narration
+There will be no support from that quarter.  You will have to win back the nobility on your own.
+Она не станет вас поддерживать.  Вам придется самостоятельно добиваться расположения знати.
+#Speaker: elodie_neutral
+(She agrees to speak with me if we can meet in neutral territory, like Sudbury.)
+(Она согласна поговорить со мной, если мы сможем встретиться на нейтральной территории, например, в Садбери.)
+#Narration
+Apparently she is unimpressed with your writing skills.  She declined your invitation.
+По всей видимости, ваши писательские способности её не впечатлили.  Она отклонила ваше приглашение.
+#Speaker: elodie_angry
+(Well, she's still going to be at Gwenelle's party, right?  I have another chance.)
+(Ну, она ведь всё равно будет на праздновании у Гвенэл, верно?  У меня ещё есть шанс.)
 #choice:
 Go to Sudbury for Gwenelle's party
-Отправится в Садбери на праздник Гвинелл
+Отправится в Садбери на праздник Гвенэл
 #Speaker: elodie_cheerful
 (It'll be good to see my friends!)
 (Будет здорово встретится с друзьями!)
@@ -7320,11 +7341,14 @@ You notice several people quickly looking away and whispering to their companion
 Arisse, the Duchess of Lillah, is present, but she somehow always manages to avoid talking to you when you draw near.
 Арисса, герцогиня Лиллаха, тоже здесь, но ей как-то всегда удается ускользнуть от разговора с вами, когда вы находитесь неподалеку.
 #Narration
+Arisse, the Duchess of Lillah, is present. You should have a chance to plead your case.
+Арисса, герцогиня Лиллаха, тоже здесь. У вас есть шанс доказать свою правоту.
+#Narration
 There are refreshments and dancers and musicians and polite conversations... and one or two not-so-polite.
 Здесь такое угощение, и танцы, и музыканты, и вежливые разговоры... и парочка не столь вежливых.
 #Speaker: lieke
 ... will not be shoved aside.
-... и перестань толкаться.
+... не избавишься.
 #Speaker: gwenelle
 Mother, it's my domain now.  I need space for myself.  You have your own lands to manage.
 Мама, теперь это мои владения. Мне нужно место. У тебя есть своя земля, там и командуй.
@@ -7381,6 +7405,51 @@ Trust in the strength and the intelligence of your daughter.
 #Narration
 Neither of them looks entirely happy, but neither of them looks angry with you either.
 Ни одна из них не выглядела полностью удовлетворенной, но также никто не выглядел недовольным.
+#Speaker: lieke
+... needs me! I will not be so easily shoved aside.
+... нуждается во мне! От меня так просто не избавиться.
+#Speaker: bennett
+Calmly, calmly, Angelique. She's not rejecting you. Are you, kit?
+Спокойно, спокойно, Анжелика. Она не избавляется от тебя. Ведь так, Кит?
+#Speaker: gwenelle
+Mother, it's my domain now. I need to be responsible for it - for my own decisions.
+Мама, теперь это мои владения. Я должна нести за них ответственность, за свои решения.
+#Speaker: lieke
+You need my advice.
+Тебе нужна моя помощь.
+#Speaker: bennett
+But I need it more.
+Но мне она нужна больше.
+#Speaker: bennett
+She's been waiting and training for this moment; I never expected to become a Duke. I need you by my side.
+Она ждала и готовилась к этому моменту; я никогда не думал, что стану герцогом. Мне нужно, чтобы ты была рядом со мной.
+#Speaker: lieke
+Darling, I...
+Любимый, я...
+#Speaker: bennnett
+I'd hate to see a mother blame her child for growing up.
+Не хочу смотреть на то, как мать упрекает своего ребёнка в том, что он вырос.
+#Narration
+The Countess looks distinctly unhappy at his words, and more so when she sees you watching them.
+Графиня явно расстроена его словами, и расстраивается сильнее, когда замечает, что вы смотрите на них.
+#Speaker: bennett
+Kit, please look after Her Royal Highness. Your mother and I need to go sit down.
+Кит, пожалуйста, присмотри за Её Королевским Величеством. Нам с твоей мамой нужно присесть.
+#Speaker: gwenelle
+Okay. Thanks.
+Ладно. Спасибо.
+#Speaker: elodie_afraid
+What was that about?
+Что это было?
+#Speaker: gwenelle
+Dad ran away from home when he was my age, and his mother disowned him. Then she died while he was traveling the world.
+Папа сбежал из дома, когда был в моём возрасте, и мать от него отреклась. Потом она умерла, пока он путешествовал по миру.
+#Speaker: gwenelle
+His family never forgave him, and he never forgave them.
+Семья так и не простила его, а он не простил их.
+#Speaker: gwenelle
+But I'm not running anywhere. I'm Duchess of Sudbury now, and I have to command respect for myself.
+Но я никуда не убегаю. Я теперь герцогиня Садбери, и я должна вызывать к себе уважение.
 #Narration
 A bit later, Briony catches up with you.
 Немного позже, Бриони подходит к вам.
@@ -7512,6 +7581,59 @@ Well, never mind, then.
 She walks away.  So much for wanting to talk to you!
 Она ушла. Так много народу хочет поговорить с вами!
 #Narration
+As the day progresses, you manage to separate the Duchess of Lillah from her crowd of relatives and well-wishers.
+По ходу дня вам удается оторвать герцогиню Лиллаха от толпы её родственников и доброжелателей.
+#Speaker: arisse
+I am surprised you have bothered to keep trying. If only you had shown such dedication to your studies earlier.
+Удивлена, что тебе ещё не надоело. Вот бы ты с таким же усердием училась прежде.
+#Speaker: elodie_angry
+I know I've made mistakes.  I'm trying to fix them.
+Я понимаю, что совершила ошибки.  Я пытаюсь их исправить.
+#Speaker: arisse
+I must admit, I was surprised to receive your invitation. Many young people are eager to prove that they need no guidance.
+Должна признать, я была удивлена, получив твоё приглашение. Многие молодые особы стремятся доказать, что они не нуждаются в наставлениях.
+#Speaker: elodie_depressed
+I'm not my mother.  I wish I could be.  I wish she were here.
+Я - не моя мать.  Я бы хотела быть похожей на неё.  Хотела, чтобы она была здесь.
+#Speaker: elodie_yielding
+But this isn't only about me.  It's about Nova, and doing what's best.
+Но речь идет не только обо мне.  Это касается Новы и того, что будет лучше для неё.
+#Speaker: elodie_neutral
+This is a difficult time for everyone.  The domain needs stability.  For that, we need to work together.
+Для всех сейчас трудное время.  Стране нужна стабильность.  Для этого мы должны объединить усилия.
+#Speaker: arisse
+I have one condition. You must agree to marry one of my sons.
+У меня есть одно условие. Ты должна выйти за одного из моих сыновей.
+#Speaker: elodie_afraid, if already engaged
+But I'm already...
+Но я уже...
+#Speaker: arisse
+Yes. I am asking you to discard that arrangement, in exchange for my aid.
+Да. Я прошу тебя отказаться от этого соглашения в обмен на мою помощь.
+#Speaker: arisse
+Thaddeus is the closest to your age. He is not present today, however.
+Фадей по возрасту ближе всех к тебе. Но сегодня его нет.
+#Speaker: elodie_angry
+(I know Thaddeus.  He's probably in too much trouble at school to be allowed to travel!)
+(Я знаю Фадея.  Наверняка у него слишком много проблем в школе, чтобы ему разрешили путешествовать!)
+#menu:
+#choice:
+Agree to marry him
+Согласиться выйти за него замуж
+#Speaker: elodie_yielding
+If that's what's required for the good of Nova, then I accept.
+Если это необходимо для благополучия Новы, то я согласна.
+#Speaker: arisse
+Very well.
+Отлично.
+#choice:
+#Refuse
+#Speaker: elodie_angry
+I can't agree to that.
+Я не могу на это согласиться.
+#Speaker: arisse
+Then we have nothing more to say to each other.
+Тогда нам больше нечего сказать друг другу.
 At the end, you all share a pleasant meal and prepare to return to your various lands.
 В конце, вы прекрасно ужинаете и начинаете готовиться к возвращению домой.
 #Narration
