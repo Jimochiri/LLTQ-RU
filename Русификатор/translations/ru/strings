@@ -7303,7 +7303,7 @@ Unfortunately, this only drives the arrow deeper into your vital organs, turning
 К сожалению, это лишь глубже вгоняет стрелу в жизненно важные органы, превращаю болезненную рану в смертельную.
 #Narration
 Gwenelle's party is lovely - not nearly as glamourous as your own upcoming birthday will be, of course, but it's still a major event on the noble social calendar.  Everyone who is anyone is present.
-У Гвинелл прекрасная вечеринка - не такая эффектная, конечно, как ваш будущий день рождения, но это, по-прежнему, важное событие в календаре знати. Все, кто кем-то являются, здесь присутствуют.
+У Гвинелл прекрасный праздник - не такой эффектный, конечно, как ваш будущий день рождения, но это, по-прежнему, важное событие в календаре знати. Все, кто кем-то являются, здесь присутствуют.
 #Narration
 Except, of course, for the new Duke of Elath.  Matters there are too unsettled to be left unattended.
 Исключаю, конечно, нового герцога Элафа. У него слишком много нерешенных проблем, чтобы отвлекаться на подобное.
@@ -7597,7 +7597,7 @@ I'm not my mother.  I wish I could be.  I wish she were here.
 Я - не моя мать.  Я бы хотела быть похожей на неё.  Хотела, чтобы она была здесь.
 #Speaker: elodie_yielding
 But this isn't only about me.  It's about Nova, and doing what's best.
-Но речь идет не только обо мне.  Это касается Новы и того, что будет лучше для неё.
+Но речь не только обо мне.  Это касается Новы и того, что будет лучше для неё.
 #Speaker: elodie_neutral
 This is a difficult time for everyone.  The domain needs stability.  For that, we need to work together.
 Для всех сейчас трудное время.  Стране нужна стабильность.  Для этого мы должны объединить усилия.
@@ -7634,6 +7634,39 @@ I can't agree to that.
 #Speaker: arisse
 Then we have nothing more to say to each other.
 Тогда нам больше нечего сказать друг другу.
+# If we're engaged to Adair:
+#Speaker: arisse: Very well.
+#Speaker: arisse
+I will come to stay with you at the palace and serve as your advisor for a time, until the succession is stable.
+Я останусь во дворце и побуду твоим советником до тех пор, пока ты не унаследуешь престол.
+#Speaker: arisse
+However, advice is only useful if you listen to it. Take no action without first consulting me.
+Однако советы полезны лишь в том случае, если ты к ним прислушиваешься. Не делай ничего, не посоветовавшись сперва со мной.
+#Speaker: arisse
+You should also inform me of any decisions you have made recently.
+Тебе также стоит рассказать мне о недавно принятых тобой решениях.
+#Narration
+You quickly explain what you have been doing in the past few months.
+Вы быстро объясняете, чем занимались в последние несколько месяцев.
+#Speaker: elodie_yielding
+Oh, and I just had this strange conversation with Briony...
+О, а ещё у меня недавно состоялся странный разговор с Бриони...
+#Speaker: arisse
+I think I had better have a talk with my granddaughter.
+Пожалуй, мне стоит поговорить с внучкой.
+#Speaker: elodie_neutral
+Oh, and I told Briony I'd help her research the Old Forest.
+О, а ещё я пообещала Бриони, что помогу ей исследовать Старый лес.
+#Speaker: arisse
+Were you trying to get yourself and my granddaughter killed?
+Ты пытаешься убить себя и мою внучку?
+#Speaker: elodie_yielding
+No.
+Нет.
+#Speaker: arisse
+That course of action will be cancelled at once.
+Я немедленно пресеку подобное поведение.
+#Narration
 At the end, you all share a pleasant meal and prepare to return to your various lands.
 В конце, вы прекрасно ужинаете и начинаете готовиться к возвращению домой.
 #Narration
@@ -7741,7 +7774,7 @@ Send Briony home as a gesture of goodwill
 I'm sending her home.  Maybe she can talk to her mother and make her see reason.
 Я отправлю ее домой. Может быть, она сможет поговорить с матерью и образумить ее. 
 #Speaker: joslyn
-Perhaps.
+{tag=joslyn}Perhaps.
 Возможно.
 #choice:
 Hold Briony hostage
@@ -7902,7 +7935,7 @@ The murk of the forest seems to close around you, and it's difficult to tell whe
 Мрак леса, кажется, окутал вас, и очень сложно понять, куда вы бежите.
 #Narration
 Frantically, you whistle for your horses.  They've been well-trained; once they're out of immediate danger they should respond to commands.
-В отчаянии, вы свитом призываете к себе лошадей. Они хорошо выдрессированы, и даже если напуганы, должны подчиняться командам.
+В отчаянии, вы свистом призываете к себе лошадей. Они хорошо выдрессированы, и даже если напуганы, должны подчиняться командам.
 #Narration
 After a few minutes of sheer terror, you are able to reclaim your steeds and flee to safer environs.
 После нескольких минут настоящего ужаса, вы нашли своих коней и можете чувствовать себя более защищенными.
@@ -7989,7 +8022,7 @@ Really, nothing. Ever since Uncle Kevan moved in my parents don't want anything 
 Правда, ничего. С тех пор как дядя Кевин переехал, мои родители не хотят находиться рядом со мной.
 #Speaker: briony
 I'm an adult now, you know!
-Я уже взрослая, знаеш ли!
+Я уже взрослая, знаешь ли!
 #Speaker: elodie_neutral
 (Technically.  She's sixteen.)
 (Технически. Ей 16.)
@@ -8007,7 +8040,7 @@ I don't know, a few years ago. After Gran's divorce.
 (Герцогиня Лиллаха развелась со своим вторым мужем Джаэлем, и он 'умер' сразу после этого. Скорее всего, герцогиня его убила.)
 #Speaker: elodie_neutral
 (Most people think that was no great loss, because there were all sorts of horrible rumors about Jael.)
-(Большинство людей не увидело в этом большой потери, потому что об Джаэле ходило много ужасных слухов.)
+(Большинство людей не увидело в этом большой потери, потому что о Джаэле ходило много ужасных слухов.)
 #Speaker: elodie_neutral
 (But the Earl of Io, Briony's uncle Kevan, was quite upset about it. I guess he liked his stepfather.)
 (Но граф Ио, дядя Бриони, Кевин, был немного расстроен этим. Думаю, он любил своего приемного отца.)
@@ -8041,7 +8074,43 @@ Oh. I guess maybe you're right.
 #Speaker: briony
 Thanks, Elodie! You're smarter than I remembered.
 Спасибо, Элоди! А ты стала умнее. 
-#Speaker: elodie_crowded
+#Speaker: elodie_crowded: Argh! (Translated elsewhere.)
+#Speaker: joslyn
+Elodie? The Duchess of Lillah has just arrived - with a full retinue. Do you know what this is about?
+Элоди? Герцогиня Лиллаха только что прибыла - с полной свитой. Ты знаешь, в чём дело?
+#Speaker: elodie_neutral
+I invited her to become my new advisor.
+Я предложила ей стать моим новым советником.
+#Speaker: joslyn
+{tag=joslyn, re arisse}What?
+Что?
+#Speaker: arisse
+It is clear that the Crown Princess requires more guidance, for the good of all Nova.
+Очевидно, что наследной принцессе нужен наставник, ради блага всей Новы.
+#Speaker: arisse
+I understand your sorrow at your wife's death. I have experience with grief. But the needs of the domain cannot wait.
+Я понимаю твою печаль из-за смерти супруги. Мне доводилось переживать горе. Но интересы страны не терпят промедлений.
+#Speaker: elodie_neutral
+Where's Thaddeus?  If we're going to be married, shouldn't we meet and talk?
+Где Фадей?  Раз уж мы собрались пожениться, не должны ли мы увидеться и поговорить?
+#Speaker: arisse
+Thaddeus is a fragile boy. He is unwell at the moment.
+Фадей - хрупкий мальчик. Ему сейчас нездоровится.
+#Narration
+'Fragile' is not a word you would ordinarily use to describe Thaddeus.  Angry, unpredictably violent, often in trouble, and a terrible scholar... but not 'fragile'.  Still, it was the bargain you made.
+'Хрупкий' - не то слово, каким обычно описывают Фадея.  Злой, непредсказуемо жестокий, часто попадающий в неприятности и ужасный ученик... но не 'хрупкий'.  И всё же, это сделка, которую вы заключили.
+#Speaker: joslyn
+Your Grace, while I appreciate your loyal service to your monarch, I am not certain that...
+Ваше Благородие, хоть я и ценю вашу преданность монарху, я не уверен, что...
+#Speaker: elodie_angry
+It was my decision.  It was the right thing to do.
+Это было моё решение.  Так было нужно.
+#Speaker: elodie_depressed
+I need her help.  I need yours, too.
+Мне нужна её помощь.  И твоя тоже.
+#Speaker: joslyn
+... Of course.
+... Конечно.
 #Speaker: joslyn
 I noticed you were looking over some military records the other day.
 Я заметил, ты вчера просматривала военные отчеты.
@@ -8057,11 +8126,6 @@ Be careful, though. Some of them are dangerous and unreliable. That's why they w
 #choice:
 Recruit soldiers from prison
 Рекрутировать заключенных
-#Speaker: elodie_angry
-#Speaker: joslyn
-#choice:
-#Speaker: elodie_yielding
-#Speaker: joslyn
 #Speaker: alice_smile
 The Duchess of Lillah has sent you a gift.
 Герцогиня Лиллаха прислала вам подарок.
@@ -8073,7 +8137,7 @@ What's this?
 Что это?
 #Narration
 It's a cushion, finely embroidered with the design of a running horse.  It's well done, and clearly required hours and hours of needlework, but it's also fairly useless.
-Подушка, с узором в виде бегущей лошади. Очень качественно сделано, и, очевидно, потребовалось много часов кропотливой работы, но, в общем-то, подарок бесполезный.
+Подушка, с узором в виде бегущей лошади.  Очень качественно сделано, и, очевидно, потребовалось много часов кропотливой работы, но, в общем-то, подарок бесполезный.
 #Speaker: elodie_yielding
 That's nice...  I guess.
 Это мило... Наверное.
@@ -8104,7 +8168,9 @@ But... the Duchess sent that pillow to you.
 #Speaker: elodie_yielding
 #Narration
 Or is it?  You did, after all, have his mother killed.  Does he know?  Is this cushion meant to send some sort of message?  Or is it somehow trapped?  Is it a {i}poisoned pillow?{/i}
-Или что? Вы ведь, в конце концов, убили его мать. Он ведь знает? Это может что-то значить? Или это ловушка? Может это {i}отравленная подушка?{/i}
+Или нет?  Вы ведь, в конце концов, убили его мать.  Знает ли он? Эта подушка - какое-то послание?  Или ловушка?  Может, это {i}отравленная подушка?{/i}
+At least it's not enchanted... unless it's enchanted in some way that you can't detect...
+По крайней мере, она не заколдована... если, конечно, она не заколдована так, что вы не можете это определить...
 #Narration
 You place it across the room from you, far away from your bed, so you can keep an eye on it.  Tomorrow you'll have it quietly destroyed, but for tonight, you won't be sleeping well.
 Вы положили ее на противоположной стороне комнаты, подальше от кровати, чтобы держать ее на виду. Завтра вы ее, по-тихому, уничтожите, но сегодня ночью вы не сможете спать спокойно. 
@@ -8331,7 +8397,7 @@ It's my fault
 Это моя вина
 #Speaker: elodie_depressed
 I'm sorry, I couldn't talk her out of it.  She wouldn't listen to me.
-Прости. Я не смогла отговорить ее. Она не хотела меня слушать.
+Прости. Я не смогла отговорить ее.  Она не хотела меня слушать.
 #Speaker: corisande
 What use are you if you can't save one foolish little girl from herself?
 Как ты можешь управлять страной, если не можешь спасти одну маленькую глупую девочку?
@@ -8344,7 +8410,7 @@ There's nothing you can do.
 Вы ничего не можете с этим поделать.
 #Speaker: elodie_depressed
 I tried to help her, I really did!
-Я пыталась помочь ей!
+Я пыталась помочь ей, правда!
 #Speaker: elodie_depressed
 I thought if we went together, it would be okay.
 Я думала, что если мы отправимся вместе, все было бы хорошо.
@@ -8375,14 +8441,14 @@ If you'd loved your daughter, she wouldn't be gone.
 Если бы вы любили свою дочь, она бы не ушла.
 #Narration
 The Duchess buries her face in her hands, weeping.  Serves her right.
-Герцогиня спрятала лицо в ладонях и заплакала. Это ее право.
+Герцогиня спрятала лицо в ладонях и заплакала. Так ей и надо.
 #Speaker: alice_smile
 #Speaker: corisande
 Hello, Elodie. I'm sorry to trouble you, but - have you seen Briony?
 Добрый день, Элоди. Прости, что беспокою тебя, но - ты не видела Бриони?
 #Speaker: elodie_neutral
 Not since the party last week.
-Не встречалась с ней с той вечеринки.
+Не, с праздника на той неделе.
 #Speaker: elodie_neutral
 No, not since I left school.
 Нет, с тех пор, как покинула школу.
@@ -8410,7 +8476,7 @@ She hurries out of the room without even bothering to say farewell.
 Она спешно выбежала, даже не попрощавшись.
 #Speaker: elodie_neutral
 She was asking questions at the party about the old Novan palace, but then she wandered off.
-На вечеринке она расспрашивала меня о старом дворце Новы, но потом мы разошлись.
+На праздновании она расспрашивала меня о старом дворце Новы, но потом мы разошлись.
 #Speaker: elodie_neutral
 I'm sorry, I really don't know.
 Простите. Я, правда, ничего не знаю.
@@ -8437,13 +8503,13 @@ You know very well that I only have one.
 Ты прекрасно знаешь, что она у меня одна.
 #Speaker: briony
 Really, mother? Because sometimes I think you don't have one at all!
-Правда, мама? Потому что временами мне кажется, что у тебя их вообще нет!
+Правда, мама? Потому что временами мне кажется, что у тебя её вообще нет!
 #Speaker: corisande
 Briony! Thank goodness you're all right.
 Бриони! Слава Богу, с тобой все хорошо.
 #Speaker: briony
 Oh, now you care? You certainly didn't want to see me before! You haven't let me come home in ages!
-Ох, теперь значит, ты беспокоишься? А до этого, значит, и видеть меня не хотела! Даже домой мне не даешь вернуться!
+Ох, теперь тебе не всё равно? А до этого, значит, и видеть меня не хотела! Ты целую вечность не пускала меня домой!
 #Speaker: corisande
 Briony, darling, there are things you don't understand...
 Бриони, дорогая, есть вещи, которые ты не понимаешь...
@@ -8452,13 +8518,13 @@ I don't understand because you never tell me anything!
 Я не понимаю, потому что ты никогда мне ничего не рассказываешь!
 #Narration
 The Duchess sighs and embraces her daughter.
-Герцогиня вздохнула и обняла свою дочь.
+Герцогиня вздыхает и обнимает свою дочь.
 #Speaker: corisande
 Very well. If that's what it will take. Come home with me, and I will explain everything.
-Хорошо. Если ты так хочешь. Вернись домой, и я тебе все объясню.
+Хорошо. Если ты так хочешь. Пойдём со мной домой, и я всё тебе объясню.
 #Speaker: elodie_cheerful
 (Looks like everything worked out for the best!
-(Похоже, все идет к лучшему!)
+(Похоже, все сложилось как нельзя лучше!)
 #Speaker: alice_smile
 #Speaker: corisande
 #Speaker: briony
@@ -8499,7 +8565,7 @@ Come on, young lady. We're going home.
 .... да, мама.
 #Narration
 The Duchess of Mead leads her daughter away, and you sigh.
-Герцогиня Мида вывела свою дочь прочь, и вы вздохнули.
+Герцогиня Мида уводит свою дочь, и вы вздыхаете.
 #Speaker: joslyn
 You should not have risked your life to chase after your friend. What would have happened to Nova if you had died?
 Тебе не следовало рисковать своей жизнью, следуя за своим другом. Что бы случилось в Нове, если бы ты умерла?
@@ -8527,13 +8593,99 @@ My lady, you have a letter.
 #Speaker: alice_smile
 #Speaker: elodie_neutral
 (It's from Briony.  She wants to know if I've ever heard any rumors about pirate treasure.)
-(Это от Бриони. Она хочет знать, не слышала ли я слухов о пиратских сокровищах.)
+(Это от Бриони. Она хочет знать, не доходили ли до меня слухи о пиратских сокровищах.)
 #Speaker: elodie_cheerful
 (Here we go again!)
-(Все начинается по-новой!)
+(Всё начинается по новой!)
+#Speaker: alice_smile: My lady, there are letters for you.
+#Speaker: elodie_normal
+(This one's from Briony - and she is {i}not{/i} happy with me.)
+(Это от Бриони - и она {i}недовольна{/i} мной.)
+#Speaker: elodie_scared
+(Apparently she had some plan to run off on a treasure hunt to the heart of the Old Forest? She would have been eaten!)
+(Видимо, у неё был какой-то план отправиться на поиски сокровищ в самое сердце Старого Леса? Её бы там съели!)
+#Speaker: elodie_yielding
+(Until Arisse found out. Now Briony's under guard, with extra assignments to keep her busy.)
+(Пока Арисса об этом не узнала. Теперь Бриони под охраной и ей есть чем заняться.)
+#Narration
+You also receive a rather flowery letter from Banion, Duke of Maree.  He extols your cleverness and beauty, and professes his belief that you will not 'disappoint' him in the future.
+Кроме того, вы получаете украшенное цветами письмо от Баниона, герцога Мари.  Он восхваляет ваши ум и красоту и надеется, что вы не 'разочаруете' его в будущем.
+#Court Manners success
+#Speaker: elodie_angry
+(I think he's threatening me with a breach-of-promise suit if I don't marry him.)
+(Думаю, он угрожает мне судом за невыполнение обещания, если я не выйду за него замуж.)
+#else Conversation success
+#Speaker: elodie_afraid
+(Is he suggesting we should have an affair after I marry Thaddeus?)
+(Он что, предлагает нам завести роман после того, как я выйду замуж за Фадея?)
+#else:
+#Speaker: elodie_yielding
+(He must be upset about me marrying Thaddeus instead of him, but I can't tell what he's getting at.)
+(Наверное, он расстроен тем, что я выхожу за Фадея, а не за него, но я не могу понять, к чему он клонит.)
+# choice:
+Give the letter to Arisse
+Отдать письмо Ариссе
+#Speaker: elodie_yielding
+(I don't want to deal with this.)
+(Я не хочу с этим разбираться.)
+#choice:
+Pay him off
+Откупиться
+#Speaker: elodie_neutral
+(An expensive gift and an apology should settle the matter.)
+(Дорогой подарок и извинения должны уладить этот вопрос.)
+#Narration if not enough money
+Unfortunately, the treasury is a bit bare at the moment.  He may not be impressed with your offering.
+К сожалению, в казне сейчас пустовато.  Ваше предложение может не впечатлить его.
+#choice:
+Reply angrily
+Ответить сердито
+#Speaker: elodie_angry
+(How dare he?)
+(Как он смеет?)
+#Narration
+You dash off an insulting response.
+Вы отвечаете ему оскорблениями.
+# choice:
+Reply politely
+Ответить вежливо
+#Speaker: elodie_willful, if you think he's flirting
+(Well, that could be fun.)
+(Что ж, это может быть забавно.)
+#Narration
+You write him a letter to encourage this line of thought.
+Вы пишете ему письмо, в котором поощряете такой ход мыслей.
+#Speaker: elodie_depressed
+(I suppose he has a reason to be upset.)
+(Полагаю, ему есть из-за чего расстраиваться.)
+#Narration
+You draft a polite apology.
+Вы составляете вежливое письмо с извинениями.
+#choice:
+Do not reply
+Не отвечать
+#Speaker: elodie_angry
+(I don't owe him anything.)
+(Я ничем ему не обязана.)
+#Narration
+The other letter is less straightforward.
+Другое письмо не столь прямолинейно.
+#Speaker: elodie_afraid
+(What is this?  It isn't signed...)
+(Что это? Оно не подписано...)
+#Narration
+The note is quite simple: "No one respects an oath-breaker."
+Текст довольно прост: "Нарушившего обязательства никто не уважает."
+#Speaker: elodie_afraid
+(Is this a threat?)
+(Это угроза?)
+#Speaker: alice_smile: My lady, there are letters for you.
+#Speaker: elodie_normal
+(This one's from Briony. She wants to know if I've ever heard any rumors about pirate treasure.)
+(Это письмо от Бриони. Она хочет знать, не ходили ли до меня слухи о пиратских сокровищах.)
 #Narration
 War rages for control of Nova.
-Война бушует в Нове.
+Война за власть бушует в Нове.
 #Narration
 As defending Queen, you are required to take personal control of your forces.
 Как Королеве, от вас требуется личный контроль над своими силами.
@@ -8599,7 +8751,7 @@ Total casualties were %(loyalist_loss_soldiers_fluff)s on your side and %(rebel_
 Общие потери %(loyalist_loss_soldiers_fluff)s с вашей стороны и %(rebel_loss_soldiers_fluff)s среди мятежников.
 #Narration
 Your stronger position and strategy made you able to win despite your losses.
-Ваша удачное местоположение и стратегия помогли вам победить, не смотря на потери.
+Ваша решительность и стратегия помогли вам победить, не смотря на потери.
 #Narration
 Of course, there are no more rebel soldiers now - they are once more your loyal subjects.
 Конечно же, нет больше никаких восставших солдат - они теперь на вашей стороне.
@@ -8627,10 +8779,16 @@ Once that's dealt with, you feel much better.
 #choice:
 #Speaker: elodie_neutral
 (Not every omen is meaningful.  Maybe this one came too late.)
-(Не каждый знак что-то значит. Может быть, он пришел слишком поздно.)
+(Не каждый знак что-то значит.  Может быть, он пришел слишком поздно.)
+#Speaker: elodie_afraid
+(Are the nobles still plotting against me? Was getting Arisse's help not enough?)
+(Знать по-прежнему замышляет что-то против меня? Неужели помощи Ариссы недостаточно?)
+#Narration
+The wind cannot answer. All you can do is try to be prepared.
+Ветер не может дать ответ. Вам лишь остаётся быть наготове.
 #Speaker: elodie_angry
 (It must be Shanjia.  They're going to attack.)
-(Это должно быть Сшанжия. Они собираются атаковать.)
+(Должно быть, это Сшанжит. Они собираются атаковать.)
 #Narration
 There's no sign of where the danger might be coming from, so there's nothing you can do about it.  Perhaps it's nothing.
 Непонятно, откуда может прийти опасность, поэтому и сделать что-либо вы не можете. Возможно, это ничего не значит.

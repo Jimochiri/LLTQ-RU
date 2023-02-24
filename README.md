@@ -6,7 +6,7 @@
  
  </div>
 
-> :warning: **Внимание:** Перевод не завершен. Проводится построчное добавление текста, появившегося в игре после версии 1.2.24. На данный момент актуализировано `7636` из `15651` строк.
+> :warning: **Внимание:** Перевод не завершен. Проводится построчное добавление текста, появившегося в игре после версии 1.2.24. На данный момент актуализировано `8791` из `15651` строк.
 
 ---
 
@@ -38,6 +38,8 @@
 Long Live The Queen is the original and copyrighted creation of Hanako Games and Spiky Caterpillar.
 
 Полезные ссылки:
+
+[Long Live The Queen Wiki](https://longlivethequeen.fandom.com), в т.ч. её [русскоязычная версия](https://longlivethequeen.fandom.com/ru)
 
 [DeepL](https://www.deepl.com)
 
