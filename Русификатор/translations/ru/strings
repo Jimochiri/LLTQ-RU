@@ -8791,13 +8791,13 @@ The wind cannot answer. All you can do is try to be prepared.
 (Должно быть, это Сшанжит. Они собираются атаковать.)
 #Narration
 There's no sign of where the danger might be coming from, so there's nothing you can do about it.  Perhaps it's nothing.
-Непонятно, откуда может прийти опасность, поэтому и сделать что-либо вы не можете. Возможно, это ничего не значит.
+Неизвестно, откуда может исходить опасность, поэтому вы не можете ничего предпринять.  Возможно, это ничего не значит.
 #Speaker: elodie_neutral
 (How strange. There must be an open window somewhere.)
-(Как странно. Должно быть где-то открыто окно.)
+(Как странно. Должно быть, где-то открыто окно.)
 #Narration
 You receive a letter from Briony hinting at some of the complicated family drama that has been going on.
-Вы получили письмо от Бриони, где она намекает на некую сложную семейную драму, которая происходят.
+Вы получили письмо от Бриони, в котором она упоминает о драме, происходящей в её семье.
 #Speaker: elodie_depressed
 (Her parents are getting divorced now that her father has a duchy of his own.)
 (Ее родители разводятся, а у ее отца есть собственное герцогство.)
@@ -8830,10 +8830,10 @@ My intent is for you to wed my youngest son, Thaddeus, as he is the closest to y
 Я намерена женить вас на своем младшем сыне, Фадее, так как она примерно вашего возраста.
 #Speaker: arisse
  However, he is a fragile boy and unwell at the moment.
-Однако, он хрупкий мальчик и сейчас нездоров.
+ Однако он хрупкий мальчик, и сейчас ему нездоровится.
 #Narration
 You remember Thaddeus vaguely from school, and 'fragile' is not a word you would have used to describe him.  Angry, unpredictably violent, often in trouble, and a terrible scholar... but not 'fragile'.  And {i}he's{/i} going to be your husband?
-Вы не особо помните Фадея по школе, но 'хрупкий' это явно не то слово, которым вы бы его описали. Злой, непредсказуемо жестокий, часто попадающий в неприятности и жуткий грамотей... но не 'хрупкий'. И {i}он{/i} станет вашим супругом?
+Вы не особо помните Фадея по школе, но 'хрупкий' - явно не то слово, которым вы бы его описали.  Злой, непредсказуемо жестокий, часто попадающий в неприятности и ужасный ученик... но не 'хрупкий'. И {i}он{/i} станет вашим супругом?
 #Speaker: elodie_neutral
 I do hope Thaddeus is not feeling too unwell. Is there anything I could provide to assist him?  Herbs, perhaps?
 Надеюсь, Фадей не чувствует себя слишком плохо. Могу ли я чем-то ему помочь? Травами, например?
@@ -8861,16 +8861,72 @@ I want this marriage to be good for him.
 Я надеюсь, что эта свадьба пойдет ему на пользу.
 #Speaker: elodie_afraid
 (But what about good for {i}me?{/i})
-(Но что на счет {i}меня?{/i})
+(А как насчет пользы для {i}меня?{/i})
 #Speaker: elodie_angry
 What's wrong with him?
 Что с ним случилось?
 #Speaker: arisse
 Young lady, I suggest you turn your attention to your lessons. Particularly those in {i}manners.{/i}
-Юная леди, думаю, вам следует обратить свое внимание на уроки. Особенно касающиеся {i}манер.{/i}
+Юная леди, думаю, вам стоит переключить своё внимание на занятия. Особенно на изучение {i}манер.{/i}
 #Narration
 Too late to change your mind now...
-Слишком поздно менять что-то в себе...
+Уже поздно что-то менять...
+#Narration
+You find Adair digging a hole under a bush in the garden.
+Вы обнаружили Адэра, роющего яму под кустом в саду.
+#Speaker: adair
+Uh, hi, Elodie?
+Эм, привет, Элоди?
+#Speaker: elodie_neutral
+What are you doing?
+Что ты делаешь?
+#Speaker: adair
+Nothing...
+Ничего...
+#Speaker: adair
+You've been busy a lot, lately.
+Ты очень занята в последнее время.
+#Narration
+It suddenly occurs to you that no one has told Adair what's been going on.  You went to war with his family.  You had his stepmother executed.  And he has no idea.
+Внезапно до вас доходит, что никто не рассказал Адэру о случившемся.  Вы вступили в войну с его семьей.  Вы казнили его мачеху.  А он ничего не знает.
+#menu:
+#choice:
+Lie and distract him
+Солгать и отвлечь его
+#Speaker: elodie_cheerful
+Yes, I've been working really hard!
+Да, я усердно работала!
+#Speaker: elodie_depressed
+So... let's go look at some plants.
+Давай... пойдем, посмотрим на всякие растения.
+#choice:
+Break the news gently
+Аккуратно рассказать обо всём
+#Narration
+As best as you can, you explain the conflict and how Arisse's death was necessary to preserve the peace in Nova.  It's hard to tell how much he understands, because he goes completely quiet and doesn't speak to you for the rest of the day.
+Вы, как можете, объясняете ему суть конфликта и то, что смерть Ариссы была необходима для сохранения мира в Нове.  Трудно сказать, всё ли он понимает, потому что он перестаёт разговаривать с вами до конца дня.
+#choice:
+Brag about it
+Похвастаться этим
+#Speaker: elodie_willful
+You don't have to worry about being taken back to Lillah anymore.  Arisse was a traitor to the realm.  She attacked me, so I had to put her down.
+Тебе больше не стоит волноваться о том, что тебя заберут в Лиллах.  Арисса была предателем королевства.  Она напала на меня, и мне пришлось её усмирить.
+#Speaker: elodie_cheerful
+So you can stay here forever!
+Поэтому ты сможешь остаться здесь навсегда!
+#Narration
+He stares at you in shock.
+Он шокированно смотрит на вас.
+#Speaker: elodie_yielding (Internal Affairs success)
+She was probably going to kill you, anyway.  She killed her family before.
+Скорее всего, она всё равно собиралась убить тебя.  Прежде она уже убивала своих близких.
+#Speaker: elodie_angry (Internal Affairs fail)
+You could say 'thank you.'
+Мог бы сказать 'спасибо'.
+#Speaker: adair: ...
+#Narration
+For some reason he doesn't seem impressed.
+Кажется, он не впечатлён.
 #Speaker: elodie_depressed
 Things have been so unsettled lately...  Everyone's on edge.  We need something cheerful.
 Столько нерешенных проблем в последнее время... Все уже на пределе. Нужно что-то веселое.
@@ -8894,7 +8950,7 @@ Status and praise
 Статус и уважение
 #Speaker: elodie_willful
 Being declared to be the {i}best{/i} in front of the entire domain should be prize enough for anyone!
-Быть объявленным i}лучшим{/i} перед всеми землями королевства достаточный приз для каждого! 
+Быть объявленным {i}лучшим{/i} перед всеми землями королевства достаточный приз для каждого! 
 #choice:
 Employment
 Службу
