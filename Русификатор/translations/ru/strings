@@ -8827,7 +8827,7 @@ Somewhat to your surprise, Arisse has {i}not{/i} brought your new fiancé with h
 Чем вы удивлены, так это тем, что Арисса {i}не{/i} привезла с собой вашего нового жениха.
 #Speaker: arisse
 My intent is for you to wed my youngest son, Thaddeus, as he is the closest to your age.
-Я намерена женить вас на своем младшем сыне, Фадее, так как она примерно вашего возраста.
+Я намерена женить тебя на моём младшем сыне, Фадее, поскольку он примерно твоего возраста.
 #Speaker: arisse
  However, he is a fragile boy and unwell at the moment.
  Однако он хрупкий мальчик, и сейчас ему нездоровится.
@@ -8941,16 +8941,16 @@ Knights, jousting, musicians... all sorts of competitions.  Everyone loves a con
 Рыцари, поединки, музыканты... разные соревнования. Все любят соревнования.
 #Speaker: joslyn
 What will you offer as prizes to the winners?
-А что ты назначишь призом победителю?
+Что предложишь в награду победителям?
 #Speaker: elodie_yielding
 (Well, it can't be gold.  I don't have enough left.)
-(Ну, это точно будет не золото. У меня нет достаточного количества.)
+(Ну, это точно будет не золото. У меня недостаточно.)
 #choice:
 Status and praise
 Статус и уважение
 #Speaker: elodie_willful
 Being declared to be the {i}best{/i} in front of the entire domain should be prize enough for anyone!
-Быть объявленным {i}лучшим{/i} перед всеми землями королевства достаточный приз для каждого! 
+Признание {i}лучшим{/i} перед всеми землями королевства - достойная награда для каждого! 
 #choice:
 Employment
 Службу
@@ -8965,7 +8965,7 @@ Gold
 Золото
 #Speaker: elodie_neutral
 A purse of gold for the champions!
-Кошель золото для победителя!
+Кошель золота для победителя!
 #Speaker: joslyn
 Very well. I will draft the announcements.
 Хорошо. Я подготовлю сообщение.
@@ -8974,98 +8974,114 @@ You leave him to his work.
 Вы оставили его за работой.
 #Narration
 As you move through the hall, your eye falls upon a vase of flowers.  Pretty, but apparently not getting enough water.  The leaves on one blossom have shriveled.
-Когда вы шли через зал, ваши глаза упали на вазу с цветами. Миленькие, но им, видимо, не хватает воды. Лепестки на одном цветке уже сморщились.
+Проходя через зал, ваш взгляд падает на вазу с цветами.  Миленькие, но, похоже, им не хватает воды.  Лепестки на одном цветке уже сморщились.
 #Speaker: elodie_afraid
 (A leaf killed by a secret weakness...  A hidden threat.)
-(Лепестки убиты тайной слабостью... Скрытая угроза.)
+(Лепесток, убитый загадочной слабостью...  Скрытая угроза.)
 #Speaker: elodie_angry
 (That spoils the whole display!)
 (Это портит весь вид!)
 #Narration
 You pick off the dead leaves and adjust the floral arrangement, muttering under your breath about blind butlers.
-Вы обрываете мёртвые лепестки и корректируете цветочную композицию, бормоча под нос о слепых дворецких. 
+Вы отрываете отмершие листья и поправляете цветочную композицию, бормоча себе под нос о слепых дворецких. 
 #Speaker: elodie_cheerful
 (There!  That's so much better.)
-(Все! Так гораздо лучше.)
+(Вот! Так гораздо лучше.)
 #Speaker: elodie_angry
 (Someone on hall duty is being lazy.  Those flowers should be replaced.)
-(Кто-то из ответственных за зал совсем обленился. Эти цветы следует переставить.)
+(Кто-то из ответственных за зал совсем обленился. Эти цветы следует заменить.)
 #Narration
 You continue up the stairs to your room, where a maid is waiting for you.
-Вы продолжаете путь в свою комнату, где вас ожидает горничная.
+Вы поднимаетесь по лестнице в свою комнату, где вас ожидает горничная.
 #Speaker: alice_smile
 My lady, a gift has arrived from Kigal.
-Миледи, прибыл подарок для вас из Кигала.
+Миледи, прибыл подарок из Кигала.
 #Speaker: elodie_neutral
 From the Duke?
 От герцога?
 #Speaker: alice_smile
 No, my lady. A merchant house, I believe. It was sent with a shipment down the Cavalla River.
-Нет, миледи. От купеческого дома. Который отправлял товары вниз по рек Кавалла.
+Нет, миледи. От купеческого дома, я полагаю. Его отправили вместе с грузом по реке Кавалла.
 #Narration
 You tear open the brightly colored paper, to find:
-Вы развернули ярко окрашенную бумагу и нашли:
+Вы разворачиваете ярко окрашенную бумагу и обнаруживаете:
 #Speaker: elodie_cheerful
 Chocolates!
 Шоколад!
 #Speaker: elodie_neutral
 (Chocolate producers in Kigal usually ship goods down the Napo River through Ursul, not straight to the capital.)
-(Шоколад производится в Кигале и обычно везется вниз по реке Напо через Урсул, не прямо в столицу.)
+(Производители шоколада в Кигале обычно отправляют товары по реке Напо через Урсул, а не напрямую в столицу.)
 #Speaker: elodie_neutral
 (This merchant house probably specialises in something else and only traded for the chocolate.)
-(Этот купеческий дом, вероятно, специализируется на этом и торгует только шоколадом.)
+(Этот купеческий дом, вероятно, специализируется на чём-то другом и лишь обменял этот шоколад.)
 #Narration
 There is a little card with the box - 'With Our Compliments, The House of Kraellat'.
-И еще небольшая записка на коробке - 'Наши поздравления, Дом Краэллат'.
+К коробке прилагается маленькая открытка - 'С наилучшими пожеланиями, Дом Краэллат'.
 #Speaker: elodie_angry
 (That's oddly high-handed for some tiny trader I've never heard of.)
 (Это весьма странная вольность от таких мелких торговцев, о которых я даже никогда не слышала.)
 #Narration
 All of a sudden, your puppy, who is usually so well behaved, growls at the box of chocolates and lunges at it.
-Вдруг, ваш щенок, который обычно себя хорошо ведет, начинает рычать на коробку с шоколадом и кидаться на нее.
+Внезапно ваш щенок, который обычно ведёт себя хорошо, начинает рычать на коробку с шоколадом и бросается на неё.
 #Speaker: elodie_angry
 Bad dog!  Chocolate isn't good for you!
-Плохая собака! Шоколад вреден для тебя!
+Плохая собака!  Шоколад вреден для тебя!
 #Speaker: elodie_neutral
 Silly thing, making such a fuss.
-Странно, что он так волнуется.
+Глупенький, устроил такой переполох.
+# Speaker: elodie_angry
+(There's something suspicious about this.)
+(Это подозрительно.)
+# Narration
+Much as you love chocolate, it would be undignified to seem too eager.
+Как бы вы ни любили шоколад, будет неприлично показаться чересчур нетерпеливой.
 #choice:
 Eat candy now
 Съесть сладость сейчас
 #choice:
 Save it for later
 Оставить на потом
+#choice:
+Test for poison
+Проверить на яд
 #Narration
 You pop one of the chocolates into your mouth.
-Вы кладете одну конфету себе в рот.
+Вы кладёте одну конфету себе в рот.
 #Speaker: elodie_cheerful
 Mmm.  Delicious!
-Ммм. Изумительно!
+Ммм.  Изумительно!
 #Narration
 #Narration
 Suddenly you feel very cold.  The world seems darker; colors less bright.
-Вдруг, вы ощущаете дикий холод. Мир темнеет; цвета тускнеют.
+Вдруг вы ощущаете дикий холод. Мир темнеет; цвета тускнеют.
 #Narration
 Luckily you recognise the symptoms of poisoning immediately and are able to reverse the effects.
-К счастью, вы немедленно опознали симптомы отравления и смогли нейтрализовать эффект.
+К счастью, вы сразу распознали симптомы отравления и смогли нейтрализовать эффект.
 #Narration
 Subsequent investigation shows that no 'House of Kraellat' exists in Kigal.  Someone has tried to kill you... but you don't know who.
-Дальнейшее расследование показало, что никакого 'Дом Краэллат' не существует в Кигале. Кто-то пытался убить вас... но вы не знаете кто.
+Дальнейшее расследование показало, что никакого 'Дома Краэллат' в Кигале не существует. Кто-то пытался убить вас... но вы не знаете кто именно.
 #Speaker: elodie_afraid
 I think these chocolates are poisoned...  Get me some charcoal!
 Думаю, этот шоколад отравлен... Дай мне немного угля!
 #Narration
 But try as she might, your maid is not able to save you.
-Но, не смотря на все усилия, ваша горничная не смогла спасти вас.
+Но несмотря на все старания, ваша горничная не может вас спасти.
 #Narration
 You worry that perhaps you shouldn't have eaten so much candy, and try to ignore the feeling of illness.
-Вы волнуетесь, что вам, возможно, не следовало есть так много сладостей, и пытаетесь игнорировать плохое самочувствие.
+Вы переживаете, что вам, возможно, не следовало есть так много сладостей, и пытаетесь игнорировать плохое самочувствие.
 #Narration
 Unfortunately, it was more than just an upset tummy.  By the time you realise you have been poisoned, it is too late.
-К сожалению, это нечто большее, чем расстройство животика. Через некоторое время, вы осознаете, что были отравлены, но уже слишком поздно.
+К сожалению, это нечто большее, чем расстройство животика.  Когда вы понимаете, что отравились, уже слишком поздно.
 #Speaker: elodie_yielding
 I don't feel like candy right now.  Maybe later.
-Я не хочу сейчас сладостей. Может потом.
+Я не хочу сейчас сладостей. Может, потом.
+# Testing for poison...
+The gift doesn't appear to be enchanted, at least.
+По крайней мере, подарок не заколдован.
+You know enough about poisons to conduct some simple experiments. Sadly, your suspicions prove correct. Someone has tried to kill you.
+У вас хватает знаний о ядах, чтобы провести несколько простых экспериментов. К сожалению, ваши подозрения оправдались. Кто-то пытался убить вас.
+You send for the guards and begin asking a lot of pointed questions about these chocolates and how they got to your room without a food taster.
+Вы посылаете за стражей и задаёте им множество вопросов об этом шоколаде и о том, как он попал в вашу комнату в обход дегустатора.
 #Narration
 This is the week of the general tournament.  Nobles and commoners alike have turned out to compete against each other.
 На этой неделе турнир. Знать и простолюдины будут конкурировать друг с другом.
