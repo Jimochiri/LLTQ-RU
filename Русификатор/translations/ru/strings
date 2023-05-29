@@ -8839,7 +8839,7 @@ I do hope Thaddeus is not feeling too unwell. Is there anything I could provide 
 Надеюсь, Фадей не чувствует себя слишком плохо. Могу ли я чем-то ему помочь? Травами, например?
 #Speaker: arisse
 I fear not. Have patience and this will pass, as clouds always do.
-Боюсь, нет. Запаситесь терпением и все пройдет, исчезнет, подобно облаку. 
+Боюсь, нет. Запасись терпением и всё пройдет, исчезнет, подобно облаку. 
 #Speaker: elodie_depressed
 Is he often... clouded?
 И часто он... такой облачный?
@@ -8852,7 +8852,7 @@ When he was young, he saw something he shouldn't have, something no child should
 #Speaker: elodie_afraid
 #Speaker: arisse
 I will not speak of it, and neither should you. Do not ask me. Do not ask him.
-Я не буду об этом говорить, и вам не советую. Не спрашивайте меня. И его тоже.
+Я не буду об этом говорить, и тебе не советую. Не спрашивай меня. И его тоже.
 #Speaker: arisse
 If he chooses someday to tell you his story, then perhaps that will help him, but it must be his choice.
 Если он решит когда-нибудь рассказать эту историю, тогда, возможно, это поможет ему, но это должен быть его выбор.
@@ -9007,7 +9007,7 @@ You tear open the brightly colored paper, to find:
 Вы разворачиваете ярко окрашенную бумагу и обнаруживаете:
 #Speaker: elodie_cheerful
 Chocolates!
-Шоколад!
+Шоколадные конфеты!
 #Speaker: elodie_neutral
 (Chocolate producers in Kigal usually ship goods down the Napo River through Ursul, not straight to the capital.)
 (Производители шоколада в Кигале обычно отправляют товары по реке Напо через Урсул, а не напрямую в столицу.)
@@ -9022,7 +9022,7 @@ There is a little card with the box - 'With Our Compliments, The House of Kraell
 (Это весьма странная вольность от таких мелких торговцев, о которых я даже никогда не слышала.)
 #Narration
 All of a sudden, your puppy, who is usually so well behaved, growls at the box of chocolates and lunges at it.
-Внезапно ваш щенок, который обычно ведёт себя хорошо, начинает рычать на коробку с шоколадом и бросается на неё.
+Внезапно ваш щенок, который обычно ведёт себя хорошо, начинает рычать на коробку конфет и бросается на неё.
 #Speaker: elodie_angry
 Bad dog!  Chocolate isn't good for you!
 Плохая собака!  Шоколад вреден для тебя!
@@ -9062,10 +9062,10 @@ Subsequent investigation shows that no 'House of Kraellat' exists in Kigal.  Som
 Дальнейшее расследование показало, что никакого 'Дома Краэллат' в Кигале не существует. Кто-то пытался убить вас... но вы не знаете кто именно.
 #Speaker: elodie_afraid
 I think these chocolates are poisoned...  Get me some charcoal!
-Думаю, этот шоколад отравлен... Дай мне немного угля!
+Думаю, эти конфеты отравлены... Дай мне немного угля!
 #Narration
 But try as she might, your maid is not able to save you.
-Но несмотря на все старания, ваша горничная не может вас спасти.
+Но, несмотря на все старания, ваша горничная не может вас спасти.
 #Narration
 You worry that perhaps you shouldn't have eaten so much candy, and try to ignore the feeling of illness.
 Вы переживаете, что вам, возможно, не следовало есть так много сладостей, и пытаетесь игнорировать плохое самочувствие.
@@ -9081,13 +9081,37 @@ The gift doesn't appear to be enchanted, at least.
 You know enough about poisons to conduct some simple experiments. Sadly, your suspicions prove correct. Someone has tried to kill you.
 У вас хватает знаний о ядах, чтобы провести несколько простых экспериментов. К сожалению, ваши подозрения оправдались. Кто-то пытался убить вас.
 You send for the guards and begin asking a lot of pointed questions about these chocolates and how they got to your room without a food taster.
-Вы посылаете за стражей и задаёте им множество вопросов об этом шоколаде и о том, как он попал в вашу комнату в обход дегустатора.
+Вы посылаете за стражей и задаёте им множество вопросов об этих конфетах и о том, как они попали в вашу комнату в обход дегустатора.
+#Narration
+You send the chocolates to Arisse to investigate. She should know what to do.
+Вы отправляете конфеты Ариссе для расследования. Она должна знать, что делать.
+The easiest way to test the chocolates would be to feed them to Alice, but she might be inconvenient to replace.
+Проще всего было бы проверить конфеты, накормив ими Алису, но найти ей замену может быть непросто.
+There's always the livestock, but chocolate is deadly to most animals even if it hasn't been poisoned.
+Ещё есть домашний скот, но шоколад смертельно опасен для большинства животных, даже если он не отравлен.
+You manage to cram a piece of candy into a chicken, which then drops dead, but you're not entirely sure it wasn't going to do that anyway.
+Вам удаётся запихнуть кусочек конфеты в курицу, которая тут же падает замертво, но вы не уверены, связано ли это с шоколадом.
+You give the box over to the royal guards and order them to find someone unimportant to test it on.
+Вы отдаёте коробку королевской страже и приказываете им найти какого-нибудь незначительного человека, чтобы проверить конфеты на нём.
+You can't think of any safe way to test the chocolate, and you don't want to leave it lying around where it might present a danger to others.
+Вам не удаётся придумать надежного способа проверки шоколада, а оставлять его без присмотра вы не хотите, поскольку он может представлять опасность для окружающих.
+Eventually you mash the candies together into an unappetising paste and bury the box in the palace garden.
+В конце концов вы разминаете конфеты в малоаппетитную кашу и закапываете коробку в дворцовом саду.
+# Speaker: elodie_yielding
+(It's a waste, if they weren't really poisoned... My candy...)
+(Если они на самом деле не были отравлены, это просто расточительство... Мои конфетки...)
 #Narration
 This is the week of the general tournament.  Nobles and commoners alike have turned out to compete against each other.
 На этой неделе турнир. Знать и простолюдины будут конкурировать друг с другом.
 #Speaker: joslyn
 The people will be pleased if you participate in their games. However, it would expose you to danger.
 Люди будут счастливы, если ты поучаствуешь в этих играх. Однако это может быть опасно.
+#Speaker: arisse
+# Trailing space in <=1.3.17.  Not needed for >=1.3.18.
+The people will not be pleased if their promised Queen makes a poor showing of herself. Do only what you can do well. 
+Народ будет недоволен, если будущая королева плохо себя покажет. Берись только за то, в чём преуспеваешь. 
+The people will not be pleased if their promised Queen makes a poor showing of herself. Do only what you can do well.
+Народ будет недоволен, если будущая королева плохо себя покажет. Берись только за то, в чём преуспеваешь.
 #Narration
 What event do you wish to take part in?
 В каком событии вы хотите поучаствовать?
@@ -9096,16 +9120,16 @@ Mounted Parade
 Конный парад
 #Narration
 You choose to lead the parade mounted on a brilliant white horse.
-Вы возглавили конный парад на кристально-белой лошади.
+Вы решили возглавить парад на белоснежном коне.
 #Narration
 You do, of course, know how to ride, and it is not difficult to follow a well-marked procession.
-Вы, конечно же, знаете, как надо ездить, это совсем не сложно следовать четкому шествию.
+Разумеется, вы умеете ездить верхом, и для вас не составит труда следовать четко выверенной процессии.
 #Narration
 You don't actually know how to ride, but the horse is well-trained, so all you need to do is sit up straight, look regal, and don't fall off.
-Вы, правда, не представляете, как ездить, но лошадь хорошо натренирована, поэтому все, что вам нужно - это сидеть прямо, выглядеть по-королевски и не упасть. 
+Вы толком не умеете ездить верхом, но конь прекрасно натренирован, поэтому всё, что от вас требуется, - это сидеть прямо, выглядеть величественно и не свалиться.
 #Narration
 However, the effect of your appearance is spoiled somewhat by the way that you're clinging to the horse's neck.  Perhaps it might have been wise to take some riding lessons first.
-Однако, эффект вашего появления несколько подпорчен тем, что вы цеплялись на шею лошади. Возможно, было бы мудрым решение сначала взять пару уроков верховой езды.
+Однако впечатление от вашего появления несколько портит то, как вы цепляетесь за шею коня.  Возможно, стоило бы сначала взять несколько уроков верховой езды.
 #choice:
 Jousting
 Рыцарский турнир
@@ -9197,17 +9221,21 @@ Faced with such an audience, your voice fades away to nothing.  Not a promising 
 Falconry
 Соколиная охота
 #Narration
+#<=1.2.27
 Only nobles take part in the falconry competition, of course.  The only commoner who fly such birds do so under  a noble's aegis.
-Само собой, только знать участвует в соколиной охоте. Единственный простолюдин, который здесь присутствует - это разводчик птиц.
+В соревнованиях по соколиной охоте участвуют, разумеется, только дворяне.  Те простолюдины, что могут выступать с такими птицами, делают это под эгидой знати.
+# >= 1.2.27.1
+Only nobles take part in the falconry competition, of course.  The only commoners who fly such birds do so under a noble's aegis.
+В соревнованиях по соколиной охоте участвуют, разумеется, только дворяне.  Те простолюдины, что могут выступать с такими птицами, делают это под эгидой знати.
 #Narration
 One such is your own master of the mews, who catches you trying to sneak down to the competition and gives you an earful about what damage can be done by exhibiting a half-trained bird.
-Один из таких,  ваш главных конюх, который ловит вас, когда вы пытаетесь проникнуть на конкурс и делает вам выговор, потому что опасно выставлять не до конца натренированных птиц. 
+Один из них - ваш собственный конюх, который ловит вас на попытке пробраться на соревнования и поучительно рассказывает о том, какой вред может нанести участие в соревнованиях неподготовленной птицы.
 #Narration
 Looks like you won't be taking part in this after all.
-Похоже, вам не удастся поучаствовать в этом.
+Похоже, вам всё-таки не удастся принять участие.
 #Narration
 You are far too new to the sport to be in contention for a prize, but it is a pleasant learning experience, and your fellow competitors are pleased by your interest and enthusiasm.
-Вы слишком неопытны в этом спорте, чтобы побороться за приз, но это очень хороший опыт, и ваши соперники благодарны вам за ваш интерес к этому спорту и энтузиазм.
+Вы ещё слишком неопытны в этом виде спорта, чтобы побороться за приз, но это хороший опыт, и соперники рады вашему интересу и энтузиазму.
 #choice:
 None
 Не участвовать
@@ -9222,28 +9250,31 @@ All the winners are announced and displayed to great cheers.  As near-Queen, you
 Все победители названы и встречены громкими овациями. Как будущая королева, вы одеваете им на шею венки из цветов.
 #Narration
 All of a sudden, a man approaches the winner's platform.
-Вдруг, мужчина подходит к сцене с победителями.
+Неожиданно к трибуне победителей подходит мужчина.
 #Narration
 It's Kevan, the Earl of Io.
-Это Кевин, граф Ио.
+Это Киван, граф Ио.
 #Narration
 In one hand, he carries an armored gauntlet.  In the other, a sword.
-На одной руке он держит латную рукавицу, а в другой - меч.
+В одной руке он держит латную рукавицу, а в другой - меч.
 #Speaker: kevan
 My family's blood is on your hands!
 Кровь моей семьи на твоих руках!
 #Speaker: elodie_depressed
 (Arisse, the ringleader of the rebellion... She was his mother.)
 (Арисса, лидер мятежников... Она была его матерью.)
+# Speaker: elodie_scared
+(Does he know that I had his mother Arisse assassinated?)
+(Он знает, что его мать, Ариссу, убили по моему приказу?)
 #Speaker: elodie_angry
 (He's as crazy as his niece was. Briony's death was her own fault.)
-(Он такой же безумец, как и его племянница. Смерть Бриони - это лишь ее вина.)
+(Он такой же безумец, как и его племянница. Смерть Бриони - это лишь её вина.)
 #Speaker: elodie_afraid
 (Briony, his niece... Is she dead?)
 (Бриони, его племянница... Она мертва?)
 #Speaker: elodie_afraid
 (What is he talking about?)
-(О чем это он?)
+(О чём это он?)
 #Narration
 He casts the metal glove to the ground with a clatter and raises his sword, pointing it at you.
 Он с грохотом бросает металлическую перчатку на землю и поднимает меч, направляя его на вас.
@@ -9275,22 +9306,22 @@ Staves
 Посохи
 #Speaker: elodie_angry
 Bring me my sword.
-Принесите мне мой меч.
+Принесите мой меч.
 #Narration
 The crowd seems not to realise at first that this is a blood match and not entertainment.  Or perhaps they do, and their cheering is all the louder for it.
-Толпа, казалось, поначалу, не поняла, что это будет битва на смерть, а не просто развлечение. Или, возможно, поняла, и теперь аплодирует все громче.
+Толпа, казалось, поначалу не поняла, что это будет битва насмерть, а не простое развлечение.  Или, может, поняла, и теперь аплодирует всё громче.
 #Narration
 Kevan's rage fills him with great strength, but makes him erratic - and unpredictable.
-Ярость Кевина наполняет его силой, но также делает его нестабильным - и непредсказуемым.
+Ярость Кивана наполняет его огромной силой, но делает его беспокойным - и непредсказуемым.
 #Narration
 Worse, he's armored, and he seems willing to settle for nothing less than your death or his.
-Плохо, он в броне, и, похоже, не успокоится, пока кто-то из вас не умрет.
+Хуже того, он в броне, и, похоже, не успокоится, пока кто-то из вас двоих не умрёт.
 #Narration
 You are somewhat tired from your earlier efforts in the tournament, but you have the stamina to keep going for now.
-Вы немного устали после своего участия в турнире, но у вас достаточно сил, чтобы сражаться.
+Вы слегка утомились после участия в турнире, но у вас ещё достаточно сил, чтобы сражаться.
 #Narration
 Unfortunately, your exertions in the tournament have drained your strength.  You can barely keep your guard up.
-К сожалению, участие в турнире выжало из вас все соки. Вы едва можете защищаться.
+К сожалению, участие в турнире истощило ваши силы.  Вы едва можете защищаться.
 #Narration
 Before you can begin to work out some way to safely forfeit, you have fallen...
 Прежде, чем вы находите выход из сложившийся ситуации, вас убивают...
@@ -9308,7 +9339,7 @@ You score minor wounds against him, but his expression never changes.  His speed
 Вы нанесли ему несколько незначительных ран, но его напор не ослаб, а скорость не упала.
 #Narration
 And his face, his eyes... they're as red as blood.  He's gone berserk.
-И его лицо и глаза... Красные как кровь. Он стал берсеркером.
+И его лицо и глаза... Красные как кровь. Он обезумел.
 #Narration
 There's nothing you can do to stop him.  Eventually, you are overpowered.
 Вы ничем не можете его остановить. В конце концов, вас одолели.
@@ -9469,22 +9500,23 @@ I decline.
 Я отказываюсь.
 #Narration
 Kevan's sword falls to the ground beside his gauntlet.  He won't be needing either anymore.
-Меч Кевина падает на землю, как и его латная перчатка до этого. Больше ему ничего не потребуется.
+Меч Кивана падает на землю вместе с перчаткой.  Они ему больше не понадобятся.
 #Narration
 After the tournament, a minor tragedy is revealed.
 После турнира, раскрывается небольшая тайна.
 #Narration
 One of the stewards apparently had an incredible sweet tooth and dared to steal a piece of your recently-received chocolates.  He {i}had{/i} a sweet tooth... the chocolates were poisoned.
-Один из официантов, по видимом, был большим любителем сладостей и осмелился украсть у вас немного недавно полученного шоколада. Он {i}был{/i} сладкоежкой... Шоколад был отравлен.
+Один из официантов, видимо, был большим любителем сладостей и осмелился украсть часть ваших недавно полученных шоколадных конфет.  Он {i}был{/i} сладкоежкой... конфеты были отравлены.
 #Speaker: elodie_willful
 (Good thing I didn't eat them!)
-(Хорошо, что я его не съела!)
+(Хорошо, что я их не съела!)
 #Narration
 When you ask questions, it turns out that the merchant house which supposedly sent you this present never existed.
-Когда вы начали расследование, выяснилось, что купеческого дома, который якобы прислал вам подарок, не существует.
+Когда вы начали расследование, выяснилось, что купеческого дома, который якобы прислал вам этот подарок, никогда не существовало.
 #Narration
 Someone has tried to kill you... but you don't know who.
-Кто-то пытался убить вас... Но вы не знаете кто.
+Кто-то пытался убить вас... но вы не знаете кто именно.
+# If you tested the chocolates
 #Speaker: alice_worried
 My lady, your father wishes to speak with you. He says it's urgent.
 Миледи, ваш отец желает поговорить с вами. Он говорит, это срочно.
