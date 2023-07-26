@@ -6772,10 +6772,10 @@ Staring up into the sky out your window, you notice a strange flash of light.
 Вы смотрете из окна на небо и замечаете вспышку света.
 #Speaker: elodie_afraid
 (A falling star at that angle...  It means war is coming to Nova!)
-(Падающая звезда под таким углом... Это означает, что на Нову надвигается война!)
+(Падающая звезда под таким углом...  Это означает, что на Нову надвигается война!)
 #Speaker: elodie_yielding
 (At least, it might.  Not every sign in the stars is meant for me.)
-(В конце концов, это возможно. Не каждый знак в небе предназначен мне.)
+(В конце концов, это возможно.  Не каждый знак в небе предназначен мне.)
 #Narration
 Still, if there is a war about to happen, this forewarning gives you time to prepare and build your strength.
 Но все же, если война все же начнется, это предостережение дает вам время подготовиться и стать сильнее.
@@ -9065,7 +9065,7 @@ I think these chocolates are poisoned...  Get me some charcoal!
 Думаю, эти конфеты отравлены... Дай мне немного угля!
 #Narration
 But try as she might, your maid is not able to save you.
-Но, несмотря на все старания, ваша горничная не может вас спасти.
+Но, несмотря на все старания, горничная не может вас спасти.
 #Narration
 You worry that perhaps you shouldn't have eaten so much candy, and try to ignore the feeling of illness.
 Вы переживаете, что вам, возможно, не следовало есть так много сладостей, и пытаетесь игнорировать плохое самочувствие.
@@ -9503,7 +9503,7 @@ Kevan's sword falls to the ground beside his gauntlet.  He won't be needing eith
 Меч Кивана падает на землю вместе с перчаткой.  Они ему больше не понадобятся.
 #Narration
 After the tournament, a minor tragedy is revealed.
-После турнира, раскрывается небольшая тайна.
+После турнира раскрывается небольшая тайна.
 #Narration
 One of the stewards apparently had an incredible sweet tooth and dared to steal a piece of your recently-received chocolates.  He {i}had{/i} a sweet tooth... the chocolates were poisoned.
 Один из официантов, видимо, был большим любителем сладостей и осмелился украсть часть ваших недавно полученных шоколадных конфет.  Он {i}был{/i} сладкоежкой... конфеты были отравлены.
@@ -9517,6 +9517,89 @@ When you ask questions, it turns out that the merchant house which supposedly se
 Someone has tried to kill you... but you don't know who.
 Кто-то пытался убить вас... но вы не знаете кто именно.
 # If you tested the chocolates
+After the tournament, you receive a report on the poisoned chocolates.
+После турнира вам приходит отчет об отравленных шоколадных конфетах.
+The merchant house named on the card is fictitious. No such trader is registered in Kigal.
+Купеческого дома, указанного в открытке, не существует. В Кигале нет такого торговца.
+However, the chocolates themselves arrived in a shipment from a trusted supplier, one whose goods are only subject to the occasional sampling checks instead of more thorough scrutiny.
+Однако сами шоколадные конфеты поступили от надёжного поставщика, товары которого проходят лишь выборочную проверку, без проведения тщательного контроля.
+It's hard to imagine a supplier willing to risk losing the royal warrant by taking part in a clumsy assassination attempt. The reputation boost of being known to do business with the palace is quite valuable.
+Трудно представить себе поставщика, готового рискнуть потерей королевского патента, приняв участие в нелепом покушении. Для поставщика, ведущего дела с королевским двором, репутация крайне дорога.
+Regardless, surely someone in palace security should have been paying more attention!
+Как бы то ни было, кто-то из дворцовой стражи должен был быть внимательнее!
+# Choice:
+Punish the guards
+Наказать стражу
+# Speaker: elodie_angry
+(If they can't keep me safe, they're useless!)
+(Они бесполезны, раз не могут защитить меня!)
+#choice:
+Punish the supplier
+Наказать поставщика
+# Speaker: elodie_angry
+(They'll never be allowed to do business here again!)
+(Им больше никогда не позволят вести здесь дела!)
+# Choice:
+#Wait for more information
+#Speaker: elodie_angry
+(I need to find my real enemy.)
+(Я должна найти своего настоящего врага.)
+After the tournament, you check in with palace security about the chocolates you sent to be tested.
+После турнира вы связываетесь с дворцовой стражей по поводу шоколадных конфет, которые вы отправили на проверку.
+Based on the effect they had on the peasants in the dungeon, the candies were definitely poisoned.
+Судя по тому, как они подействовали на заключенных в темнице, конфеты определенно были отравлены.
+#Narration
+After the tournament, you remember to ask about the chocolates you sent to be tested.
+После турнира вы вспоминаете, что нужно спросить о шоколадных конфетах, которые вы отправили на проверку.
+#Speaker: arisse
+You were quite correct. The merchant seals were counterfeit - and yes, the chocolates were poisoned.
+Вы были совершенно правы. Купеческие печати оказались поддельными - и да, шоколад был отравлен.
+#Speaker: arisse
+I have sent word to my daughter in Kigal to investigate this 'House of Kraellat.'
+Я попросила свою дочь Кигале, чтобы она разузнала об этом "Доме Краэллат".
+#Speaker: elodie_angry
+(Arisse has connections, but so do I. I have to find out who's behind this.)
+(У Ариссы есть связи, но и у меня тоже. Я должна выяснить, кто за этим стоит.)
+#Speaker: sabine
+Your Highness, I never thought I'd say this to someone like you, but... I heard you sing at the tournament, and...
+Ваше Величество, никогда не думала, что скажу это кому-то вроде Вас, но... Я слышала, как вы пели на турнире, и...
+#Speaker: sabine
+You're better than I am.
+Вы лучше меня.
+#Speaker: elodie_willful
+I didn't hire you for your musical talents.
+Я наняла тебя не за твои способности к музыке.
+#Speaker: sabine
+Yes, I know. But I am still a musician, and I'd like to improve my craft.
+Да, знаю. Но всё же я музыкант, и хотела бы совершенствовать своё мастерство.
+#Speaker: sabine
+Might we practice together, sometime?
+Не могли бы мы как-нибудь попрактиковаться вместе?
+#menu:
+#choice:
+{tag=practice with sabine}Accept
+Согласиться
+#Speaker: elodie_cheerful
+I'd like that.
+Я была бы рада.
+#choice:
+Decline
+Отказаться
+#Speaker: elodie_yielding
+I'm sorry, I don't have time for music anymore.
+Извини, но у меня больше нет времени на музыку.
+#choice:
+Suggest Romance
+Предложить отношения
+#Speaker: elodie_willful
+Perhaps we can teach each other.  Say, in my room?
+Может быть, мы могли бы поучить друг друга.  Скажем, в моей комнате?
+#Speaker: sabine
+I may be in your service, Highness, but some things are not for sale.
+Пусть я и состою у вас на службе, Ваше Величество, но некоторые вещи не продаются.
+#Speaker: elodie_yielding
+(Oops.)
+(Ой...)
 #Speaker: alice_worried
 My lady, your father wishes to speak with you. He says it's urgent.
 Миледи, ваш отец желает поговорить с вами. Он говорит, это срочно.
@@ -9604,7 +9687,7 @@ As far as I can tell, you are beloved among the common people.
 You are the young and innocent princess bearing up nobly under sorrow. A true heroine.
 Вы - молодая и невинная принцесса, старающаяся держать себя благородно, не смотря на свою печаль. Настоящая героиня.
 #Speaker: elodie_depressed
-Right.
+{tag=elodie, to her agent}Right.
 Верно.
 #Speaker: agent
 The poisoned chocolates you received were not the tool of a revolutionary plot.
@@ -9726,9 +9809,12 @@ She must not. It would be far too easy for an accident to befall her, far from s
 #Speaker: elodie_angry
 Don't talk about me like I'm not here!
 Не говори обо мне так, будто меня здесь нет!
+#Speaker: arisse
+Even if you were victorious, it would be easy for an 'accident' to befall you, far from shore. If the battle went poorly, you would have no hope of escape.
+Даже если ты одержишь победу, вдали от берега с тобой легко может произойти 'несчастный случай'. Если сражение закончится неудачей, надежды на спасение не останется.
 #Speaker: joslyn
-Если ты не думаешь, что твои навыки могут что-то решить, настоятельно советую этого не делать.
 Unless you think your personal skills will make the difference, I would strongly advise against it.
+Если только ты не думаешь, что твои навыки позволят добиться успеха, я бы настоятельно не советовала этого делать.
 #choice:
 Direct the fleet
 Возглавить флот
@@ -9858,7 +9944,7 @@ You banished her from the capital.
 #Speaker: elodie_yielding
 ... right.
 ... верно.
-#Speaker: elodie_yielding
+#Speaker: elodie_yielding (OLD < 1.3.x)
 (I suppose there's no hope, then.  We'll have to fight.)
 (Думаю, на это надежды нет. Мы должны будем сражаться.)
 #Narration
