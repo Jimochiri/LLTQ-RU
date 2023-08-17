@@ -10846,15 +10846,50 @@ No more talking. This ends here. You and I, princess. One of us dies.
 #Narration
 You struggle to answer, but the memories of your loss are too painful.  It's no use.
 Вы пытаетесь ответить, но воспоминания о вашей потери слишком болезненны. Это не поможет.
-#Speaker: elodie_angry
+#Speaker: elodie_angry ( < 1.3.x )
 If my power is more important than my land, then I won't let you have it!
-Если моя сила более важна, чем моя страна, тогда я не позволю тебе получить ее!
+Если моя сила важнее моей страны, то я не позволю тебе заполучить её!
+#Speaker: elodie_angry ( >= 1.3.x )
+If my crystal is more important than my land, then I can never let you have it!
+Если мой кристалл важнее моей страны, то я ни за что не позволю тебе заполучить его!
 #Speaker: togami
 Then you and your land will die together.
-Тогда ты и твоя страна умрете вместе.
+Тогда ты и твоя страна умрёте вместе.
 #Speaker: togami
 Goodbye, little princess.
 Прощай, маленькая принцесса.
+#Narration ( < 1.3.x )
+There's nothing more for you to do.  He and his delegation return to the army, where they will resume the attack.  You will resist as long as you can.  But in the end, you will fall.
+Больше вы ничего сделать не можете.  Он и его делегация возвращаются к войскам, чтобы продолжить наступление.  Вы будете сопротивляться до последнего.  Но в конце концов вы проиграете.
+# >= 1.3.x <= 1.3.17
+For a moment, you fear he will blast you right then and there, but it seems that he still respects the truce. 
+На мгновение Вам показалось, что он уничтожит Вас прямо здесь и сейчас, но, похоже, он всё же соблюдает условия перемирия.
+# >= 1.3.18
+For a moment, you fear he will blast you right then and there, but it seems that he still respects the truce.
+На мгновение Вам показалось, что он уничтожит Вас прямо здесь и сейчас, но, похоже, он всё же соблюдает условия перемирия.
+He and his delegation return to the army, where they will resume the attack. Your military strength is nearly exhausted. Utter defeat seems inevitable.
+Он и его делегация возвращаются к войскам, чтобы продолжить наступление. Ваши военные ресурсы практически исчерпаны. Полное поражение кажется неизбежным.
+What will you do now?
+Что вы теперь будете делать?
+# Map tooltip
+Meet With Advisors
+Встретиться с советниками
+# Meeting with advisors, if Julianna is your mentor
+#Speaker: elodie_afraid
+My Lumen crystal...  That's what this war was all about.  Everyone who's died...
+Мой кристалл люмена...  Из-за него и началась эта война.  Каждый умерший...
+#Speaker: joslyn
+The price of magic is always blood.
+Цена магии - это всегда кровь.
+#Speaker: julianna
+That doesn't matter now. We cannot allow the royal Novan crystal to fall into Shanjian hands.
+Сейчас это не важно. Нельзя допустить, чтобы королевский кристалл Новы попал в руки Сшанжита.
+#Speaker: elodie_depressed
+{tag=elodie, to julianna}Could we give him a different Lumen crystal?  One from the treasury?
+Может, дадим ему другой кристалл люмена?  Из сокровищницы?
+#Speaker: julianna
+Would it satisfy him? Is it either safe or wise to place a weapon in the hand of your enemy?
+Устроит ли это его? Разумно ли давать оружие в руки врагу?
 #Narration
 There's nothing more for you to do.  He and his delegation return to the army, where they will resume the attack.  You will resist as long as you can.  But in the end, you will fall.
 Больше вы ничего не можете сделать. Он и его делегация вернулись к своей армии, после чего та продолжила атаковать. Вы будете защищаться сколько сможете. Но в конце, вы проиграете.
