@@ -5954,14 +5954,14 @@ Fine! Raise taxes, then!
 Lower taxes
 Понизить налоги
 #Speaker: elodie_yielding
-I think we have enough money...  Let's lower the taxes a little.
+I think we have enough money... Let's lower the taxes a little.
 Я думаю, у нас достаточно денег... Давайте немного снизим налоги.
 #Narration: Your father consults with a minister.
 #Speaker: joslyn
 Apparently your earlier efforts have exhausted the available funds. There is not enough surplus to give back.
 По всей видимости, твои предыдущие действия исчерпали имеющиеся средства. У нас недостаточно высокий профицит бюджета для этого.
 #Speaker: elodie_crowded
-(That's not fair!  I wanted to lower taxes!)
+(That's not fair! I wanted to lower taxes!)
 (Это несправедливо! Я хотела снизить налоги!)
 # End 1.3.x section
 #These are the strings for 1.2.27 and lower
@@ -9946,7 +9946,27 @@ You banished her from the capital.
 ... верно.
 #Speaker: elodie_yielding (OLD < 1.3.x)
 (I suppose there's no hope, then.  We'll have to fight.)
-(Думаю, на это надежды нет. Мы должны будем сражаться.)
+(Полагаю, надежды нет. Придётся сражаться.)
+# >= 1.3.x
+#Speaker: selene
+Julianna knows her duty. She will return if you summon her. But you must act at once if you wish her to arrive in time to sail with the fleet.
+Джулианна знает свой долг. Она вернётся, если Вы её позовёте. Но действовать нужно немедленно, если хотите, чтобы она прибыла вовремя и успела отплыть с флотом.
+#Speaker: elodie_depressed
+(Will she be willing to risk her life for me after I banished her? Do I want to risk my own?)
+(Станет ли она рисковать своей жизнью ради меня после того, как я изгнала её? И хочу ли я рисковать собственной жизнью?)
+#choice:
+Dispatch a messenger
+Послать гонца
+#choice:
+{tag=dispatch messenger}Don't
+Не посылать
+# Speaker: elodie_angry
+Я немедленно пошлю за ней. Если есть хоть какой-то шанс остановить это вторжение, я обязана воспользоваться им.
+I'll send for her right away. If there's any chance to stop this invasion, I have to take it.
+# Speaker: Selene: May the gods be with us.
+# Speaker: elodie_yielding
+(This is all my fault. We'll have to fight.)
+(Это всё моя вина. Придётся сражаться.)
 #Narration
 You find the Duchess of Ursul in her guest quarters.
 Вы нашли герцогиню Урсула в ее комнате.
@@ -10100,21 +10120,27 @@ The Shanjians have half again as many troops as you do.  It doesn't look promisi
 #Narration
 The Shanjian forces greatly outnumber the Novans.  This is unlikely to end well.  If only you had more soldiers available!
 У Сшанжии значительно больше сил, чем у вас. Это вряд ли закончится хорошо. Если бы только у вас было больше солдат!
-#Narration
+# Narration ( < 1.3.x )
 Your skill in long-range magic makes you as effective as a cannon (and more maneuverable), but there is still only one of you.
-Ваш навык дальнобойной магии делает из вас отличную пушку (и куда более манёвренную), но, к сожалению, вы здесь одна такая.
+Благодаря вашему искусству дальнобойной магии вы не уступаете пушкам (и при этом более манёвренны), но, к сожалению, вы здесь одна такая.
+# >= 1.3.x
+Your skill in long-range magic makes you as effective as a cannon (and more maneuverable), but there are far too many ships for you to take each one out individually.
+Благодаря вашему искусству дальнобойной магии вы не уступаете пушкам (и при этом более манёвренны), но кораблей слишком много, и вам не под силу уничтожить каждый из них.
 #Narration
 Still, your position in the crow's nest allows you to target ships at a distance too great for them to respond effectively.
-Все же, ваша позиция на наблюдательном пункте позволяет вам атаковать корабли, не давая им при этом контратаковать.
+Тем не менее, находясь на наблюдательном пункте, вы можете поражать корабли на расстоянии, не позволяющем им эффективно контратаковать.
 #Narration
 The eventual outcome...
 Конечный результат...
+# Testbubble
+War
+Война
 #Narration
 ... is not in your favor.
 ... не в вашу пользу.
 #Narration
 The Novan ships are sunk or scattered, as the Shanjian forces press towards landfall.
-Нованские корабли утонули или бежали. а затем сшанжиийские силы начали высадку.
+Нованские корабли потоплены или разбиты, а войска Сшанжита приближаются к берегу.
 #Narration
 Your grasp of strategy allows you to recognise when the tipping point has been passed, and order your remaining vessels to retreat before they are all destroyed.
 Ваше знание стратегии позволяет вам понять, когда наступает переломный момент, и вы приказываете остальным судам отступить прежде, чем они все будут уничтожены.
@@ -10288,8 +10314,10 @@ A diplomatic delegation from Shanjia has requested access to the castle to discu
 #Narration
 Almost no choice.
 Почти нет.
-#Narration
+#Narration - accent added sometime before 1.3.17
 Your fiance, Duke Talarist of Sedna, has sent you a message.  He does not personally command enough soldiers to turn the tide against this invasion, but his king in Talasse is eager to discuss a formal alliance.
+Ваш жених, герцог Таларист из Седны, прислал вам сообщение. У него нет под командованием достаточного количества солдат, чтобы переломить ситуацию, но его король в Талассе хочет обсудить возможный союз.
+Your fiancé, Duke Talarist of Sedna, has sent you a message.  He does not personally command enough soldiers to turn the tide against this invasion, but his king in Talasse is eager to discuss a formal alliance.
 Ваш жених, герцог Таларист из Седны, прислал вам сообщение. У него нет под командованием достаточного количества солдат, чтобы переломить ситуацию, но его король в Талассе хочет обсудить возможный союз.
 #Narration
 If you flee the capital now, you should be able to evade the army and reach the Talassian border.
@@ -10672,15 +10700,29 @@ No one stirs.
 Pity.
 Жаль.
 #choice:
+Attack Him
+Атаковать его
 #Narration
 Never.  Not in a thousand years.
 Никогда. Даже через тысячу лет.
 #Narration
 With a scream, you launch yourself at the Shanjian king, prepared to go down fighting.
-С криком, вы бросаетесь на короля Сшанжии, приготовившись к сражению
+С криком вы бросаетесь на короля Сшанжита, готовые биться до конца.
 #Narration
 Of course, it takes only a touch of his magic to end your life.
 Конечно, ему хватило одного касания, чтобы закончить вашу жизнь.
+#choice:
+Stare Him Down
+Пристально взглянуть на него
+#Speaker: elodie_angry
+That... was not our bargain.
+Мы... так не договаривались.
+#Togami: 
+You are a cold one, aren't you?
+Ты сильна духом, не так ли?
+#Togami
+Very well. Have your little victory. You have so few of them, after all.
+Прекрасно. Наслаждайся своей маленькой победой. Ведь у тебя их так мало.
 #Speaker: elodie_afraid
 Wait!  There's another way!
 Подожди! Есть другой путь!
@@ -10712,7 +10754,7 @@ I can't do that!
 And that is why we must duel.
 И именно поэтому мы должны сражаться.
 #choice:
-Do it
+{tag=incinerate joslyn}Do it
 Сделать это
 #Speaker: elodie_willful
 #Narration
